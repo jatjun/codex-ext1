@@ -49,6 +49,8 @@ jobs:
           retention-days: 7
 
   deploy:
+    # Explicit opt-in while the user reviews historical author information.
+    if: vars.PUBLICATION_REVIEW_APPROVED == 'true'
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 10

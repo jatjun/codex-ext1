@@ -29,9 +29,9 @@ npm run dev
 
 ## GitHub Pages 单仓库部署
 
-正式网站目标：[小小数学观察家](https://jatjun.github.io/codex-ext1/)（尚未上线验证）。唯一仓库为`jatjun/codex-ext1`。当前因历史作者个人邮箱的公开风险，按用户决定继续保持Private；完成历史清理讨论前不要修改可见性。见 [公开前审查](docs/PRE_PUBLICATION_REVIEW.md)。
+正式网站目标：[小小数学观察家](https://jatjun.github.io/codex-ext1/)（尚未上线验证）。唯一仓库为`jatjun/codex-ext1`。当前因历史作者个人邮箱的公开风险，用户决定暂不公开；执行中检测到GitHub外部状态变为Public，已提示恢复Private，助手没有更改可见性。完成历史清理讨论前不要启用公开部署。见 [公开前审查](docs/PRE_PUBLICATION_REVIEW.md)。
 
-发布分支push后，自动运行逻辑测试、TypeScript与生产构建、公开产物检查及Chromium验证，通过后使用GitHub官方Pages artifact部署。deploy job只在仓库已Public、Pages Source为GitHub Actions、environment允许发布分支且本次提交仍为最新HEAD时工作。无需跨仓库Token、App或另一个部署仓库。
+发布分支push后，自动运行逻辑测试、TypeScript与生产构建、公开产物检查及Chromium验证，通过后使用GitHub官方Pages artifact部署。deploy job只在PUBLICATION_REVIEW_APPROVED变量明确为true、仓库已Public、Pages Source为GitHub Actions、environment允许发布分支且本次提交仍为最新HEAD时工作。无需跨仓库Token、App或另一个部署仓库。
 
 完整授权边界、Pages与environment网页配置、状态查看、回滚和排错见 [部署说明](docs/GITHUB_PAGES_DEPLOYMENT.md)。源码公开会同时公开可访问分支与Git历史，不只是静态产物。
 

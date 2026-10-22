@@ -4,7 +4,7 @@
 
 唯一仓库：https://github.com/jatjun/codex-ext1 。发布分支：`feat/interactive-math-v1`。网站目标：https://jatjun.github.io/codex-ext1/ 。
 
-**当前保持Private，网站尚未验证上线。** 公开前审查发现旧提交作者元数据含个人邮箱，用户已选择暂不公开、先讨论清理。详见 [审查记录](PRE_PUBLICATION_REVIEW.md)。不能仅凭构建测试通过就公开仓库或将网站描述为已上线。
+**用户要求暂不公开，网站尚未验证上线；执行中检测到外部变更使GitHub显示Public，已告知用户恢复Private，助手未修改可见性。** 公开前审查发现旧提交作者元数据含个人邮箱，用户已选择暂不公开、先讨论清理。详见 [审查记录](PRE_PUBLICATION_REVIEW.md)。不能仅凭构建测试通过就公开仓库或将网站描述为已上线。
 
 不再使用跨仓库发布，不需要PAT、GitHub App或目标部署仓库。旧发布脚本已删除，工作流不读取旧的PAGES_DEPLOY_TOKEN、PAGES_APP_ID、PAGES_APP_PRIVATE_KEY。若过去配置过这些设置，可由所有者在Settings→Secrets and variables→Actions删除对应项并撤销不用的令牌/私钥；本任务不读取、输出或自行删除其值，也不修改其他仓库。
 
@@ -19,7 +19,7 @@
 5. Chromium在生产子路径测试桌面1280px与手机390px。
 6. 再校验SHA、文件清单与哈希，确保上传的是已测产物。
 7. 官方actions/upload-pages-artifact上传dist，保留7天。
-8. 独立deploy job要求仓库为Public，且本次SHA仍是最新发布分支提交；否则停止，不改变可见性。
+8. 独立deploy job先要求仓库变量PUBLICATION_REVIEW_APPROVED明确为true，再要求仓库为Public，且本次SHA仍是最新发布分支提交；否则停止，不改变可见性。
 9. 官方actions/configure-pages核查现有Pages配置，actions/deploy-pages使用同一运行的artifact发布。
 
 build job仅contents:read。deploy job才有contents:read、pages:write、id-token:write，使用github-pages environment和GitHub自动签发的GITHUB_TOKEN/OIDC，不使用长期Secret。Action固定到审核过的Commit SHA。
@@ -33,8 +33,9 @@ Concurrency group为github-pages-production，cancel-in-progress:false，避免�
 1. https://github.com/jatjun/codex-ext1/settings → General → Danger Zone → Change repository visibility → Make public；确认这是唯一目标仓库，并按GitHub提示输入仓库名。此操作会公开可访问分支及Git历史，不只是构建产物。
 2. https://github.com/jatjun/codex-ext1/settings/pages → Build and deployment → Source选择 **GitHub Actions**。不要选Deploy from a branch，不创建自定义域名。
 3. Settings → Environments → github-pages → Deployment branches and tags：如果使用Selected branches and tags，添加Branch规则 `feat/interactive-math-v1`。不能保留只允许默认main的规则。已有必要的人工审批保护应保留，通过正常界面审批，不绕过。
-4. https://github.com/jatjun/codex-ext1/actions → Deploy reviewed static site → 重跑最新发布分支提交的 **Re-run all jobs**。也可推送正常新提交触发，不用跳过测试。
-5. 等待build与deploy均成功，再访问正式地址并执行在线浏览器验证。
+4. 历史审查完成并明确决定公开后，在Settings → Secrets and variables → Actions → Variables中设置Repository variable `PUBLICATION_REVIEW_APPROVED`为`true`。未设置时deploy显示Skipped；保持此开关关闭，直到清理与公开决定完成。
+5. https://github.com/jatjun/codex-ext1/actions → Deploy reviewed static site → 重跑最新发布分支提交的 **Re-run all jobs**。也可推送正常新提交触发，不用跳过测试。
+6. 等待build与deploy均成功，再访问正式地址并执行在线浏览器验证。
 
 workflow_dispatch已声明，但GitHub通常要求工作流存在于默认分支才显示Run workflow入口。当前默认main只有初始README，本任务不自动合并或更换默认分支。优先使用最新一次push运行的Re-run all jobs。
 
