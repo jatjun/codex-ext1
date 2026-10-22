@@ -10,3 +10,5 @@ React + TypeScript + Vite，无外部图片、字体或在线API依赖。
 - main：编排课程、状态、问题和页面。
 
 记录包含首答、正确性、次数、提示、重播、讲解、最终分类。自动提示的错误重试也不会被误报为独立正确。无儿童账号、无共享数据库、无API密钥。
+
+混合运算：`src/math-engine/mixed.ts`计算与布局；`src/lessons/mixed.ts`两课数据；`src/animation/MixedStage.tsx`插值；`src/lessons/practice.ts`自选题；`src/interactions/Practice.tsx`触屏输入。复用既有受控老师和本地记录。课程问题数不再固定为3题。
