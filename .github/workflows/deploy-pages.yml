@@ -71,6 +71,10 @@ jobs:
             echo 'Repository is still private. Complete the documented pre-publication review and GitHub settings first.'
             exit 1
           }
+          test "$(gh api repos/jatjun/codex-ext1/pages --jq .build_type)" = workflow || {
+            echo 'Settings → Pages → Source must be GitHub Actions; branch/Jekyll publication conflicts with the tested dist artifact.'
+            exit 1
+          }
           test "$(gh api repos/jatjun/codex-ext1/git/ref/heads/feat/interactive-math-v1 --jq .object.sha)" = "$EXPECTED_SHA" || {
             echo 'A newer release commit exists; stale deployment blocked.'
             exit 1
