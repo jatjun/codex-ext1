@@ -1,1 +1,22 @@
-import{defineConfig}from'@playwright/test';import{existsSync}from'node:fs';export default defineConfig({testDir:'tests/browser',use:{baseURL:'http://127.0.0.1:5173',launchOptions:{executablePath:existsSync('/usr/bin/chromium')?'/usr/bin/chromium':undefined,args:['--no-sandbox']}},webServer:{command:'npm run dev -- --port 5173',url:'http://127.0.0.1:5173',reuseExistingServer:true}});
+import { defineConfig } from '@playwright/test';
+import { existsSync } from 'node:fs';
+
+// BASE_URL can point the same tests at the live Pages site after deployment.
+const baseURL = process.env.BASE_URL || 'http://127.0.0.1:4173/codex-ext1-pages/';
+export default defineConfig({
+  testDir: 'tests/browser',
+  use: {
+    baseURL,
+    launchOptions: {
+      executablePath: existsSync('/usr/bin/chromium') ? '/usr/bin/chromium' : undefined,
+      args: ['--no-sandbox'],
+    },
+  },
+  ...(process.env.BASE_URL ? {} : {
+    webServer: {
+      command: 'npm run preview -- --port 4173 --strictPort',
+      url: baseURL,
+      reuseExistingServer: false,
+    },
+  }),
+});

@@ -1,0 +1,67 @@
+name: Deploy reviewed static site
+on:
+  push:
+    branches: [feat/interactive-math-v1]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: codex-ext1-pages-production
+  cancel-in-progress: true
+
+jobs:
+  test-build-publish:
+    if: github.repository == 'jatjun/codex-ext1' && github.ref == 'refs/heads/feat/interactive-math-v1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SOURCE_SHA: ${{ github.sha }}
+    steps:
+      - name: Checkout exact source commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Set up Node.js LTS
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Logic and artifact guard tests
+        run: npm test
+      - name: TypeScript check and production build
+        run: npm run build
+      - name: Inspect static files and record provenance
+        run: npm run check:public
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Test production build at Pages subpath (desktop and mobile)
+        run: npm run test:browser
+      - name: Verify deployment credential configuration
+        env:
+          APP_ID: ${{ vars.PAGES_APP_ID }}
+          APP_KEY: ${{ secrets.PAGES_APP_PRIVATE_KEY }}
+          DEPLOY_TOKEN: ${{ secrets.PAGES_DEPLOY_TOKEN }}
+        run: |
+          if [ -n "$APP_ID" ]; then
+            test -n "$APP_KEY" || { echo 'Missing PAGES_APP_PRIVATE_KEY. See deployment guide.'; exit 1; }
+          else
+            test -n "$DEPLOY_TOKEN" || { echo 'Missing restricted PAGES_DEPLOY_TOKEN. See deployment guide.'; exit 1; }
+          fi
+      - name: Create token restricted to public target repository
+        id: app-token
+        if: vars.PAGES_APP_ID != ''
+        uses: actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf # v2.2.1
+        with:
+          app-id: ${{ vars.PAGES_APP_ID }}
+          private-key: ${{ secrets.PAGES_APP_PRIVATE_KEY }}
+          owner: jatjun
+          repositories: codex-ext1-pages
+          permission-contents: write
+      - name: Publish approved files to public main without force push
+        env:
+          PAGES_DEPLOY_TOKEN: ${{ steps.app-token.outputs.token || secrets.PAGES_DEPLOY_TOKEN }}
+          SOURCE_READ_TOKEN: ${{ github.token }}
+        run: node scripts/publish-pages.mjs

@@ -26,3 +26,13 @@ npm run dev
 ### 文档与限制
 
 见 [教材分析](docs/CURRICULUM_ANALYSIS.md)、[教学设计](docs/TEACHING_DESIGN.md)、[动画规范](docs/ANIMATION_SPEC.md)、[架构](docs/ARCHITECTURE.md)、[测试报告](docs/TEST_REPORT.md)、[后续工作](docs/NEXT_STEPS.md)。观察场景用正交方向讲解；不对教材斜视图中的姓名映射猜答案。记录只保存在当前浏览器，清理站点数据会删除记录，建议导出备份。
+
+## GitHub Pages 双仓库部署
+
+正式网站目标地址：[小小数学观察家](https://jatjun.github.io/codex-ext1-pages/)（需完成目标仓库、部署Secret及Pages配置；当前尚未验证上线）。
+
+源仓库保持Private，只把检查通过的静态构建文件发布到Public的`jatjun/codex-ext1-pages`。发布分支每次推送自动执行测试、构建、敏感产物检查与Chromium验证；失败不更新公开main。完整配置、最小授权、回滚与排错见 [部署说明](docs/GITHUB_PAGES_DEPLOYMENT.md)。
+
+学习记录保存在**当前设备当前浏览器的localStorage**，不跨设备同步，不默认上传。清除浏览器数据会删除记录，请按需JSON导出。GitHub Pages没有私有学习数据库；网站公开访问并不意味着学习记录公开。编译后的JavaScript可被访客查看，不能用它保存密钥或隐私。
+
+生产子路径本地验证：`npm run build`后执行`npm run preview`，打开`http://127.0.0.1:4173/codex-ext1-pages/`。浏览器测试也基于该生产构建运行，先执行`npm run build`。
