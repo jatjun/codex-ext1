@@ -27,8 +27,8 @@
 - npm run test:browser：5/5 Chromium PASS，生产路径/codex-ext1/，390px及1280px。两场景、关键预测、错误分支、独立练习与迁移、刷新保存、方向、拖动、暂停继续、重播、速度与JSON下载均由现有测试覆盖。资源无HTTP错误、页面无JS异常。
 - 新增上传前来源与哈希验证，测试错误SHA和修改后JS会被拒绝。
 - Workflow YAML、build只读权限、deploy的Pages/OIDC权限、environment、concurrency及去除跨仓库凭据检查：PASS。Node脚本语法和git diff --check：PASS。
-- GitHub托管Actions：推送后需单独查看实际运行结果；本地测试不等于远端运行成功。
-- GitHub Pages启用与正式网站线上验证：NOT_TESTED。按用户决定继续保持Private；部署任务在Private时拒绝发布，不配置或改变可见性。
+- GitHub托管Actions运行39809552910：build成功，包括逻辑测试、构建、公开检查、Chromium、哈希复核与artifact上传；deploy失败且无已执行步骤。随后新增显式公开审查变量开关，未设置为true时跳过deploy。
+- 后续GitHub原始仓库元数据查询显示visibility=public、has_pages=true；与用户暂不公开的决定不一致。助手未执行可见性/Pages设置修改，已提示用户恢复Private并取消发布。当前网络访问正式URL遭代理CONNECT 403，线上页面与JS/CSS验证NOT_TESTED，不能认定网站已正常上线。取消旧运行的CLI请求返回Forbidden。
 - WebKit、真实iPhone Safari、真实Windows：NOT_TESTED。
 
 此前双仓库部署结果保存在Git历史中，当前配置与说明均以单仓库方案为准。不得把旧子路径或旧运行结果视为本次正式部署成功。
