@@ -2,7 +2,7 @@ import { defineConfig } from '@playwright/test';
 import { existsSync } from 'node:fs';
 
 // BASE_URL can point the same tests at the live Pages site after deployment.
-const baseURL = process.env.BASE_URL || 'http://127.0.0.1:4173/codex-ext1-pages/';
+const baseURL = process.env.BASE_URL || 'http://127.0.0.1:4173/codex-ext1/';
 export default defineConfig({
   testDir: 'tests/browser',
   use: {

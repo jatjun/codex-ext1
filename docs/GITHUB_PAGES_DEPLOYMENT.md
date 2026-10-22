@@ -1,80 +1,44 @@
-# GitHub Pages 双仓库部署
+# 单仓库 GitHub Pages 部署
 
-## 架构与当前边界
+## 当前状态与公开前置条件
 
-- 私有源码：https://github.com/jatjun/codex-ext1 ，保持 **Private**。
-- 发布分支：`feat/interactive-math-v1`。
-- 目标公开仓库：https://github.com/jatjun/codex-ext1-pages 。
-- 正式地址（配置成功后）：https://jatjun.github.io/codex-ext1-pages/ 。
-- Vite base 固定为 `/codex-ext1-pages/`，无路径路由；页面切换使用React状态，刷新返回课程首页，不需要SPA重写。
+唯一仓库：https://github.com/jatjun/codex-ext1 。发布分支：`feat/interactive-math-v1`。网站目标：https://jatjun.github.io/codex-ext1/ 。
 
-当前环境的GitHub连接器没有创建仓库、配置Pages或Secrets工具；CLI的GitHub API请求返回Forbidden。目标仓库查询返回404，可能不存在或未授权，不能单凭404认定不存在。请先在GitHub网页检查目标仓库，如含不属于此项目的文件或历史，停止并人工确认，不要直接运行发布。
+**当前保持Private，网站尚未验证上线。** 公开前审查发现旧提交作者元数据含个人邮箱，用户已选择暂不公开、先讨论清理。详见 [审查记录](PRE_PUBLICATION_REVIEW.md)。不能仅凭构建测试通过就公开仓库或将网站描述为已上线。
 
-## 首次配置（需要仓库所有者操作）
+不再使用跨仓库发布，不需要PAT、GitHub App或目标部署仓库。旧发布脚本已删除，工作流不读取旧的PAGES_DEPLOY_TOKEN、PAGES_APP_ID、PAGES_APP_PRIVATE_KEY。若过去配置过这些设置，可由所有者在Settings→Secrets and variables→Actions删除对应项并撤销不用的令牌/私钥；本任务不读取、输出或自行删除其值，也不修改其他仓库。
 
-### 1. 目标公开仓库
+## 工作流
 
-在 https://github.com/new 创建 `jatjun/codex-ext1-pages`，选择 **Public**；不要初始化README、License、gitignore或任何其他文件。已有空仓库可复用。不要修改源码仓库可见性。不设置自定义域名。
+`.github/workflows/deploy-pages.yml`：
 
-发布器会检查目标确为指定Public仓库、已有分支仅main、当前文件严格符合公开清单，历史具有本项目发布标记；发现不相干文件或历史会停止。不能用force push清理旧仓库来绕过此检查。
+1. 指定分支push后，checkout精确SHA，Node 24 LTS，npm ci。
+2. 执行逻辑与公开产物规则测试。
+3. TypeScript严格检查和Vite生产构建。
+4. 检查dist，生成deployment.json及文件SHA256。
+5. Chromium在生产子路径测试桌面1280px与手机390px。
+6. 再校验SHA、文件清单与哈希，确保上传的是已测产物。
+7. 官方actions/upload-pages-artifact上传dist，保留7天。
+8. 独立deploy job要求仓库为Public，且本次SHA仍是最新发布分支提交；否则停止，不改变可见性。
+9. 官方actions/configure-pages核查现有Pages配置，actions/deploy-pages使用同一运行的artifact发布。
 
-### 2. 优先选GitHub App（只安装在目标仓库）
+build job仅contents:read。deploy job才有contents:read、pages:write、id-token:write，使用github-pages environment和GitHub自动签发的GITHUB_TOKEN/OIDC，不使用长期Secret。Action固定到审核过的Commit SHA。
 
-1. GitHub → Settings → Developer settings → GitHub Apps → New GitHub App。
-2. 名称自定且全局唯一；Homepage可填目标仓库URL；不启用Webhook，不需要用户授权回调。
-3. Repository permissions：**Contents: Read and write**，Metadata自动Read-only，其余No access。不订阅事件。Only on this account。
-4. 创建后记下App ID，生成Private key；Install App → 账户jatjun → **Only select repositories** → 只选择 `codex-ext1-pages`。
-5. 在**私有源码仓库** Settings → Secrets and variables → Actions → Variables，新增 `PAGES_APP_ID`（App ID）。
-6. 在同一位置的Secrets新增 `PAGES_APP_PRIVATE_KEY`，值为私钥文件完整内容。仅在GitHub网页粘贴，**不要发到聊天、提交Git或打印日志**。
-7. 工作流使用固定版本的官方create-github-app-token动作，仅申请目标仓库Contents写权限；令牌短期有效，结束时撤销。
+Concurrency group为github-pages-production，cancel-in-progress:false，避免中途取消活跃的Pages部署；GitHub只保留一个待运行任务，更新的待运行任务可能替换旧任务。部署前的源HEAD检查阻止陈旧提交发布。失败不触碰上一版网站；不提交dist、不推送生成分支、不强制推送。
 
-### 3. App不可行时，使用细粒度PAT（二选一）
+## 安全审查完成后，所有者的网页操作
 
-1. 访问 https://github.com/settings/personal-access-tokens/new 。必须是 **Fine-grained token**，不使用Tokens (classic)。
-2. 名称如 `codex-ext1-pages-deploy`，选择合理有效期（如90天），Resource owner选jatjun。
-3. Repository access → **Only select repositories** → 只选 `codex-ext1-pages`。
-4. Repository permissions → **Contents: Read and write**；Metadata自动Read-only；其余不授权，尤其不需要源仓库权限、Administration或Workflows。
-5. Generate token后，直接进入 https://github.com/jatjun/codex-ext1/settings/secrets/actions ，新增Repository secret `PAGES_DEPLOY_TOKEN`，粘贴令牌。
-6. 使用PAT模式时不要设置 `PAGES_APP_ID`，否则工作流优先选择App模式。
-7. 令牌仅写目标仓库；源码读取由本次Actions自带、只读的GITHUB_TOKEN完成。PAT过期会阻止更新，上一版网站保留。
+以下步骤**暂不执行**。须先完成历史清理讨论、必要的另行授权、重扫与明确公开决定。当前工具没有修改仓库可见性和Pages设置的接口；CLI GitHub REST此前返回Forbidden，不能绕过权限。
 
-当前环境的临时GitHub连接授权不能当作长期Actions部署凭据，也不会被读取或复制为Secret。
+1. https://github.com/jatjun/codex-ext1/settings → General → Danger Zone → Change repository visibility → Make public；确认这是唯一目标仓库，并按GitHub提示输入仓库名。此操作会公开可访问分支及Git历史，不只是构建产物。
+2. https://github.com/jatjun/codex-ext1/settings/pages → Build and deployment → Source选择 **GitHub Actions**。不要选Deploy from a branch，不创建自定义域名。
+3. Settings → Environments → github-pages → Deployment branches and tags：如果使用Selected branches and tags，添加Branch规则 `feat/interactive-math-v1`。不能保留只允许默认main的规则。已有必要的人工审批保护应保留，通过正常界面审批，不绕过。
+4. https://github.com/jatjun/codex-ext1/actions → Deploy reviewed static site → 重跑最新发布分支提交的 **Re-run all jobs**。也可推送正常新提交触发，不用跳过测试。
+5. 等待build与deploy均成功，再访问正式地址并执行在线浏览器验证。
 
-### 4. 首次构建与Pages设置
+workflow_dispatch已声明，但GitHub通常要求工作流存在于默认分支才显示Run workflow入口。当前默认main只有初始README，本任务不自动合并或更换默认分支。优先使用最新一次push运行的Re-run all jobs。
 
-将本次修改推送到发布分支后，打开 https://github.com/jatjun/codex-ext1/actions ，查看 **Deploy reviewed static site**。若首次运行因缺Secret失败，配置完成后在该次运行右上角选择 **Re-run all jobs**；旧提交运行若发现新HEAD会拒绝发布，应重跑最新提交的运行。
-
-首次发布成功会创建目标仓库main分支。然后到 https://github.com/jatjun/codex-ext1-pages/settings/pages ：
-
-- Build and deployment → Source：**Deploy from a branch**。
-- Branch：**main**；目录：**/(root)**；Save。
-- 不设置Custom domain。
-
-`.nojekyll`随产物发布，禁止Jekyll处理。App/PAT提交可触发目标仓库的分支Pages构建，避免默认GITHUB_TOKEN跨仓库不可写、且自身推送不触发Pages的问题。
-
-等待目标仓库的Pages部署完成后打开正式地址。不要把“代码已推送”或“源仓库工作流成功”当作网站已验证。必须检查目标Pages构建以及在线资源。
-
-## 每次自动更新
-
-工作流文件：`.github/workflows/deploy-pages.yml`。
-
-发布分支push → 精确checkout提交 → Node 24 LTS → npm ci → 逻辑/产物门槛测试 → TypeScript和生产构建 → 公开文件检查与SHA256清单 → Chromium生产子路径测试 → 生成限定目标仓库令牌 → 再检查产物与仓库状态 → 非强制推送公开main → Pages自动更新。
-
-任一步失败均不会推送公开main。Concurrency取消旧运行；发布前再读取源分支最新SHA，阻止旧提交部署；目标分支非快进更新也会失败，不允许旧版本覆盖新版本。Secrets只提供给最后的授权与发布步骤，不提供给npm install、测试、构建或浏览器。
-
-公开仓库只有`index.html`、编译的`assets/*.js`/`*.css`、`.nojekyll`、`deployment.json`，后者包含源Commit、构建时间和文件哈希。没有源码仓库Git历史。每个公开提交信息为`Publish <source SHA>`。源码Commit SHA仅用于追踪，并不会使私有源码可公开访问。
-
-编译后的JS仍然包含可读的教学内容与程序逻辑，任何人可以查看；不视编译为保密措施。当前没有教材整页图片、真实儿童记录或密钥。检查采用严格白名单与已知敏感模式，会阻止新增图片/网络API等内容，未来新增资源必须先人工审核并扩展规则；它不能保证识别所有人为写入的任意个人信息。
-
-## 状态、手动重跑与在线验证
-
-- 私有Actions：查看步骤日志与最终Summary中的公开Commit；失败日志不打印Token或匹配的敏感文本。
-- 目标仓库Actions/Settings→Pages：查看Pages build and deployment。
-- 网站`/codex-ext1-pages/deployment.json`：查看在线版本对应的源SHA。
-- 手动重跑：重跑最新发布分支提交的Actions运行；或推送一个正常的新提交（必要时允许`git commit --allow-empty -m "chore: redeploy pages"`）。
-- 文件包含`workflow_dispatch`，但GitHub要求它同时存在于默认分支才提供手动dispatch入口；本任务不改变默认分支或合并代码，因此不要假设发布分支上的文件自动提供该入口。将来经过正常评审合并到默认分支后，Run workflow时仍需选指定发布分支。
-
-本地复现（PowerShell）：
+## 本地与线上验证
 
 ```powershell
 npm ci
@@ -84,34 +48,40 @@ $env:SOURCE_SHA = (git rev-parse HEAD)
 npm run check:public
 npx playwright install chromium
 npm run test:browser
-# Pages真正上线后再执行同一套在线测试：
-$env:BASE_URL = 'https://jatjun.github.io/codex-ext1-pages/'
+```
+
+生产预览：`npm run preview`，打开`http://127.0.0.1:4173/codex-ext1/`。Vite base为`/codex-ext1/`；关闭source map。应用使用React状态切换页面，无路径路由，刷新无需404回退。
+
+真正上线后再运行：
+
+```powershell
+$env:BASE_URL = 'https://jatjun.github.io/codex-ext1/'
 npm run test:browser
 Remove-Item Env:BASE_URL
 ```
 
-浏览器测试为Chromium、390px及1280px，覆盖资源无404/JS错误、刷新、两场景、答题分支、练习、迁移、播放暂停继续、方向拖动、调速、重播、学习记录和JSON下载。WebKit及真实iPhone Safari未执行时必须标NOT_TESTED。
+检查首页、JS/CSS无404、两种动画、拖动、暂停继续、重播、速度、步骤、关键题、错误分支、练习、刷新持久化与JSON导出。Chromium手机尺寸测试不等于真实iPhone Safari。WebKit及真机未执行时标NOT_TESTED。
 
-## 回滚
+deployment.json的application为codex-ext1，包含sourceCommit、构建时间和文件清单；可据此核对线上版本。该文件不包含儿童记录。
 
-优先在**私有发布分支**用`git revert <有问题的源码提交>`生成正常新提交并推送，让同一测试构建检查链重建旧行为。不要reset/force push，不直接复制私有源码到公开仓库。回滚后的发布同样记录新的源SHA。
+## 状态、排错、回滚与停站
 
-## 常见问题
+Actions每次运行显示build/deploy状态；成功deploy的Environment链接指向正式网站。若build成功而deploy因Private停止，这是预期保护，不能称为部署成功。
 
-- 首页404：确认Public仓库存在，main有index.html，Pages源main根目录，目标Pages部署成功；等待GitHub构建完成。
-- JS/CSS 404或空白：确认访问地址含`/codex-ext1-pages/`，vite.config.ts base匹配；查看开发者工具Network及Console。
-- 发布403：检查App仅安装目标仓库、Contents读写、App ID/私钥配对；或细粒度PAT未过期且选中了目标仓库。不要扩大到所有仓库或使用经典全权限PAT。
-- 工作流文件推送被拒绝：当前连接可能缺少修改Workflows权限，需要所有者通过GitHub网页提交工作流或调整相应连接权限，不绕过GitHub限制。
-- 发布提示unrelated target content/history：停止，检查是否误用了别的项目仓库；不要删除原文件或改检查规则绕过。
-- 产物被拒绝：检查是否混入教材图、map、文档、记录、密钥、外传代码；先移除不应公开的文件，再构建。
-- 私有Actions额度或Actions被禁用：仓库所有者检查Settings→Actions与账户Billing；不宣称工作流已成功。
+- 404：确认Public与Pages Source=GitHub Actions，deploy成功；访问地址带`/codex-ext1/`，检查浏览器Network和deployment.json版本。
+- configure-pages找不到站点：在Settings→Pages启用GitHub Actions。工作流不自动更改Pages或仓库可见性。
+- environment拒绝分支：允许指定发布分支；如需要人工批准，在GitHub界面批准，不绕过保护。
+- OIDC/403：检查deploy job的pages:write和id-token:write及Pages/environment配置，不增加PAT。
+- 产物检查失败：先清除不应公开的素材、map、凭据、真实记录或外传代码，再构建，不绕过检查。
+- 最新SHA检查失败：重跑最新提交对应的运行，旧提交不会覆盖新版。
+- 更换发布分支：同步调整push.branches、build job的ref限制、deploy源HEAD路径及environment允许分支。
+- 回滚：在发布分支git revert有问题的源码提交并正常推送，重新走全套验证，不reset/force push。旧SHA不能绕过“最新源HEAD”检查直接重跑。
+- 停站：Settings→Pages→Unpublish site，并禁用此Actions工作流，防止下次push恢复发布。
 
-## 更换分支与停止网站
+## 公开源码、版权与儿童隐私
 
-更换发布分支时同步修改工作流push.branches、job的github.ref限制、发布器读取最新源HEAD的路径（`scripts/publish-pages.mjs`）；验证后通过正常提交推送。不要扩大触发范围到任意分支。
+单仓库Public会公开src、tests、docs及可达历史；“dist中没有源码目录”不代表源码保密。教材原始截图从未提交到检查过的历史，网页为原创图形与练习；未来不得把整页教材图片加入仓库或public。依赖的许可证注释应保留。
 
-停止网站：公开仓库Settings→Pages→Unpublish site；同时禁用私有仓库的Deploy reviewed static site工作流，撤销目标App安装或删除PAT/部署Secret，防止以后恢复发布。不需要改变私有仓库可见性。
+公开产物仍只允许index.html、编译JS/CSS、.nojekyll和deployment.json。模式扫描会阻止常见密钥、图像、记录样本、map及网络上传接口；新增素材或数据仍需人工审查。
 
-## 儿童学习记录
-
-学习记录只存储在访问设备的当前浏览器localStorage；不跨设备同步，不上传GitHub或第三方。清除浏览器站点数据会删除记录，使用JSON导出自行保存。GitHub Pages只提供公开静态网页，不提供私有学习数据库。网站公开访问不代表孩子的学习记录公开。GitHub托管方仍会接收普通网站访问请求；应用没有添加第三方统计脚本。
+学习记录只在当前设备、当前浏览器localStorage中，不跨设备同步，不上传GitHub或第三方。清除站点数据会删除记录，请自行JSON导出。GitHub Pages没有私有学习数据库；网站与源码公开都不代表孩子记录公开。GitHub会接收正常静态网页访问请求，应用没有第三方分析脚本。

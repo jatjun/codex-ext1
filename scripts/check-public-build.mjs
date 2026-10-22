@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import { resolve, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-export const base = '/codex-ext1-pages/';
+export const base = '/codex-ext1/';
 export function allowedPath(path) {
   return ['index.html', '.nojekyll', 'deployment.json'].includes(path)
     || /^assets\/[A-Za-z0-9_-]+-[A-Za-z0-9_-]+\.(js|css)$/.test(path);
@@ -59,11 +59,22 @@ export async function inspectBuild(directory, { metadata = false } = {}) {
   }
   return files;
 }
+export async function verifyBuild(directory, sha) {
+  if (!/^[a-f0-9]{40}$/.test(sha || '')) throw new Error('Invalid source SHA');
+  const files = await inspectBuild(directory, { metadata: true });
+  const manifest = JSON.parse(await readFile(resolve(directory, 'deployment.json'), 'utf8'));
+  if (manifest.application !== 'codex-ext1' || manifest.schema !== 1 || manifest.sourceCommit !== sha) throw new Error('Wrong deployment provenance');
+  const expected = Object.keys(files).filter(path => path !== 'deployment.json').sort();
+  if (JSON.stringify(Object.keys(manifest.files || {}).sort()) !== JSON.stringify(expected)) throw new Error('Manifest file set mismatch');
+  for (const path of expected) if (manifest.files[path] !== files[path]) throw new Error('Manifest hash mismatch');
+  console.log('Pages artifact provenance and hashes verified');
+  return files;
+}
 export async function prepareBuild(directory, sha) {
   if (!/^[a-f0-9]{40}$/.test(sha || '')) throw new Error('SOURCE_SHA must be a full commit SHA');
   await writeFile(resolve(directory, '.nojekyll'), '');
   const files = await inspectBuild(directory);
-  const manifest = { application: 'codex-ext1-pages', schema: 1, sourceCommit: sha, builtAt: new Date().toISOString(), files };
+  const manifest = { application: 'codex-ext1', schema: 1, sourceCommit: sha, builtAt: new Date().toISOString(), files };
   await writeFile(resolve(directory, 'deployment.json'), JSON.stringify(manifest, null, 2) + '\n');
   await inspectBuild(directory, { metadata: true });
   console.log(`Public build approved: ${Object.keys(files).length + 1} files; no source, docs, tests, images, maps or records`);
