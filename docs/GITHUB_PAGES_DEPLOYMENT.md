@@ -4,7 +4,7 @@
 
 唯一仓库：https://github.com/jatjun/codex-ext1 。发布分支：`feat/interactive-math-v1`。网站目标：https://jatjun.github.io/codex-ext1/ 。
 
-**用户要求暂不公开，网站尚未验证上线；执行中检测到外部变更使GitHub显示Public，已告知用户恢复Private，助手未修改可见性。** 公开前审查发现旧提交作者元数据含个人邮箱，用户已选择暂不公开、先讨论清理。详见 [审查记录](PRE_PUBLICATION_REVIEW.md)。不能仅凭构建测试通过就公开仓库或将网站描述为已上线。
+2026-10-23用户已明确授权公开现有V1，并接受旧提交作者姓名与邮箱公开风险，不要求历史重写。最终安全检查通过，详见 [审查记录](PRE_PUBLICATION_REVIEW.md)。网站是否上线以Actions的deploy结果及真实线上验收为准，不能仅凭构建成功判断。
 
 不再使用跨仓库发布，不需要PAT、GitHub App或目标部署仓库。旧发布脚本已删除，工作流不读取旧的PAGES_DEPLOY_TOKEN、PAGES_APP_ID、PAGES_APP_PRIVATE_KEY。若过去配置过这些设置，可由所有者在Settings→Secrets and variables→Actions删除对应项并撤销不用的令牌/私钥；本任务不读取、输出或自行删除其值，也不修改其他仓库。
 
@@ -28,12 +28,12 @@ Concurrency group为github-pages-production，cancel-in-progress:false，避免�
 
 ## 安全审查完成后，所有者的网页操作
 
-以下步骤**暂不执行**。须先完成历史清理讨论、必要的另行授权、重扫与明确公开决定。当前工具没有修改仓库可见性和Pages设置的接口；CLI GitHub REST此前返回Forbidden，不能绕过权限。
+最终安全复查和公开授权已完成。当前工具没有修改仓库可见性、Pages设置和Repository Variable的接口，CLI GitHub REST设置请求返回Forbidden，因此这些配置需由所有者在网页完成，不绕过权限。
 
 1. https://github.com/jatjun/codex-ext1/settings → General → Danger Zone → Change repository visibility → Make public；确认这是唯一目标仓库，并按GitHub提示输入仓库名。此操作会公开可访问分支及Git历史，不只是构建产物。
 2. https://github.com/jatjun/codex-ext1/settings/pages → Build and deployment → Source选择 **GitHub Actions**。不要选Deploy from a branch，不创建自定义域名。
 3. Settings → Environments → github-pages → Deployment branches and tags：如果使用Selected branches and tags，添加Branch规则 `feat/interactive-math-v1`。不能保留只允许默认main的规则。已有必要的人工审批保护应保留，通过正常界面审批，不绕过。
-4. 历史审查完成并明确决定公开后，在Settings → Secrets and variables → Actions → Variables中设置Repository variable `PUBLICATION_REVIEW_APPROVED`为`true`。未设置时deploy显示Skipped；保持此开关关闭，直到清理与公开决定完成。
+4. 安全审查及明确公开决定已完成，在Settings → Secrets and variables → Actions → Variables中设置Repository variable `PUBLICATION_REVIEW_APPROVED`为`true`。未设置时deploy显示Skipped；现在可以按用户授权设置为true；无需历史清理。
 5. https://github.com/jatjun/codex-ext1/actions → Deploy reviewed static site → 重跑最新发布分支提交的 **Re-run all jobs**。也可推送正常新提交触发，不用跳过测试。
 6. 等待build与deploy均成功，再访问正式地址并执行在线浏览器验证。
 

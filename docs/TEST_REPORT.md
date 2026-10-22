@@ -32,3 +32,11 @@
 - WebKit、真实iPhone Safari、真实Windows：NOT_TESTED。
 
 此前双仓库部署结果保存在Git历史中，当前配置与说明均以单仓库方案为准。不得把旧子路径或旧运行结果视为本次正式部署成功。
+
+## 正式发布最终复查（2026-10-23）
+
+用户已接受历史作者个人信息的公开风险，原阻塞解除。重新检查6个提交、50个blob，无其他真实凭据、儿童资料、真实学习记录或教材截图。测试命中逐项确认是无效私钥标题和虚构答题文本。
+
+重新执行npm ci、11项Vitest、TypeScript/Vite构建、公开产物检查及5项Chromium生产子路径测试，全部通过。检查产物仍仅5个文件。真实iPhone Safari NOT_TESTED。
+
+已核实之前最新SHA 2645e5f的Actions运行39810031673为build成功、deploy跳过，不能视为上线。当前CLI设置Public和PUBLICATION_REVIEW_APPROVED请求返回Forbidden，需用户网页配置；正式运行与线上验收结果待后续核实。工作流与审批开关未修改。
