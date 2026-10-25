@@ -1,0 +1,2 @@
+import {test,expect} from '@playwright/test';
+test('三科学习入口与识字配对',async({page})=>{await page.goto('./#academy');await page.getByRole('button',{name:'语文',exact:true}).click();await page.getByRole('button',{name:/森林邮局/}).click();await page.getByRole('button',{name:'树',exact:true}).click();await page.getByRole('button',{name:/🌳/}).click();await page.getByRole('button',{name:'水',exact:true}).click();await page.getByRole('button',{name:/💧/}).click();await expect(page.getByRole('heading',{name:/这一关完成/})).toBeVisible();});
