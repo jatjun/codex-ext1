@@ -1,0 +1,7 @@
+import {it,expect} from 'vitest';
+import {freshAdventure,collectGem,deposit,bridgeReady,gateReady,finishAdventure} from '../src/adventure/model';
+it('背包容量为4，不会丢失未收集水晶',()=>{let s=freshAdventure();for(let i=0;i<5;i++)s=collectGem(s,'mint');expect(s.bag).toHaveLength(4);expect(s.collected).toBe(4);});
+it('三组各4颗才能修桥，搬运守恒且不能重复放入',()=>{let s=freshAdventure();for(let group=0;group<3;group++){for(let i=0;i<4;i++)s=collectGem(s,'mint');for(let i=0;i<4;i++)s=deposit(s,group);expect(s.bag.length+s.shrines.reduce((a,b)=>a+b,0)).toBe(s.collected);if(group<2)expect(bridgeReady(s)).toBe(false);}expect(bridgeReady(s)).toBe(true);expect(s.shrines).toEqual([4,4,4]);expect(deposit(s,0).shrines).toEqual([4,4,4]);});
+it('错误颜色不扣除、不改变数学条件',()=>{const s=collectGem(freshAdventure(),'gold');expect(deposit(s,0).bag).toEqual(['gold']);expect(deposit(s,0).shrines).toEqual([0,0,0]);expect(deposit(s,'gate').gate).toEqual({gold:0,violet:0});});
+it('花门要求3紫加2金，不能用任意5颗代替',()=>{let s=freshAdventure();s.shrines=[4,4,4];for(let i=0;i<3;i++){s=collectGem(s,'violet');s=deposit(s,'gate');}expect(gateReady(s)).toBe(false);s=collectGem(s,'violet');s=deposit(s,'gate');expect(s.gate.violet).toBe(3);expect(s.bag).toEqual(['violet']);for(let i=0;i<2;i++){s=collectGem(s,'gold');s=deposit(s,'gate');}expect(gateReady(s)).toBe(true);expect(finishAdventure(s).won).toBe(true);expect(finishAdventure(freshAdventure()).won).toBe(false);});
+it('重复开始产生独立状态',()=>{const first=freshAdventure();first.shrines[0]=4;expect(freshAdventure().shrines).toEqual([0,0,0]);});

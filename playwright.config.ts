@@ -9,7 +9,7 @@ export default defineConfig({
     baseURL,
     launchOptions: {
       executablePath: existsSync('/usr/bin/chromium') ? '/usr/bin/chromium' : undefined,
-      args: ['--no-sandbox'],
+      args: ['--no-sandbox', '--enable-unsafe-swiftshader'],
     },
   },
   ...(process.env.BASE_URL ? {} : {
