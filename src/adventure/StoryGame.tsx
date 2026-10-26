@@ -1,10 +1,8 @@
 import {useState} from 'react';
 import {storyAnswers,type Story} from './story-model';
 
-// Local learning evidence is separate from combat XP. No name, voice or external request.
-export function saveStoryAttempt(id:string,step:number,answer:number,correct:boolean,hints:number){
- try{const raw=JSON.parse(localStorage.getItem('fox-story-attempts-v1')||'[]');const rows=Array.isArray(raw)?raw.slice(-199):[];rows.push({id,step,answer,correct,hints,time:new Date().toISOString()});localStorage.setItem('fox-story-attempts-v1',JSON.stringify(rows));return true;}catch{return false;}
-}
+import {saveStoryAttempt} from './story-progress';
+export {saveStoryAttempt} from './story-progress';
 export function StoryGame({story,id,onSubmit}:{story:Story;id:string;onSubmit:(value:string)=>void}){
  const [stage,setStage]=useState(0),[entry,setEntry]=useState(''),[answers,setAnswers]=useState<number[]>([]),[feedback,setFeedback]=useState(''),[hints,setHints]=useState(0),[progress,setProgress]=useState(0),[storageWarning,setStorageWarning]=useState(false);
  const s=story.steps[stage],expected=storyAnswers(story),a=s.a==='previous'?expected[0]:s.a;

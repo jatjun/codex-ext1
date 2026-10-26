@@ -23,3 +23,12 @@ export function advancedLanguage(subject:Subject,level:number,i:number){
  ];
  return subject==='chinese'?{prompt:'按“时间 → 谁 → 在哪里 → 做什么”整理冒险日志。',tokens:chinese[level-7][i]}:{prompt:'按“主语 → 动作 → 物品”的顺序拼出任务句。',tokens:english[level-7][i]};
 }
+
+export function storyExplanation(story:Story){
+ const answers=storyAnswers(story);
+ const lines=story.steps.map((s,i)=>`${s.a==='previous'?answers[i-1]:s.a} ${s.op} ${s.b} ＝ ${answers[i]}（${s.unit}）`);
+ const [first,second]=story.steps;
+ const group=`(${first.a} ${first.op} ${first.b})`;
+ const expression=second.a==='previous'?`${group} ${second.op} ${second.b}`:`${second.a} ${second.op} ${group}`;
+ return {lines,combined:`${expression} ＝ ${answers[1]}（${second.unit}）`};
+}
