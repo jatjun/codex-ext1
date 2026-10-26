@@ -1,0 +1,8 @@
+import {it,expect,vi} from 'vitest';
+import {addAward,heroStats,heardWord,readHero,saveHero,trialsFor,trialCorrect} from '../src/adventure/campaign';
+import {expeditionFor,freshBattle,hitSpirit} from '../src/adventure/expedition-model';
+for(const subject of ['math','chinese','english'] as const)for(const level of [5,6])it(`${subject} 第${level+1}关先解题才能命中，错误不消耗能量`,()=>{const d=expeditionFor(subject,level);let s=freshBattle();for(let i=0;i<3;i++){expect(trialCorrect(trialsFor(subject,level)[i],'wrong')).toBe(false);expect(trialCorrect(trialsFor(subject,level)[i],trialsFor(subject,level)[i].expected)).toBe(true);expect(hitSpirit(s,d,i,i).freed).toEqual(s.freed);s.charges[i]=true;const wrong=hitSpirit(s,d,i,(i+1)%3);expect(wrong.charges[i]).toBe(true);s=hitSpirit(s,d,i,i);expect(s.freed[i]).toBe(true);expect(s.charges[i]).toBe(false);}});
+it('相同字母可以交换，不误判moon；重复使用卡片会被拒绝',()=>{const t=trialsFor('english',5)[1];expect(trialCorrect(t,'0,2,1,3')).toBe(true);expect(trialCorrect(t,'0,1,1,3')).toBe(false);});
+it('等级奖励幂等，不因重复通关刷经验',()=>{let h={version:1 as const,awards:[] as string[]};h=addAward(h,'math:5:clear');h=addAward(h,'math:5:clear');expect(heroStats(h).xp).toBe(60);h=addAward(h,'math:5:trial0');h=addAward(h,'math:5:spirit0');expect(heroStats(h).level).toBe(2);});
+it('识别严格匹配单词，不能用包含目标的长句骗过，也不以静音算成功',()=>{expect(heardWord(' Sun! ','sun')).toBe(true);for(const s of ['','sun moon','sunny','son'])expect(heardWord(s,'sun')).toBe(false);});
+it('损坏存档与禁止存储均可恢复',()=>{vi.stubGlobal('localStorage',{getItem:()=>'{bad',setItem:()=>{throw new Error('blocked');}});expect(readHero().awards).toEqual([]);expect(saveHero({version:1,awards:[]})).toBe(false);vi.unstubAllGlobals();});

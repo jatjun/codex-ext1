@@ -1,3 +1,4 @@
+import {useHero} from './useHero';
 import {Expedition} from './Expedition';
 import {levelFor,levelCount,type Subject} from './subjects';
 import {useEffect,useRef,useState} from 'react';
@@ -11,15 +12,17 @@ export function Adventure(){
  return <ForestAdventure subject={subject} level={level}/>;
 }
 function ForestAdventure({subject,level}:{subject:Subject;level:number}){
- const theme=levelFor(subject,level);
- const [quality,setQuality]=useState<Quality>(()=>{try{return localStorage.getItem('forest-quality')==='low'?'low':'high';}catch{return 'high';}});
+ const theme=levelFor(subject,level);const hero=useHero();
+ const [quality,setQuality]=useState<Quality>(()=>{try{return localStorage.getItem('forest-quality')==='ultra'?'ultra':localStorage.getItem('forest-quality')==='low'?'low':'high';}catch{return 'high';}});
  const [showLabels,setShowLabels]=useState(true);
  function changeQuality(q:Quality){setQuality(q);world.current?.quality(q);try{localStorage.setItem('forest-quality',q);}catch{/* Optional preference. */}}
  function goLevel(n:number){location.hash=(subject==='math'?'#forest':'#forest-'+subject)+'?level='+n;location.reload();}
  const[track,setTrack]=useState<{x:number;z:number;gems:{x:number;z:number;color:GemColor}[]}>({x:0,z:20,gems:[]});
  const canvas=useRef<HTMLCanvasElement>(null),world=useRef<WorldAPI|null>(null);const[state,setState]=useState(()=>freshAdventure(subject,level)),[started,setStarted]=useState(false),[paused,setPaused]=useState(false),[sound,setSound]=useState(false),[near,setNear]=useState(''),[error,setError]=useState(''),[session,setSession]=useState(0),[stick,setStick]=useState({x:0,y:0});
+ useEffect(()=>{world.current?.rank(hero.level);},[hero.level,session]);
+ useEffect(()=>{if(state.won)hero.award(`${subject}:${level}:clear`);},[state.won]);
  const joystick=useRef<HTMLDivElement>(null);
- useEffect(()=>{document.title='萤光森林 · 小狐狸的晶桥奇遇';try{world.current=makeWorld(canvas.current!,setState,setNear,(x,z,gems)=>setTrack({x,z,gems}),subject,level,quality);}catch{setError('这个浏览器暂时不能运行3D画面。请启用硬件加速，或换用较新的 Chrome、Edge 或 Safari。');}return()=>{world.current?.destroy();world.current=null;};},[session]);
+ useEffect(()=>{document.title='萤光森林 · 小狐狸的晶桥奇遇';try{world.current=makeWorld(canvas.current!,setState,setNear,(x,z,gems)=>setTrack({x,z,gems}),subject,level,quality);world.current.rank(hero.level);}catch{setError('这个浏览器暂时不能运行3D画面。请启用硬件加速，或换用较新的 Chrome、Edge 或 Safari。');}return()=>{world.current?.destroy();world.current=null;};},[session]);
  useEffect(()=>{const hide=()=>{if(document.hidden&&started&&!state.won){setPaused(true);world.current?.pause(true);}};document.addEventListener('visibilitychange',hide);return()=>document.removeEventListener('visibilitychange',hide);},[started,state.won]);
  function start(){setStarted(true);world.current?.start();}
  function togglePause(){const value=!paused;setPaused(value);world.current?.pause(value);}
@@ -29,7 +32,7 @@ function ForestAdventure({subject,level}:{subject:Subject;level:number}){
  return <div className="forest-game">
   <canvas ref={canvas} aria-label="魔法森林3D游戏场景：使用方向键或屏幕摇杆移动狐狸"/>
   <div className="forest-vignette"/>
-  <header className="forest-header"><a className="forest-brand" href="#" onClick={e=>{e.preventDefault();location.hash='';location.reload();}}><span className="forest-logo">✦</span><span>萤光森林<small>THE LITTLE FOX ADVENTURE</small></span></a><div className="forest-toolbar"><label className="quality-control">画质<select aria-label="画质" value={quality} onChange={e=>changeQuality(e.target.value as Quality)}><option value="high">高</option><option value="low">低</option></select></label><button aria-label="水晶文字提示" aria-pressed={showLabels} onClick={()=>{setShowLabels(!showLabels);world.current?.hints(!showLabels);}}>字</button><span className="chapter">0{level+1} <i/> {theme.title}</span><button aria-label={sound?'关闭音效':'开启音效'} onClick={()=>{setSound(!sound);world.current?.sound(!sound);}}>{sound?'♫':'♩'}<span>{sound?'声音开':'声音关'}</span></button>{started&&!state.won&&<button aria-label={paused?'继续游戏':'暂停游戏'} onClick={togglePause}>{paused?'▶':'Ⅱ'}</button>}</div></header>
+  <header className="forest-header"><a className="forest-brand" href="#" onClick={e=>{e.preventDefault();location.hash='';location.reload();}}><span className="forest-logo">✦</span><span>萤光森林<small>THE LITTLE FOX ADVENTURE</small></span></a><div className="forest-toolbar"><span className="hero-badge">Lv.{hero.level} · {hero.xp} XP</span><label className="quality-control">画质<select aria-label="画质" value={quality} onChange={e=>changeQuality(e.target.value as Quality)}><option value="ultra">极致</option><option value="high">高</option><option value="low">低</option></select></label><button aria-label="水晶文字提示" aria-pressed={showLabels} onClick={()=>{setShowLabels(!showLabels);world.current?.hints(!showLabels);}}>字</button><span className="chapter">0{level+1} <i/> {theme.title}</span><button aria-label={sound?'关闭音效':'开启音效'} onClick={()=>{setSound(!sound);world.current?.sound(!sound);}}>{sound?'♫':'♩'}<span>{sound?'声音开':'声音关'}</span></button>{started&&!state.won&&<button aria-label={paused?'继续游戏':'暂停游戏'} onClick={togglePause}>{paused?'▶':'Ⅱ'}</button>}</div></header>
   {!started&&!error&&<section className="forest-intro"><div className="adventure-label"><span/> 给小小探险家的第一封邀请</div><h1>小狐狸的<br/><em>{theme.title}</em><span className="title-spark">✧</span></h1><p>森林的桥，睡着了。<br/>带上好奇心，把散落的光送回家。</p><button className="forest-primary" onClick={start}>开始冒险 <span>↗</span></button><div className="level-picker" aria-label="选择关卡">{Array.from({length:levelCount},(_,i)=><button key={i} aria-pressed={i===level} onClick={()=>goLevel(i)}>{i+1}. {levelFor(subject,i).title}</button>)}</div><div className="intro-notes"><span>✦ 约 3～5 分钟</span><span>自由探索 · 不怕犯错</span></div><div className="intro-chips">{[['语文','#forest-chinese'],['数学','#forest'],['英语','#forest-english']].map(([name,hash])=><a key={hash} href={hash} onClick={e=>{e.preventDefault();location.hash=hash;location.reload();}}>{name}冒险 →</a>)}</div></section>}
   {!started&&<div className="forest-postcard"><span>一颗、两颗，一组光。</span><small>知识，就藏在这场冒险里。</small><div>✧ ───────── ✧</div></div>}
   {started&&!state.won&&<>
