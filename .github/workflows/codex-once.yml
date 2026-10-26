@@ -1,0 +1,58 @@
+name: P0-01 one-time simulator
+run-name: P0-01 ${{ inputs.operation || 'check' }} ${{ inputs.task_id }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: Register a task or check due tasks
+        type: choice
+        options: [register, check]
+        default: register
+      task_id:
+        description: Unique task ID (letters, numbers, underscore, hyphen)
+        type: string
+      delay_minutes:
+        description: Delay in minutes; leave blank when using run_at
+        type: string
+      run_at:
+        description: Absolute ISO time with timezone, e.g. 2026-10-27T10:00:00Z
+        type: string
+      simulate_failure:
+        description: Deliberately fail the simulator for acceptance testing
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: codex-ext1-p0-01-state
+  cancel-in-progress: false
+
+jobs:
+  simulate:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Register or check (no AI)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python3 .github/codex/controller.py
+      - name: Save diagnostic artifacts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: p0-01-${{ github.run_id }}-${{ github.run_attempt }}
+          path: p0-output/
+          if-no-files-found: warn
+          retention-days: 30
