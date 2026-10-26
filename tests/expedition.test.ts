@@ -1,0 +1,5 @@
+import {it,expect} from 'vitest';
+import {allFreed,expeditionFor,freshBattle,hitSpirit} from '../src/adventure/expedition-model';
+for(const subject of ['math','chinese','english'] as const)for(const level of [3,4])it(`${subject} 场景${level}错选不推进，全部正确才解锁`,()=>{const data=expeditionFor(subject,level);let state=freshBattle();for(let i=0;i<3;i++){const wrong=hitSpirit(state,data,i,(data.encounters[i].answer+1)%3);expect(wrong.freed).toEqual(state.freed);expect(wrong.misses).toBe(state.misses+1);state=hitSpirit(wrong,data,i,data.encounters[i].answer);expect(hitSpirit(state,data,i,data.encounters[i].answer)).toEqual(state);if(i<2)expect(allFreed(state)).toBe(false);}expect(allFreed(state)).toBe(true);expect(state.shots).toBe(6);});
+it('非法目标和符文不会改变状态',()=>{const s=freshBattle(),d=expeditionFor('math',3);for(const i of [-1,3,.5,NaN]){expect(hitSpirit(s,d,i,0)).toBe(s);expect(hitSpirit(s,d,0,i)).toBe(s);}});
+it('数学实体数量与符文一致',()=>{for(const level of [3,4]){const d=expeditionFor('math',level);for(const e of d.encounters)expect(e.groups!*e.each!-(e.remove||0)).toBe(Number(d.runes[e.answer]));}});

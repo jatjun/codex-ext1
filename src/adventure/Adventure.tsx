@@ -1,3 +1,4 @@
+import {Expedition} from './Expedition';
 import {levelFor,levelCount,type Subject} from './subjects';
 import {useEffect,useRef,useState} from 'react';
 import {makeWorld,type WorldAPI,type Quality} from './world';
@@ -6,6 +7,10 @@ import './adventure.css';
 export function Adventure(){
  const subject:Subject=location.hash.startsWith('#forest-chinese')?'chinese':location.hash.startsWith('#forest-english')?'english':'math';
  const level=Math.min(levelCount-1,Math.max(0,Math.floor(Number(new URLSearchParams(location.hash.split('?')[1]).get('level')))||0));
+ if(level>=3)return <Expedition subject={subject} level={level}/>;
+ return <ForestAdventure subject={subject} level={level}/>;
+}
+function ForestAdventure({subject,level}:{subject:Subject;level:number}){
  const theme=levelFor(subject,level);
  const [quality,setQuality]=useState<Quality>(()=>{try{return localStorage.getItem('forest-quality')==='low'?'low':'high';}catch{return 'high';}});
  const [showLabels,setShowLabels]=useState(true);

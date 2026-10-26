@@ -1,3 +1,4 @@
+import {expeditionFor} from './expedition-model';
 export type Subject='math'|'chinese'|'english';
 export const subjects={math:{title:'晶桥溪谷',groups:['第一组','第二组','第三组'],words:[] as string[]},chinese:{title:'词语森林',groups:['动物之家','水果之家','自然之家'],words:['小猫','小狗','狐狸','小鸟','苹果','香蕉','梨子','葡萄','大树','太阳','月亮','河水']},english:{title:'Word Forest',groups:['Animals 动物','Fruit 水果','Nature 自然'],words:['cat','dog','fox','bird','apple','banana','pear','grape','tree','sun','moon','water']}};
 export type Level={title:string;groups:string[];words:string[];gateWords:string[];gatePrompt:string};
@@ -12,6 +13,6 @@ const extra:Record<Subject,Level[]>={
  {title:'算式花园',groups:['结果是2','结果是3','结果是4'],words:['1＋1','4－2','6÷3','2×1','1＋2','5－2','6÷2','3×1','2＋2','6－2','8÷2','4×1'],gateWords:['1','2','3','4','5'],gatePrompt:'把数量从小到大排列：1 → 2 → 3 → 4 → 5。'},
  {title:'乘法星谷',groups:['结果是6','结果是8','结果是10'],words:['2×3','3×2','12÷2','4＋2','2×4','4×2','16÷2','5＋3','2×5','5×2','20÷2','6＋4'],gateWords:['2','4','6','8','10'],gatePrompt:'每次增加2，按顺序送入：2 → 4 → 6 → 8 → 10。'}]
 };
-export function levelFor(subject:Subject,level=0):Level{return extra[subject][level-1]||{...subjects[subject],gateWords:subject==='chinese'?['小狐狸','和','小鸟','一起','看月亮']:subject==='english'?['I','can','see','a','fox']:[],gatePrompt:subject==='chinese'?'组成一句话：小狐狸和小鸟一起看月亮。':subject==='english'?'组成一句话：I can see a fox.（我能看见一只狐狸。）':'把3颗紫色和2颗金色水晶带给花门。'};}
+export function levelFor(subject:Subject,level=0):Level{if(level>=3)return {...expeditionFor(subject,level),groups:[],words:[],gateWords:[],gatePrompt:'帮助三位精灵，前往回声之门。'};return extra[subject][level-1]||{...subjects[subject],gateWords:subject==='chinese'?['小狐狸','和','小鸟','一起','看月亮']:subject==='english'?['I','can','see','a','fox']:[],gatePrompt:subject==='chinese'?'组成一句话：小狐狸和小鸟一起看月亮。':subject==='english'?'组成一句话：I can see a fox.（我能看见一只狐狸。）':'把3颗紫色和2颗金色水晶带给花门。'};}
 export function wordGroup(subject:Subject,word:string,level=0){return Math.floor(levelFor(subject,level).words.indexOf(word)/4);}
-export const levelCount=3;
+export const levelCount=5;
