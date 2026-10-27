@@ -5,3 +5,5 @@ import {unlockedEquipment,validEquipment} from '../src/adventure/equipment';
 import {addAward,heroStats,saveHero,readHero} from '../src/adventure/campaign';
 import {vi} from 'vitest';
 it('树王胜利只奖励一次，刷新后保留守护冠和经验',()=>{let h={version:1 as const,awards:[] as string[]};expect(validEquipment(h,'forest-crown')).toBe('');h=addAward(h,'math:boss:clear');h=addAward(h,'math:boss:clear');expect(heroStats(h).xp).toBe(60);expect(unlockedEquipment(h).map(e=>e.id)).toEqual(['forest-crown']);let stored='';vi.stubGlobal('localStorage',{setItem:(_k:string,v:string)=>stored=v,getItem:()=>stored});saveHero(h);expect(validEquipment(readHero(),'forest-crown')).toBe('forest-crown');vi.unstubAllGlobals();});
+
+it('补给树王24生命，强化攻击仍需多次命中，生命不会为负',()=>{let s=freshBoss(24);for(let shot=0;shot<6;shot++){for(let damage=0;damage<4;damage++)s=strikeBoss({...s,energy:true},3);expect(s.hp).toBe(24-(shot+1)*4);}expect(strikeBoss({...s,energy:true},3).hp).toBe(0);});
