@@ -1,0 +1,1 @@
+export function groundStep(x:number,z:number,target:{x:number;z:number},distance:number){const dx=target.x-x,dz=target.z-z,len=Math.hypot(dx,dz);if(len<=distance)return {x:target.x,z:target.z,arrived:true};return {x:x+dx/len*distance,z:z+dz/len*distance,arrived:false};}
