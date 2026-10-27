@@ -1,0 +1,8 @@
+import {useEffect,useRef,useState} from 'react';
+export function TouchStick({disabled=false,onMove}:{disabled?:boolean;onMove:(x:number,z:number)=>void}){
+ const active=useRef<number|null>(null),move=useRef(onMove),[knob,setKnob]=useState({x:0,y:0});move.current=onMove;
+ function stop(){active.current=null;setKnob({x:0,y:0});move.current(0,0);}
+ useEffect(()=>{if(disabled)stop();},[disabled]);useEffect(()=>{const hide=()=>{if(document.hidden)stop();};window.addEventListener('blur',stop);document.addEventListener('visibilitychange',hide);return()=>{window.removeEventListener('blur',stop);document.removeEventListener('visibilitychange',hide);move.current(0,0);};},[]);
+ function point(e:React.PointerEvent<HTMLDivElement>){const r=e.currentTarget.getBoundingClientRect(),radius=r.width*.3;let x=(e.clientX-r.left-r.width/2)/radius,y=(e.clientY-r.top-r.height/2)/radius;const scale=Math.max(1,Math.hypot(x,y));x/=scale;y/=scale;setKnob({x:x*radius,y:y*radius});if(Math.hypot(x,y)<.12)move.current(0,0);else move.current(x,y);}
+ return <div className="battle-stick" role="group" aria-label="移动摇杆" aria-disabled={disabled} onPointerDown={e=>{if(disabled||active.current!==null)return;active.current=e.pointerId;e.currentTarget.setPointerCapture(e.pointerId);point(e);}} onPointerMove={e=>{if(!disabled&&active.current===e.pointerId)point(e);}} onPointerUp={e=>{if(active.current===e.pointerId)stop();}} onPointerCancel={e=>{if(active.current===e.pointerId)stop();}} onLostPointerCapture={e=>{if(active.current===e.pointerId)stop();}}><span className="stick-label">拖动这里移动</span><i style={{transform:`translate(${knob.x}px,${knob.y}px)`}}>✦</i></div>;
+}
