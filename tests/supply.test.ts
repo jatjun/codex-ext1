@@ -5,3 +5,4 @@ it('治疗护盾有成本，先护盾再生命，不能透支或死后施法',()
 it('拾取补给不突破上限，护盾已满不浪费点数',()=>{const s={...freshSupply(),ammo:98,points:99,shield:60};expect(pickupSupply(s,'ammo').ammo).toBe(99);expect(pickupSupply(s,'heart').hp).toBe(100);expect(pickupSupply(s,'gear').points).toBe(99);expect(skillSupply(s,'shield')).toBe(s);});
 import {validEquipment} from '../src/adventure/equipment';
 it('小怪装备有独立来源，不伪造其他课程通关',()=>{expect(validEquipment({version:1,awards:['math:boss:gear']},'leaf-wand')).toBe('leaf-wand');expect(validEquipment({version:1,awards:[]},'leaf-wand')).toBe('');});
+it('技能强化增加治疗和护盾效果且保留上限',()=>{const s={...freshSupply(),hp:50,points:2};expect(skillSupply(s,'heal',3).hp).toBe(95);expect(skillSupply(s,'shield',3).shield).toBe(45);expect(skillSupply({...s,hp:90},'heal',3).hp).toBe(100);});
