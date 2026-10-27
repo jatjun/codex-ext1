@@ -1,0 +1,7 @@
+import {it,expect} from 'vitest';
+import {freshSupply,earnSupply,spendShot,skillSupply,hurtSupply,pickupSupply} from '../src/adventure/supply-model';
+it('补给、武器弹药消耗和伤害互不混淆',()=>{let s=freshSupply();expect(spendShot(s)).toBeNull();s=earnSupply(s);expect([s.ammo,s.points]).toEqual([3,1]);s=spendShot({...s,weapon:'burst'})!;expect(s.ammo).toBe(1);expect(spendShot(s)).toBeNull();});
+it('治疗护盾有成本，先护盾再生命，不能透支或死后施法',()=>{let s=earnSupply(earnSupply(freshSupply()));s=skillSupply(s,'shield');expect([s.points,s.shield]).toEqual([0,30]);s=hurtSupply(s,12);expect([s.hp,s.shield]).toEqual([100,18]);s=hurtSupply(s,30);expect([s.hp,s.shield]).toEqual([88,0]);expect(skillSupply(s,'heal')).toBe(s);s=skillSupply(earnSupply(earnSupply(s)),'heal');expect(s.hp).toBe(100);const dead=hurtSupply(s,200);expect(dead.hp).toBe(0);expect(spendShot(dead)).toBeNull();expect(skillSupply({...dead,points:10},'heal').hp).toBe(0);});
+it('拾取补给不突破上限，护盾已满不浪费点数',()=>{const s={...freshSupply(),ammo:98,points:99,shield:60};expect(pickupSupply(s,'ammo').ammo).toBe(99);expect(pickupSupply(s,'heart').hp).toBe(100);expect(pickupSupply(s,'gear').points).toBe(99);expect(skillSupply(s,'shield')).toBe(s);});
+import {validEquipment} from '../src/adventure/equipment';
+it('小怪装备有独立来源，不伪造其他课程通关',()=>{expect(validEquipment({version:1,awards:['math:boss:gear']},'leaf-wand')).toBe('leaf-wand');expect(validEquipment({version:1,awards:[]},'leaf-wand')).toBe('');});
