@@ -1,10 +1,17 @@
 import * as T from 'three';
-export type Region='market'|'mine'|'castle';
-export const regionPalette={market:{sky:'#d4abc1',floor:'#d6b899',base:'#936f69'},mine:{sky:'#182b46',floor:'#344960',base:'#1d3043'},castle:{sky:'#b7d7df',floor:'#d8d2b2',base:'#9da495'}};
+export type Region='market'|'mine'|'castle'|'railway'|'orchard'|'reef';
+export const regionPalette={railway:{sky:'#becfe5',floor:'#b7a7b8',base:'#827b94'},orchard:{sky:'#c4e4d1',floor:'#9fc581',base:'#73845d'},reef:{sky:'#a1dbe0',floor:'#e2d4ad',base:'#78b7b7'},market:{sky:'#d4abc1',floor:'#d6b899',base:'#936f69'},mine:{sky:'#182b46',floor:'#344960',base:'#1d3043'},castle:{sky:'#b7d7df',floor:'#d8d2b2',base:'#9da495'}};
 type Builders={box:(x:number,y:number,z:number,w:number,h:number,d:number,c:string,p?:T.Object3D)=>T.Mesh;cylinder:(x:number,y:number,z:number,r:number,h:number,c:string,p?:T.Object3D)=>T.Mesh;cone:(x:number,y:number,z:number,r:number,h:number,c:string,p?:T.Object3D)=>T.Mesh;shape:(g:T.BufferGeometry,c:string,x:number,y:number,z:number,p?:T.Object3D)=>T.Mesh};
 export function buildRegion(scene:T.Scene,place:Region,{box,cylinder,cone,shape}:Builders){
  const moving:T.Object3D[]=[];
- if(place==='market'){
+ if(['railway','orchard','reef'].includes(place)){
+  for(const x of [-20,20])for(const z of [-20,-8,4,16]){
+   if(place==='orchard'){cylinder(x,2,z,.4,4,'#927052');shape(new T.IcosahedronGeometry(2.7),'#72aa7a',x,5,z);for(let i=0;i<4;i++)shape(new T.SphereGeometry(.4,12,8),'#e8a16d',x+Math.sin(i)*2,5,z+Math.cos(i)*2);}
+   else if(place==='reef'){for(let i=0;i<4;i++){const coral=cone(x+i*.5,1+i*.3,z,.5,2.5,['#df8db4','#a39ddd','#69c6c0'][i%3]);coral.rotation.z=(i-2)*.25;}box(x,.2,z,5,.2,6,'#60bfc8');}
+   else{for(const dx of [-.7,.7])box(x+dx,.2,z,.12,.1,12,'#e5c995');box(x,1,z,2,1.5,3,'#8baccb');cone(x,3,z,2,2,'#c38da8');}
+  }
+  for(let z=-22;z<23;z+=3)box(0,.15,z,3,.1,2.5,place==='reef'?'#b2e0d8':'#ead2ae');
+ }else if(place==='market'){
   // Stalls stay outside the movement bounds. The central plaza remains traversable.
   for(const x of [-21,21])for(const z of [-15,-3,10]){box(x,1,z,4,2,5,'#a76b58');for(const dx of [-2,2])for(const dz of [-2.5,2.5])cylinder(x+dx,2.4,z+dz,.1,4.8,'#855f51');for(let i=0;i<6;i++)box(x-2+i*.8,4.8,z,.8,.18,6,i%2?'#fff0c9':'#e88096');for(let i=0;i<4;i++)shape(new T.IcosahedronGeometry(.4),'#eac154',x-1.2+i*.8,2.5,z);}
   for(let z=-20;z<20;z+=3)box(0,.17,z,5,.12,2.8,'#e5cfa6');

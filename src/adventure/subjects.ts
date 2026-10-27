@@ -15,4 +15,4 @@ const extra:Record<Subject,Level[]>={
 };
 export function levelFor(subject:Subject,level=0):Level{if(level>=3)return {...expeditionFor(subject,level),groups:[],words:[],gateWords:[],gatePrompt:'帮助三位精灵，前往回声之门。'};return extra[subject][level-1]||{...subjects[subject],gateWords:subject==='chinese'?['小狐狸','和','小鸟','一起','看月亮']:subject==='english'?['I','can','see','a','fox']:[],gatePrompt:subject==='chinese'?'组成一句话：小狐狸和小鸟一起看月亮。':subject==='english'?'组成一句话：I can see a fox.（我能看见一只狐狸。）':'把3颗紫色和2颗金色水晶带给花门。'};}
 export function wordGroup(subject:Subject,word:string,level=0){return Math.floor(levelFor(subject,level).words.indexOf(word)/4);}
-export const levelCount=10;
+export const levelCount=13;
