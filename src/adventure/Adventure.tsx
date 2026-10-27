@@ -1,3 +1,4 @@
+import {AudioSettings} from './AudioSettings';
 import {BossAdventure} from './BossAdventure';
 import {useHero} from './useHero';
 import {Expedition} from './Expedition';
@@ -7,11 +8,11 @@ import {makeWorld,type WorldAPI,type Quality} from './world';
 import {bridgeReady,freshAdventure,gateReady,type GemColor} from './model';
 import './adventure.css';
 export function Adventure(){
- if(new URLSearchParams(location.hash.split('?')[1]).get('boss')==='1')return <BossAdventure/>;
+ if(new URLSearchParams(location.hash.split('?')[1]).get('boss')==='1')return <><AudioSettings/><BossAdventure/></>;
  const subject:Subject=location.hash.startsWith('#forest-chinese')?'chinese':location.hash.startsWith('#forest-english')?'english':'math';
  const level=Math.min(levelCount-1,Math.max(0,Math.floor(Number(new URLSearchParams(location.hash.split('?')[1]).get('level')))||0));
- if(level>=3)return <Expedition subject={subject} level={level}/>;
- return <ForestAdventure subject={subject} level={level}/>;
+ if(level>=3)return <><AudioSettings/><Expedition subject={subject} level={level}/></>;
+ return <><AudioSettings/><ForestAdventure subject={subject} level={level}/></>;
 }
 function ForestAdventure({subject,level}:{subject:Subject;level:number}){
  const theme=levelFor(subject,level);const hero=useHero();
