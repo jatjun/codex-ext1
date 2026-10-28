@@ -11,3 +11,4 @@
 .supply-actions .active-skill{display:block;width:100%;min-height:44px;font-size:12px!important;touch-action:manipulation}
 .boss-game .boss-task .artillery-title{display:block;font-size:18px;margin:0 0 8px}
 .boss-game .boss-task{overflow:auto}
+.supply-actions .wave-reward{padding:8px 0;border-top:1px solid #d7c9a6}.wave-reward h3{font-size:14px;margin:4px 0}.wave-reward p{font-size:11px;line-height:1.5}.supply-actions .wave-reward button{display:block;width:100%;min-height:44px;margin:4px 0}
