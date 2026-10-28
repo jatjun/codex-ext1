@@ -1,0 +1,4 @@
+// Deterministic rules; rendering never decides damage or cooldowns.
+export type Bomb={age:number;exploded:boolean;x:number;z:number};
+export function advanceBomb(b:Bomb,dt:number,player:{x:number;z:number},protectedPlayer=false){if(!Number.isFinite(dt)||dt<0)return {bomb:b,hit:false,done:false};const age=b.age+dt,impact=!b.exploded&&age>=1.8;return {bomb:{...b,age,exploded:b.exploded||impact},hit:impact&&!protectedPlayer&&Math.hypot(player.x-b.x,player.z-b.z)<2.2,done:age>=2.25};}
+export function throwerAction(distance:number,cooldown:number,dt:number,slow:number,camp=false){if(camp)return {direction:0,cooldown,fire:false};const scale=slow>0?.3:1,next=Math.max(0,cooldown-Math.max(0,dt)*scale),fire=distance<=11&&next===0;return {direction:distance>7?1:distance<4?-1:0,cooldown:fire?5:next,fire};}
