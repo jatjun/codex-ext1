@@ -6,3 +6,6 @@ it('拾取补给不突破上限，护盾已满不浪费点数',()=>{const s={...
 import {validEquipment} from '../src/adventure/equipment';
 it('小怪装备有独立来源，不伪造其他课程通关',()=>{expect(validEquipment({version:1,awards:['math:boss:gear']},'leaf-wand')).toBe('leaf-wand');expect(validEquipment({version:1,awards:[]},'leaf-wand')).toBe('');});
 it('技能强化增加治疗和护盾效果且保留上限',()=>{const s={...freshSupply(),hp:50,points:2};expect(skillSupply(s,'heal',3).hp).toBe(95);expect(skillSupply(s,'shield',3).shield).toBe(45);expect(skillSupply({...s,hp:90},'heal',3).hp).toBe(100);});
+
+import {atSupplyCamp} from '../src/adventure/supply-model';
+it('导师安全区覆盖补给范围但不覆盖战场，边界清楚',()=>{expect(atSupplyCamp(-10,10)).toBe(true);expect(atSupplyCamp(-10,14)).toBe(true);expect(atSupplyCamp(-10,14.5)).toBe(false);expect(atSupplyCamp(-10,5)).toBe(false);});
