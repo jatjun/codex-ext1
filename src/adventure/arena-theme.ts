@@ -1,0 +1,4 @@
+export const arenas={forest:{name:'萤光森林',ambient:2.5,direct:3,sky:'#23384f',floor:'#628d7c',top:'#fff1cf',bottom:'#475e74',sun:'#ffe0a8',body:'#836b79',head:'#9e8aa9'},mine:{name:'星晶矿洞',ambient:2.5,direct:3,sky:'#17203c',floor:'#4e4b70',top:'#c2ebff',bottom:'#57427b',sun:'#d5c3ff',body:'#665b8b',head:'#9284c5'},snow:{name:'极光雪原',ambient:1.7,direct:1.6,sky:'#afd6ed',floor:'#9ab9ca',top:'#ffffff',bottom:'#718cb8',sun:'#fff1db',body:'#7d9fb3',head:'#b6d9de'}} as const;
+export type Arena=keyof typeof arenas;
+export function readArena(value:string|null|undefined):Arena{return value==='mine'||value==='snow'?value:'forest';}
+export function arenaHash(hash:string,value:string){const [path,query]=hash.split('?'),params=new URLSearchParams(query);params.set('arena',readArena(value));return `${path||'#forest'}?${params}`;}
