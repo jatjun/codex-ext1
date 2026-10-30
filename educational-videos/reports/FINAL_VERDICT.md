@@ -6,7 +6,7 @@
 |数学|MATH_PASS|独立数量/相对面复核、math-check.log、成片关键帧|
 |渲染|RENDER_PASS|3个真实MP4，validation.json，逐片probe与完整解码|
 |教学|TEACHING_REVIEW_PENDING|TEACHING_REVIEW.md 人工清单；未声称儿童掌握|
-|交付|见最终回复的远端核验|独立分支链接及最终提交SHA|
+|交付|DELIVERY_PASS|remote-delivery.json；远端三片大小及blob SHA与本地一致|
 
 所有成片72秒，1080×1920，30fps，H.264 Baseline/yuv420p，faststart，无旁白。未调用付费API或新增依赖。iPhone Safari实际设备未测。
 

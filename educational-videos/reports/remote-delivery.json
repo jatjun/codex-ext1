@@ -1,0 +1,9 @@
+{
+  "verified_video_commit": "bb312b60390273782a4222d862ac8576fb61aee4",
+  "verification": "GitHub connector remote directory listing sizes and blob SHAs match local git blobs; ls-remote branch SHA matched; main unchanged",
+  "blobs": {
+    "views-top-view": "969444fa06692b6505e09c4baba46bcbe114d3a0",
+    "cube-opposite-face": "c3042cb691ac84cc0f5a1f81bbf401c12374dc52",
+    "yogurt-word-problem": "3e7736dd4e813d57f1a91c3254ce4cc0106a5bca"
+  }
+}
