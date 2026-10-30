@@ -1,0 +1,32 @@
+bus RENDERED
+beads RENDERED
+books RENDERED
+rabbits RENDERED
+notebooks RENDERED
+towels RENDERED
+groups RENDERED
+bread RENDERED
+distance RENDERED
+band RENDERED
+peaches RENDERED
+equal-groups RENDERED
+Traceback (most recent call last):
+  File "/workspace/edu-video-batch02/educational-videos/batch-02/scripts/render.py", line 250, in <module>
+    for i in range(1920):proc.stdin.write(frame(k,i/30).tobytes())
+                                          ^^^^^^^^^^^^^
+  File "/workspace/edu-video-batch02/educational-videos/batch-02/scripts/render.py", line 237, in frame
+    stage=min(7,int(t//8));p=PLAN[k];im=base(k,stage,t>=60).copy();d=ImageDraw.Draw(im)
+                                        ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/edu-video-batch02/educational-videos/batch-02/scripts/render.py", line 73, in base
+    txt(d,p['title'],40,77,27)
+  File "/workspace/edu-video-batch02/educational-videos/batch-02/scripts/render.py", line 20, in txt
+    d.text((xx,yy),line,font=font(n),fill=col)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/ImageDraw.py", line 647, in text
+    draw_text(ink)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/ImageDraw.py", line 591, in draw_text
+    mask, offset = image_text.font.getmask2(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/ImageFont.py", line 653, in getmask2
+    return self.font.render(
+           ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

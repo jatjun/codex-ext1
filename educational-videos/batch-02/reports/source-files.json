@@ -1,0 +1,46 @@
+[
+  {
+    "path": "src/lessons/mixed.ts",
+    "sha256": "d0c0696ea3c9bf98b220364f6dda4bbff7d41b513fbe61cb35a8d7bba661b256"
+  },
+  {
+    "path": "src/adventure/expedition-model.ts",
+    "sha256": "1098485468505f1f304ceeec013c38d1863545d2c07d232dfa26d4485eaacf5a"
+  },
+  {
+    "path": "src/adventure/campaign.ts",
+    "sha256": "ca87b6f1b90b405a8cc32acc8ae4be47ccbff611e5d5ed761761063f8836fc57"
+  },
+  {
+    "path": "src/adventure/RouteGame.tsx",
+    "sha256": "37233a0976181f419f86d82953d82114636939690bd59f3cf81d518400e6ebb7"
+  },
+  {
+    "path": "src/lessons/practice.ts",
+    "sha256": "02001838a98cb67892d3b819183d66f95e7c7ed0aa92fe7f1c514b11d1c9be43"
+  },
+  {
+    "path": "src/adventure/Academy.tsx",
+    "sha256": "2fa09dd674eb46ed74590662b68734baa7bce5769ee996568507638bbef598fe"
+  },
+  {
+    "path": "src/adventure/subjects.ts",
+    "sha256": "30be1d44027ba0ad36ba084f747e43a506d9f48c5829e417fb2128cb04729474"
+  },
+  {
+    "path": "src/adventure/combat-questions.ts",
+    "sha256": "42f063ff44d133bc9ba1d1671d25f78623028f2f016711762e2fbf3c105b1906"
+  },
+  {
+    "path": "src/adventure/model.ts",
+    "sha256": "40ac2340f2588602f03d3b3e0ce604e5538735f965f16a27bd36a2d9aa8032d3"
+  },
+  {
+    "path": "src/adventure/story-model.ts",
+    "sha256": "b3f560f57f911d39cbbec9423b614e151556f6b10f775956f4683f2c3984b1c2"
+  },
+  {
+    "path": "src/lessons/data.ts",
+    "sha256": "840c738def3b9ab496d68c0065d071d0a764d2c88547c4c84f13d715ebb9eaba"
+  }
+]

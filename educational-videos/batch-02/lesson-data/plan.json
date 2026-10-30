@@ -1,0 +1,1088 @@
+[
+  {
+    "slug": "bus",
+    "title": "公交车：先下车，再上车",
+    "subject": "数学",
+    "source_file": "src/lessons/practice.ts",
+    "source_id": "bus",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "bus",
+    "nums": [
+      24,
+      13,
+      18
+    ],
+    "question": "公交车原有24人，下车13人，上车18人，现在有多少人？",
+    "answer": "29",
+    "transfer": "迁移：80本书卖25本、再卖38本，剩几本？",
+    "transfer_answer": "17本",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "公交车原有24人，下车13人，上车18人，现在有多少人？",
+      "先暂停想一想：你会怎样做？",
+      "先看下车：从24人中去掉13人。",
+      "24－13＝11，还剩11人。",
+      "再把上车的18人加入：11＋18＝29。",
+      "验证：24－13＋18＝29人。",
+      "迁移：80本书卖25本、再卖38本，剩几本？"
+    ],
+    "summary": "先说出理由，再独立试一题。",
+    "original": {
+      "id": "bus",
+      "page": 6,
+      "text": "公交车原有24人，下车13人，上车18人，现在有多少人？",
+      "formula": "24－13＋18＝11＋18＝29",
+      "answer": "29",
+      "hint": "先求下车后剩多少人，再加上新上车的人。",
+      "explanation": "24－13＝11，11＋18＝29（人）。",
+      "options": []
+    }
+  },
+  {
+    "slug": "beads",
+    "title": "串珠：先算条数，再比较",
+    "subject": "数学",
+    "source_file": "src/lessons/practice.ts",
+    "source_id": "beads",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "beads",
+    "nums": [
+      72,
+      56,
+      8
+    ],
+    "question": "红珠72颗，黄珠56颗，每8颗同色珠串一条。红珠比黄珠多串几条？",
+    "answer": "2",
+    "transfer": "迁移：5元面包与3元面包各买3个，差几元？",
+    "transfer_answer": "6元",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "红珠72颗，黄珠56颗，每8颗同色珠串一条。红珠比黄珠多串几条？",
+      "先暂停想一想：你会怎样做？",
+      "每8颗串一条。红珠72÷8＝9条。",
+      "黄珠56÷8＝7条。每格表示一条。",
+      "把9条和7条对齐，多出2条。",
+      "验证：9－7＝2条。16是颗数，不是条数。",
+      "迁移：5元面包与3元面包各买3个，差几元？"
+    ],
+    "summary": "先说出理由，再独立试一题。",
+    "original": {
+      "id": "beads",
+      "page": 14,
+      "text": "红珠72颗，黄珠56颗，每8颗同色珠串一条。红珠比黄珠多串几条？",
+      "formula": "72÷8－56÷8＝9－7＝2",
+      "answer": "2",
+      "hint": "先分别求出两种珠子能串几条，再比较。",
+      "explanation": "红9条、黄7条，多2条；也可(72－56)÷8＝2。16是多的颗数，不是条数。",
+      "options": []
+    }
+  },
+  {
+    "slug": "books",
+    "title": "剩下几本书：先合并已卖数量",
+    "subject": "数学",
+    "source_file": "src/lessons/practice.ts",
+    "source_id": "books",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "books",
+    "nums": [
+      80,
+      25,
+      38
+    ],
+    "question": "书店进80本书，上周卖25本，本周卖38本，还剩多少本？",
+    "answer": "17",
+    "transfer": "迁移：96张纸，剪14张和15张，剩几张？",
+    "transfer_answer": "67张",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "书店进80本书，上周卖25本，本周卖38本，还剩多少本？",
+      "先暂停想一想：你会怎样做？",
+      "把两周卖出的数量合起来：25＋38。",
+      "25＋38＝63，两周共卖63本。",
+      "从80本里去掉63本：80－63＝17。",
+      "验证：63＋17＝80本。",
+      "迁移：96张纸，剪14张和15张，剩几张？"
+    ],
+    "summary": "先说出理由，再独立试一题。",
+    "original": {
+      "id": "books",
+      "page": 15,
+      "text": "书店进80本书，上周卖25本，本周卖38本，还剩多少本？",
+      "formula": "80－(25＋38)＝80－63＝17",
+      "answer": "17",
+      "hint": "两周卖掉的都要从总数扣除。",
+      "explanation": "25＋38＝63，80－63＝17（本）。",
+      "options": []
+    }
+  },
+  {
+    "slug": "rabbits",
+    "title": "兔子进笼：先求总数，再平均分",
+    "subject": "数学",
+    "source_file": "src/lessons/practice.ts",
+    "source_id": "rabbits",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "combine-average",
+    "nums": [
+      13,
+      11,
+      8
+    ],
+    "question": "原有13只兔子，又买11只，平均放进8个笼子，每笼几只？",
+    "answer": "3",
+    "transfer": "迁移：18个和12个桃子，每盒6个，几盒？",
+    "transfer_answer": "5盒",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "原有13只兔子，又买11只，平均放进8个笼子，每笼几只？",
+      "先暂停想一想：你会怎样做？",
+      "先合并兔子：13＋11＝24只。",
+      "分给8个笼子，每个笼子一样多。",
+      "24÷8＝3，每笼3只。",
+      "验证：8×3＝24只，全部分完。",
+      "迁移：18个和12个桃子，每盒6个，几盒？"
+    ],
+    "summary": "先说出理由，再独立试一题。",
+    "original": {
+      "id": "rabbits",
+      "page": 15,
+      "text": "原有13只兔子，又买11只，平均放进8个笼子，每笼几只？",
+      "formula": "(13＋11)÷8＝24÷8＝3",
+      "answer": "3",
+      "hint": "先确定要分的兔子总数。",
+      "explanation": "13＋11＝24，24÷8＝3（只）。",
+      "options": []
+    }
+  },
+  {
+    "slug": "notebooks",
+    "title": "购物：先扣铅笔钱，再求每本价钱",
+    "subject": "数学",
+    "source_file": "src/lessons/practice.ts",
+    "source_id": "notebooks",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "notebooks",
+    "nums": [
+      19,
+      3,
+      4
+    ],
+    "question": "1支自动铅笔3元，4本同价笔记本，合计19元。每本笔记本几元？",
+    "answer": "4",
+    "transfer": "迁移：毛巾12元，每条便宜3元，买3条几元？",
+    "transfer_answer": "27元",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "1支自动铅笔3元，4本同价笔记本，合计19元。每本笔记本几元？",
+      "先暂停想一想：你会怎样做？",
+      "19元里含铅笔钱和4本笔记本的钱。",
+      "先扣铅笔3元：19－3＝16元。",
+      "16元平均分成4份：16÷4＝4。",
+      "验证：4×4＋3＝19元，每本4元。",
+      "迁移：毛巾12元，每条便宜3元，买3条几元？"
+    ],
+    "summary": "先说出理由，再独立试一题。",
+    "original": {
+      "id": "notebooks",
+      "page": 15,
+      "text": "1支自动铅笔3元，4本同价笔记本，合计19元。每本笔记本几元？",
+      "formula": "(19－3)÷4＝16÷4＝4",
+      "answer": "4",
+      "hint": "先扣除铅笔的钱，剩下的才是4本笔记本的钱。",
+      "explanation": "19－3＝16，16÷4＝4（元）。",
+      "options": []
+    }
+  },
+  {
+    "slug": "towels",
+    "title": "毛巾降价：每条便宜，再买三条",
+    "subject": "数学",
+    "source_file": "src/lessons/practice.ts",
+    "source_id": "towels",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "towels",
+    "nums": [
+      12,
+      3,
+      3
+    ],
+    "question": "毛巾原价每条12元，每条便宜3元，买3条需几元？",
+    "answer": "27",
+    "transfer": "迁移：小明8朵，小红少3朵，小军是小红2倍，几朵？",
+    "transfer_answer": "10朵",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "毛巾原价每条12元，每条便宜3元，买3条需几元？",
+      "先暂停想一想：你会怎样做？",
+      "先看一条：12元减3元。",
+      "12－3＝9，每条现在9元。",
+      "这样的价格有3份：9×3＝27元。",
+      "验证：(12－3)×3＝27元。",
+      "迁移：小明8朵，小红少3朵，小军是小红2倍，几朵？"
+    ],
+    "summary": "先说出理由，再独立试一题。",
+    "original": {
+      "id": "towels",
+      "page": 15,
+      "text": "毛巾原价每条12元，每条便宜3元，买3条需几元？",
+      "formula": "(12－3)×3＝9×3＝27",
+      "answer": "27",
+      "hint": "每一条都便宜3元，先求新单价。",
+      "explanation": "12－3＝9，9×3＝27（元）。",
+      "options": []
+    }
+  },
+  {
+    "slug": "groups",
+    "title": "学习小组：男生女生一起分",
+    "subject": "数学",
+    "source_file": "src/lessons/practice.ts",
+    "source_id": "groups",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "combine-divide",
+    "nums": [
+      16,
+      20,
+      4
+    ],
+    "question": "男生16人，女生20人，每4人一个学习小组，共几组？",
+    "answer": "9",
+    "transfer": "迁移：两篮25个和15个桃子，每盒8个，几盒？",
+    "transfer_answer": "5盒",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "男生16人，女生20人，每4人一个学习小组，共几组？",
+      "先暂停想一想：你会怎样做？",
+      "所有学生都要分组：16＋20＝36人。",
+      "每4人圈成一组，不能漏掉女生。",
+      "36÷4＝9，一共9组。",
+      "验证：9×4＝36人，全部分完。",
+      "迁移：两篮25个和15个桃子，每盒8个，几盒？"
+    ],
+    "summary": "先说出理由，再独立试一题。",
+    "original": {
+      "id": "groups",
+      "page": 16,
+      "text": "男生16人，女生20人，每4人一个学习小组，共几组？",
+      "formula": "(16＋20)÷4＝36÷4＝9",
+      "answer": "9",
+      "hint": "男生和女生都要分组。",
+      "explanation": "16＋20＝36，36÷4＝9（组）。",
+      "options": []
+    }
+  },
+  {
+    "slug": "bread",
+    "title": "面包价差：每个多2元，三个多多少",
+    "subject": "数学",
+    "source_file": "src/lessons/practice.ts",
+    "source_id": "bread",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "bread",
+    "nums": [
+      5,
+      3,
+      3
+    ],
+    "question": "买3个每个5元的面包，比买3个每个3元的面包多花几元？",
+    "answer": "6",
+    "transfer": "迁移：每条12元毛巾便宜3元，买3条几元？",
+    "transfer_answer": "27元",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "买3个每个5元的面包，比买3个每个3元的面包多花几元？",
+      "先暂停想一想：你会怎样做？",
+      "先比一个面包：5－3＝2元。",
+      "每个多2元，这样的差共有3份。",
+      "2×3＝6，三个面包多花6元。",
+      "验证：5×3－3×3＝15－9＝6元。",
+      "迁移：每条12元毛巾便宜3元，买3条几元？"
+    ],
+    "summary": "先说出理由，再独立试一题。",
+    "original": {
+      "id": "bread",
+      "page": 17,
+      "text": "买3个每个5元的面包，比买3个每个3元的面包多花几元？",
+      "formula": "(5－3)×3＝2×3＝6",
+      "answer": "6",
+      "hint": "每个贵多少？这样的差有几份？",
+      "explanation": "每个多2元，3个多6元。也可5×3－3×3。",
+      "options": []
+    }
+  },
+  {
+    "slug": "distance",
+    "title": "走到中点：为什么还要乘2",
+    "subject": "数学",
+    "source_file": "src/lessons/practice.ts",
+    "source_id": "distance",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "distance",
+    "nums": [
+      300,
+      150,
+      2
+    ],
+    "question": "走了300米，再走150米到家与学校的中点，全程多少米？",
+    "answer": "900",
+    "transfer": "迁移：每组4颗水晶，3组一共几颗？",
+    "transfer_answer": "12颗",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "走了300米，再走150米到家与学校的中点，全程多少米？",
+      "先暂停想一想：你会怎样做？",
+      "先把已经走的两段合起来。",
+      "300＋150＝450米，这才到中点。",
+      "全程有两段450米：450×2＝900米。",
+      "验证：900的一半是450米。",
+      "迁移：每组4颗水晶，3组一共几颗？"
+    ],
+    "summary": "先说出理由，再独立试一题。",
+    "original": {
+      "id": "distance",
+      "page": 17,
+      "text": "走了300米，再走150米到家与学校的中点，全程多少米？",
+      "formula": "(300＋150)×2＝450×2＝900",
+      "answer": "900",
+      "hint": "到中点只走完全程的一半。",
+      "explanation": "到中点450米，全程是它的2倍，共900米。",
+      "options": []
+    }
+  },
+  {
+    "slug": "band",
+    "title": "鼓号队：先算鼓手，再找号手",
+    "subject": "数学",
+    "source_file": "src/lessons/practice.ts",
+    "source_id": "band",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "band",
+    "nums": [
+      81,
+      6,
+      9
+    ],
+    "question": "鼓号队81人，鼓手排6行，每行9人，其余是号手。号手多少人？",
+    "answer": "27",
+    "transfer": "迁移：30枚金币买3袋种子，每袋6枚，还剩几枚？",
+    "transfer_answer": "12枚",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "鼓号队81人，鼓手排6行，每行9人，其余是号手。号手多少人？",
+      "先暂停想一想：你会怎样做？",
+      "先看鼓手：6行，每行9人。",
+      "6×9＝54，鼓手共54人。",
+      "总人数81减去鼓手54：81－54＝27。",
+      "验证：54＋27＝81，号手27人。",
+      "迁移：30枚金币买3袋种子，每袋6枚，还剩几枚？"
+    ],
+    "summary": "先说出理由，再独立试一题。",
+    "original": {
+      "id": "band",
+      "page": 19,
+      "text": "鼓号队81人，鼓手排6行，每行9人，其余是号手。号手多少人？",
+      "formula": "81－6×9＝81－54＝27",
+      "answer": "27",
+      "hint": "先求鼓手人数，再从总人数扣除。",
+      "explanation": "6×9＝54，81－54＝27（人）。",
+      "options": []
+    }
+  },
+  {
+    "slug": "peaches",
+    "title": "桃子装盒：括号把两篮放在一起",
+    "subject": "数学",
+    "source_file": "src/lessons/mixed.ts",
+    "source_id": "peaches-key / peaches-total",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "combine-divide",
+    "nums": [
+      25,
+      15,
+      8
+    ],
+    "question": "哪一个算式表示“两篮合起来，再按每盒8个装”？",
+    "answer": "(25＋15)÷8",
+    "transfer": "迁移：18个和12个桃子，每盒6个，几盒？",
+    "transfer_answer": "5盒",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "哪一个算式表示“两篮合起来，再按每盒8个装”？",
+      "先暂停想一想：你会怎样做？",
+      "先合两篮：25＋15＝40个。",
+      "括号表示两篮的总数：(25＋15)。",
+      "40个按每盒8个分组，得到5盒。",
+      "验证：(25＋15)÷8＝5盒，5×8＝40。",
+      "迁移：18个和12个桃子，每盒6个，几盒？"
+    ],
+    "summary": "先说出理由，再独立试一题。",
+    "original": {
+      "id": "peaches",
+      "title": "桃子装盒，括号帮忙",
+      "tag": "混合运算 · 教材第 8 页",
+      "description": "两篮桃子合在一起，每盒8个。括号为什么不能少？",
+      "steps": [
+        "第一篮25个桃子，第二篮15个。每盒装8个，一共能装几盒？颜色表示来自哪一篮。",
+        "点播放，把两篮桃子合在一起。25＋15＝40个，移动时总数保持40。",
+        "要让两篮的总数一起除以8，应该怎样列式？",
+        "括号让25＋15先算。再把40个桃子按每盒8个分组，得到5盒：(25＋15)÷8＝5。",
+        "换数字独立试一试，再用括号解决两步应用题。"
+      ],
+      "questions": [
+        {
+          "id": "peaches-key",
+          "text": "哪一个算式表示“两篮合起来，再按每盒8个装”？",
+          "options": [
+            "(25＋15)÷8",
+            "25＋15÷8",
+            "25＋15×8"
+          ],
+          "answer": "(25＋15)÷8",
+          "hint": "要让加法先算，给“总数”加一个括号。",
+          "explanation": "(25＋15)÷8＝40÷8＝5（盒）。括号里的总数才是被分的数量。",
+          "errors": {
+            "25＋15÷8": "这个写法会先算15÷8，没有把第一篮一起分。",
+            "25＋15×8": "每盒8个是在把总数分组，不是把第二篮变成8倍。"
+          }
+        },
+        {
+          "id": "peaches-total",
+          "text": "分步计算：两篮共40个，每盒8个，能装几盒？",
+          "options": [
+            "5",
+            "8",
+            "40"
+          ],
+          "answer": "5",
+          "hint": "数一数需要几个8，才是40。",
+          "explanation": "40÷8＝5（盒）；检查：5×8＝40（个）。"
+        },
+        {
+          "id": "peaches-practice",
+          "text": "独立练习：两篮分别18个、12个，每盒6个，能装几盒？",
+          "options": [
+            "5",
+            "20",
+            "6"
+          ],
+          "answer": "5",
+          "hint": "先算两篮一共有多少个。",
+          "explanation": "(18＋12)÷6＝30÷6＝5（盒）。"
+        },
+        {
+          "id": "peaches-transfer",
+          "text": "迁移：54＋9＝63，63÷7＝9。合成一个算式是？",
+          "options": [
+            "(54＋9)÷7",
+            "54＋9÷7"
+          ],
+          "answer": "(54＋9)÷7",
+          "hint": "第二步除的是第一步的整个结果。",
+          "explanation": "(54＋9)÷7，括号保留了先求和再除的顺序。"
+        },
+        {
+          "id": "paper-first",
+          "text": "剪窗花：共96张，第一天14张，第二天15张。先求两天共剪多少张？",
+          "options": [
+            "29",
+            "82",
+            "67"
+          ],
+          "answer": "29",
+          "hint": "这一步只合并两天已剪的数量。",
+          "explanation": "14＋15＝29（张）。"
+        },
+        {
+          "id": "paper-left",
+          "text": "接着想：共96张，两天剪了29张，还剩多少张？",
+          "options": [
+            "67",
+            "111",
+            "29"
+          ],
+          "answer": "67",
+          "hint": "剩下的＝总数－已经剪的。",
+          "explanation": "96－(14＋15)＝96－29＝67（张），也可按天连续减。"
+        },
+        {
+          "id": "flowers-first",
+          "text": "做纸花：小明8朵，小红比他少3朵。小红做了多少朵？",
+          "options": [
+            "5",
+            "11",
+            "3"
+          ],
+          "answer": "5",
+          "hint": "“少3朵”是从8里去掉3。",
+          "explanation": "8－3＝5（朵）。"
+        },
+        {
+          "id": "flowers-double",
+          "text": "小军做的是小红的2倍。小红5朵，小军多少朵？",
+          "options": [
+            "10",
+            "16",
+            "7"
+          ],
+          "answer": "10",
+          "hint": "2倍表示两个小红做的数量。",
+          "explanation": "(8－3)×2＝5×2＝10（朵），不是小明的2倍。"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "equal-groups",
+    "title": "晶桥水晶：三组一样多",
+    "subject": "数学",
+    "source_file": "src/adventure/model.ts",
+    "source_id": "level=0 / bridgeReady / deposit",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "equal-groups",
+    "nums": [
+      3,
+      4
+    ],
+    "question": "每组4颗水晶，3组一共多少颗？",
+    "answer": "12颗",
+    "transfer": "迁移：给炼金锅放2组星果，每组2个，共几个？",
+    "transfer_answer": "4个",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "每组4颗水晶，3组一共多少颗？",
+      "先暂停想一想：你会怎样做？",
+      "先给第一组放4颗水晶。",
+      "每组都放4颗，共3组。",
+      "4＋4＋4＝12，也可写3×4＝12。",
+      "验证：3组，每组4颗，共12颗。",
+      "迁移：给炼金锅放2组星果，每组2个，共几个？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "average",
+    "title": "平均分点心：每人必须一样多",
+    "subject": "数学",
+    "source_file": "src/adventure/Academy.tsx",
+    "source_id": "paths.数学[4]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "average",
+    "nums": [
+      6,
+      3
+    ],
+    "question": "6块点心平均分给3人，每人几块？",
+    "answer": "每人2块",
+    "transfer": "迁移：6块点心平均分给2人，每人几块？",
+    "transfer_answer": "每人3块",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "6块点心平均分给3人，每人几块？",
+      "先暂停想一想：你会怎样做？",
+      "先拿出6块点心，准备分给3人。",
+      "依次给每人1块，再给每人1块。",
+      "每人2块：6÷3＝2。",
+      "验证：3人×2块＝6块，没有剩下。",
+      "迁移：6块点心平均分给2人，每人几块？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "clock",
+    "title": "整点钟面：先看长针，再看短针",
+    "subject": "数学",
+    "source_file": "src/adventure/Academy.tsx",
+    "source_id": "paths.数学[6]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "clock",
+    "nums": [
+      3,
+      6
+    ],
+    "question": "观察钟面：时针指3、分针指12，是几时？",
+    "answer": "3时",
+    "transfer": "迁移：时针指6、分针指12，是几时？",
+    "transfer_answer": "6时",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "观察钟面：时针指3、分针指12，是几时？",
+      "先暂停想一想：你会怎样做？",
+      "整点时，长的分针指向12。",
+      "短的时针指向3，读作3时。",
+      "换一个钟：分针仍在12，时针指6。",
+      "验证：这个钟读6时。长短两针要分清。",
+      "迁移：时针指6、分针指12，是几时？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "patterns",
+    "title": "找规律：每次增加2",
+    "subject": "数学",
+    "source_file": "src/adventure/subjects.ts",
+    "source_id": "math level=2 / gateWords",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "patterns",
+    "nums": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "question": "2、4、6、8，接下来是多少？",
+    "answer": "10",
+    "transfer": "迁移：1、2、3、4，接下来是多少？",
+    "transfer_answer": "5",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "2、4、6、8，接下来是多少？",
+      "先暂停想一想：你会怎样做？",
+      "先比2和4：多了2。",
+      "4到6、6到8，也都是多2。",
+      "下一步8＋2＝10。每次增加2。",
+      "验证：2、4、6、8、10。",
+      "迁移：1、2、3、4，接下来是多少？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "cargo-route",
+    "title": "货物运输：装货加，卸货减",
+    "subject": "数学",
+    "source_file": "src/adventure/RouteGame.tsx",
+    "source_id": "routePuzzle(math,10,0)",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "cargo",
+    "nums": [
+      10,
+      4,
+      3,
+      2
+    ],
+    "question": "10箱货物，装4箱、卸3箱、再装2箱，最后几箱？",
+    "answer": "13箱",
+    "transfer": "迁移：从12箱出发，同样装4、卸3、装2，几箱？",
+    "transfer_answer": "15箱",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "10箱货物，装4箱、卸3箱、再装2箱，最后几箱？",
+      "先暂停想一想：你会怎样做？",
+      "起点10箱，装4箱：10＋4＝14。",
+      "送出3箱：14－3＝11。",
+      "最后装2箱：11＋2＝13箱。",
+      "验证：10＋4－3＋2＝13箱。",
+      "迁移：从12箱出发，同样装4、卸3、装2，几箱？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "chinese-words",
+    "title": "识字：把树、水、日、月送回家",
+    "subject": "语文",
+    "source_file": "src/adventure/Academy.tsx",
+    "source_id": "paths.语文[0,1,2]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "words",
+    "nums": [
+      "树",
+      "水",
+      "日",
+      "月"
+    ],
+    "question": "看看图：哪一张卡表示树？",
+    "answer": "树",
+    "transfer": "迁移：苹果和梨，分别是哪一种水果？",
+    "transfer_answer": "指认苹果、梨",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "看看图：哪一张卡表示树？",
+      "先暂停想一想：你会怎样做？",
+      "先看树干和树冠，把“树”送到树旁。",
+      "流动的水，对应“水”。",
+      "太阳对应“日”，月亮对应“月”。",
+      "验证：图和字一一对应，再自己指认。",
+      "迁移：苹果和梨，分别是哪一种水果？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "chinese-measure",
+    "title": "量词：一本书、一只鸟、一朵花",
+    "subject": "语文",
+    "source_file": "src/adventure/expedition-model.ts",
+    "source_id": "chinese level=4 encounters",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "measure",
+    "nums": [
+      "一本书",
+      "一只小鸟",
+      "一朵花"
+    ],
+    "question": "一 □ 书，应该填哪个字？",
+    "answer": "本",
+    "transfer": "迁移：一 □ 鱼，应该填哪个字？",
+    "transfer_answer": "条",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "一 □ 书，应该填哪个字？",
+      "先暂停想一想：你会怎样做？",
+      "书用“本”：一本书。",
+      "小鸟用“只”：一只小鸟。",
+      "花用“朵”：一朵花。",
+      "验证：量词要和具体物品搭配。",
+      "迁移：一 □ 鱼，应该填哪个字？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "chinese-opposites",
+    "title": "反义词：看见相反的意思",
+    "subject": "语文",
+    "source_file": "src/adventure/expedition-model.ts",
+    "source_id": "chinese level=3 encounters",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "opposites",
+    "nums": [
+      "大",
+      "小",
+      "长",
+      "短",
+      "高",
+      "低"
+    ],
+    "question": "“大”的反义词是什么？",
+    "answer": "小",
+    "transfer": "迁移：“多”的反义词是什么？",
+    "transfer_answer": "少",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "“大”的反义词是什么？",
+      "先暂停想一想：你会怎样做？",
+      "同样的形状，一大一小。",
+      "把两条线对齐，一长一短。",
+      "看两根柱子，一高一低。",
+      "验证：大—小、长—短、高—低。",
+      "迁移：“多”的反义词是什么？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "chinese-sentence",
+    "title": "整理句子：谁，在哪里，做什么",
+    "subject": "语文",
+    "source_file": "src/adventure/campaign.ts",
+    "source_id": "trialsFor(chinese,5)[0]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "sentence",
+    "nums": [
+      "小狐狸",
+      "在",
+      "森林里",
+      "看书"
+    ],
+    "question": "把词卡排成句子：小狐狸 / 在 / 森林里 / 看书。",
+    "answer": "小狐狸在森林里看书。",
+    "transfer": "迁移：小鸟 / 在 / 天空中 / 飞翔，怎样排？",
+    "transfer_answer": "小鸟在天空中飞翔。",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "把词卡排成句子：小狐狸 / 在 / 森林里 / 看书。",
+      "先暂停想一想：你会怎样做？",
+      "先找“谁”：小狐狸。",
+      "接着说“在森林里”，说明地点。",
+      "最后接上“看书”，说明做什么。",
+      "验证：小狐狸在森林里看书。",
+      "迁移：小鸟 / 在 / 天空中 / 飞翔，怎样排？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "chinese-sequence",
+    "title": "先、再、最后：把做事顺序排清楚",
+    "subject": "语文",
+    "source_file": "src/adventure/RouteGame.tsx",
+    "source_id": "routePuzzle(chinese,10,0)",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "sentence",
+    "nums": [
+      "先洗手",
+      "再吃饭",
+      "最后收碗"
+    ],
+    "question": "洗手、吃饭、收碗，怎样排顺序？",
+    "answer": "先洗手，再吃饭，最后收碗。",
+    "transfer": "迁移：挖坑、播种、浇水，怎样排？",
+    "transfer_answer": "先挖坑，再播种，最后浇水。",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "洗手、吃饭、收碗，怎样排顺序？",
+      "先暂停想一想：你会怎样做？",
+      "第一站：先洗手。",
+      "第二站：再吃饭。",
+      "第三站：最后收碗。",
+      "验证：用先、再、最后说清楚顺序。",
+      "迁移：挖坑、播种、浇水，怎样排？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "english-words",
+    "title": "看图认词：fox、cat、apple、banana",
+    "subject": "英语",
+    "source_file": "src/adventure/Academy.tsx",
+    "source_id": "paths.英语[0,2]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "english-words",
+    "nums": [
+      "fox",
+      "cat",
+      "apple",
+      "banana"
+    ],
+    "question": "哪张词卡表示狐狸？",
+    "answer": "fox",
+    "transfer": "迁移：tree和water分别表示什么？",
+    "transfer_answer": "树和水",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "哪张词卡表示狐狸？",
+      "先暂停想一想：你会怎样做？",
+      "先看狐狸的尾巴，把fox送给狐狸。",
+      "cat对应小猫，注意猫耳朵和胡须。",
+      "apple对应苹果，banana对应香蕉。",
+      "验证：看图后自己选词，不只记位置。",
+      "迁移：tree和water分别表示什么？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "english-colors",
+    "title": "颜色词：red和blue",
+    "subject": "英语",
+    "source_file": "src/adventure/Academy.tsx",
+    "source_id": "paths.英语[1]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "colors",
+    "nums": [
+      "red",
+      "blue"
+    ],
+    "question": "红色对应red还是blue？",
+    "answer": "red",
+    "transfer": "迁移：green对应什么颜色？",
+    "transfer_answer": "绿色",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "红色对应red还是blue？",
+      "先暂停想一想：你会怎样做？",
+      "先观察红色物体，再配上red。",
+      "换成蓝色，配上blue。",
+      "看清颜色，再找对应词卡。",
+      "验证：red红色，blue蓝色。",
+      "迁移：green对应什么颜色？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "english-numbers",
+    "title": "数字词：two和three",
+    "subject": "英语",
+    "source_file": "src/adventure/Academy.tsx",
+    "source_id": "paths.英语[3]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "numbers",
+    "nums": [
+      "two",
+      "three"
+    ],
+    "question": "两颗星星应配哪张词卡？",
+    "answer": "two",
+    "transfer": "迁移：三颗星星，应该选two还是three？",
+    "transfer_answer": "three",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "两颗星星应配哪张词卡？",
+      "先暂停想一想：你会怎样做？",
+      "一颗一颗数，先看到两颗。",
+      "两颗配two，不把字母数当星星数。",
+      "再加入一颗，三颗配three。",
+      "验证：two是2，three是3。",
+      "迁移：三颗星星，应该选two还是three？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "english-weather",
+    "title": "天气词：sunny和rainy",
+    "subject": "英语",
+    "source_file": "src/adventure/Academy.tsx",
+    "source_id": "paths.英语[4]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "weather",
+    "nums": [
+      "sunny",
+      "rainy"
+    ],
+    "question": "晴天应配哪张词卡？",
+    "answer": "sunny",
+    "transfer": "迁移：窗外正在下雨，选sunny还是rainy？",
+    "transfer_answer": "rainy",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "晴天应配哪张词卡？",
+      "先暂停想一想：你会怎样做？",
+      "看到太阳和晴朗天空，配sunny。",
+      "云下面落下雨滴，配rainy。",
+      "不看词卡位置，根据天气来选。",
+      "验证：sunny晴朗的，rainy下雨的。",
+      "迁移：窗外正在下雨，选sunny还是rainy？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "english-body",
+    "title": "身体部位：hand和eye",
+    "subject": "英语",
+    "source_file": "src/adventure/Academy.tsx",
+    "source_id": "paths.英语[5]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "body",
+    "nums": [
+      "hand",
+      "eye"
+    ],
+    "question": "哪张词卡表示手？",
+    "answer": "hand",
+    "transfer": "迁移：指一指自己的眼睛，应选哪个词？",
+    "transfer_answer": "eye",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "哪张词卡表示手？",
+      "先暂停想一想：你会怎样做？",
+      "先伸出一只手，把hand配给它。",
+      "看看眼睛，把eye配给它。",
+      "指一指图，再找对应的词。",
+      "验证：hand手，eye眼睛。",
+      "迁移：指一指自己的眼睛，应选哪个词？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "english-actions",
+    "title": "动作词：run和swim",
+    "subject": "英语",
+    "source_file": "src/adventure/Academy.tsx",
+    "source_id": "paths.英语[6]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "actions",
+    "nums": [
+      "run",
+      "swim"
+    ],
+    "question": "跑步应该配哪个词？",
+    "answer": "run",
+    "transfer": "迁移：在水里游泳，应该选run还是swim？",
+    "transfer_answer": "swim",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "跑步应该配哪个词？",
+      "先暂停想一想：你会怎样做？",
+      "观察小人迈步向前：run，跑步。",
+      "换到水里划水前进：swim，游泳。",
+      "两个动作的场景和身体姿势不同。",
+      "验证：run跑步，swim游泳。",
+      "迁移：在水里游泳，应该选run还是swim？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "english-greetings",
+    "title": "问候：Good morning和Good night",
+    "subject": "英语",
+    "source_file": "src/adventure/Academy.tsx",
+    "source_id": "paths.英语[7]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "greetings",
+    "nums": [
+      "Good morning!",
+      "Good night!"
+    ],
+    "question": "早上见面，说哪句问候？",
+    "answer": "Good morning!",
+    "transfer": "迁移：晚上睡觉前，应该说哪一句？",
+    "transfer_answer": "Good night!",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "早上见面，说哪句问候？",
+      "先暂停想一想：你会怎样做？",
+      "早上见面，说Good morning!",
+      "晚上准备睡觉，说Good night!",
+      "先看场景，再选合适的问候语。",
+      "验证：morning早晨，night夜晚。",
+      "迁移：晚上睡觉前，应该说哪一句？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "english-sentence",
+    "title": "组句：I can see a fox",
+    "subject": "英语",
+    "source_file": "src/adventure/subjects.ts",
+    "source_id": "english level=0 / gateWords",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "sentence",
+    "nums": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "fox"
+    ],
+    "question": "把词卡排成：我能看见一只狐狸。",
+    "answer": "I can see a fox.",
+    "transfer": "迁移：I / can / see / a / rainbow，怎样排？",
+    "transfer_answer": "I can see a rainbow.",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "把词卡排成：我能看见一只狐狸。",
+      "先暂停想一想：你会怎样做？",
+      "先放I，说的是“我”。",
+      "接着can see，表示“能看见”。",
+      "再接a fox，表示“一只狐狸”。",
+      "验证：I can see a fox.",
+      "迁移：I / can / see / a / rainbow，怎样排？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  },
+  {
+    "slug": "english-spelling",
+    "title": "拼词：把s、u、n排成sun",
+    "subject": "英语",
+    "source_file": "src/adventure/campaign.ts",
+    "source_id": "trialsFor(english,5)[0]",
+    "source_commit": "5cbce17c1a7d4f36fd74d5deaf1c4f7371147ca6",
+    "model": "sentence",
+    "nums": [
+      "s",
+      "u",
+      "n"
+    ],
+    "question": "表示太阳的单词sun，字母顺序是什么？",
+    "answer": "s,u,n",
+    "transfer": "迁移：red表示红色，字母顺序是什么？",
+    "transfer_answer": "r,e,d",
+    "stages": [
+      "一起帮小伙伴解决一个问题。",
+      "表示太阳的单词sun，字母顺序是什么？",
+      "先暂停想一想：你会怎样做？",
+      "先观察太阳，再看完整单词sun。",
+      "第一个字母是s。",
+      "把u、n依次接上，组成sun。",
+      "验证：sun表示太阳，顺序是s、u、n。",
+      "迁移：red表示红色，字母顺序是什么？"
+    ],
+    "summary": "先说出理由，再独立试一题。"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "bus",
+    "source": "practice.ts/books",
+    "answer": "17本"
+  },
+  {
+    "slug": "beads",
+    "source": "practice.ts/bread",
+    "answer": "6元"
+  },
+  {
+    "slug": "books",
+    "source": "mixed.ts/paper-left",
+    "answer": "67张"
+  },
+  {
+    "slug": "rabbits",
+    "source": "mixed.ts/peaches-practice",
+    "answer": "5盒"
+  },
+  {
+    "slug": "notebooks",
+    "source": "practice.ts/towels",
+    "answer": "27元"
+  },
+  {
+    "slug": "towels",
+    "source": "mixed.ts/flowers-double",
+    "answer": "10朵"
+  },
+  {
+    "slug": "groups",
+    "source": "mixed.ts/peaches-total",
+    "answer": "5盒"
+  },
+  {
+    "slug": "bread",
+    "source": "practice.ts/towels",
+    "answer": "27元"
+  },
+  {
+    "slug": "distance",
+    "source": "adventure/model.ts/deposit(level0)",
+    "answer": "12颗"
+  },
+  {
+    "slug": "band",
+    "source": "adventure/story-model.ts/storyFor(7,0)",
+    "answer": "12枚"
+  },
+  {
+    "slug": "peaches",
+    "source": "mixed.ts/peaches-practice",
+    "answer": "5盒"
+  },
+  {
+    "slug": "equal-groups",
+    "source": "adventure/campaign.ts/trialsFor(math,5)[0]",
+    "answer": "4个"
+  },
+  {
+    "slug": "average",
+    "source": "adventure/Academy.tsx/paths.数学[4]",
+    "answer": "每人3块"
+  },
+  {
+    "slug": "clock",
+    "source": "adventure/Academy.tsx/paths.数学[6]",
+    "answer": "6时"
+  },
+  {
+    "slug": "patterns",
+    "source": "adventure/subjects.ts/math level1 gateWords",
+    "answer": "5"
+  },
+  {
+    "slug": "cargo-route",
+    "source": "adventure/RouteGame.tsx/routePuzzle(math,10,1)",
+    "answer": "15箱"
+  },
+  {
+    "slug": "chinese-words",
+    "source": "adventure/Academy.tsx/paths.语文[3]",
+    "answer": "指认苹果、梨"
+  },
+  {
+    "slug": "chinese-measure",
+    "source": "adventure/Academy.tsx/paths.语文[4]",
+    "answer": "条"
+  },
+  {
+    "slug": "chinese-opposites",
+    "source": "adventure/Academy.tsx/paths.语文[5]",
+    "answer": "少"
+  },
+  {
+    "slug": "chinese-sentence",
+    "source": "adventure/campaign.ts/trialsFor(chinese,5)[1]",
+    "answer": "小鸟在天空中飞翔。"
+  },
+  {
+    "slug": "chinese-sequence",
+    "source": "adventure/RouteGame.tsx/routePuzzle(chinese,10,1)",
+    "answer": "先挖坑，再播种，最后浇水。"
+  },
+  {
+    "slug": "english-words",
+    "source": "adventure/subjects.ts/subjects.english.words",
+    "answer": "树和水"
+  },
+  {
+    "slug": "english-colors",
+    "source": "adventure/subjects.ts/english level1 groups",
+    "answer": "绿色"
+  },
+  {
+    "slug": "english-numbers",
+    "source": "adventure/Academy.tsx/paths.英语[3]",
+    "answer": "three"
+  },
+  {
+    "slug": "english-weather",
+    "source": "adventure/Academy.tsx/paths.英语[4]",
+    "answer": "rainy"
+  },
+  {
+    "slug": "english-body",
+    "source": "adventure/Academy.tsx/paths.英语[5]",
+    "answer": "eye"
+  },
+  {
+    "slug": "english-actions",
+    "source": "adventure/Academy.tsx/paths.英语[6]",
+    "answer": "swim"
+  },
+  {
+    "slug": "english-greetings",
+    "source": "adventure/Academy.tsx/paths.英语[7]",
+    "answer": "Good night!"
+  },
+  {
+    "slug": "english-sentence",
+    "source": "adventure/subjects.ts/english level1 gateWords",
+    "answer": "I can see a rainbow."
+  },
+  {
+    "slug": "english-spelling",
+    "source": "adventure/campaign.ts/trialsFor(english,6)[0]",
+    "answer": "r,e,d"
+  }
+]
