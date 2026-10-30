@@ -1,0 +1,11 @@
+import {it,expect} from 'vitest';
+import {multiplyAdd,combineDivide,positions} from '../src/math-engine/mixed';
+import {mixedLessons} from '../src/lessons/mixed';
+import {practice} from '../src/lessons/practice';
+import {teacher} from '../src/teacher/adapter';
+it('乘加数量和变式结果正确',()=>{expect(multiplyAdd(6,3,4)).toEqual({grouped:18,total:22});expect(multiplyAdd(5,4,3).total).toBe(23);expect(multiplyAdd(8,4,25).total).toBe(57);});
+it('先合并再分组，拒绝无效或不能整分的条件',()=>{expect(combineDivide(25,15,8)).toEqual({total:40,boxes:5});expect(combineDivide(18,12,6).boxes).toBe(5);expect(()=>combineDivide(25,15,0)).toThrow();expect(()=>combineDivide(25,15,3)).toThrow();expect(()=>multiplyAdd(-1,3,4)).toThrow();});
+it('每一步物体身份数守恒、终点不重叠且在画布内',()=>{for(const kind of ['yogurt','peaches'] as const)for(let step=0;step<5;step++){const p=positions(kind,step);expect(p).toHaveLength(kind==='yogurt'?22:40);expect(new Set(p.map(v=>`${v.x},${v.y}`)).size).toBe(p.length);expect(p.every(v=>v.x>=12&&v.x<=488&&v.y>=40&&v.y<=290)).toBe(true);}});
+it('桃子最终每盒恰有8个，合并未改变来源数量',()=>{const p=positions('peaches',3);for(let box=0;box<5;box++)expect(p.filter(v=>v.x>=12+box*94&&v.x<96+box*94)).toHaveLength(8);expect(positions('peaches',0).slice(0,25)).toHaveLength(25);});
+it('不同运算错误得到不同提示，老师不改题目',()=>{for(const l of mixedLessons){const q=l.questions[0],snapshot=JSON.stringify(q);expect(teacher.explain(q,q.options[1],1)).not.toBe(teacher.explain(q,q.options[2],1));expect(JSON.stringify(q)).toBe(snapshot);expect(teacher.explain(q,q.options[1],2)).toContain(q.explanation);}});
+it('应用题答案与独立计算一致，单位不混淆',()=>{expect(practice.map(q=>Number(q.answer))).toEqual([24-13+18,72/8-56/8,80-25-38,(13+11)/8,(19-3)/4,(12-3)*3,(16+20)/4,(5-3)*3,(300+150)*2,81-6*9]);expect(new Set([...practice,...mixedLessons.flatMap(l=>l.questions)].map(q=>q.id)).size).toBe(23);});
