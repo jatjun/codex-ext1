@@ -1,0 +1,11 @@
+{
+  "elapsed_seconds": 382.7072100830005,
+  "engine": "Cycles CPU",
+  "samples": 64,
+  "denoising": false,
+  "shots": [
+    "hero",
+    "side",
+    "front"
+  ]
+}

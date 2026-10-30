@@ -1,0 +1,921 @@
+Blender 4.3.2
+Fra:1 Mem:39.51M (Peak 39.51M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sculpted automobile body
+Fra:1 Mem:39.52M (Peak 39.52M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear door seam
+Fra:1 Mem:39.60M (Peak 39.60M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front door seam
+Fra:1 Mem:39.65M (Peak 39.65M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sill
+Fra:1 Mem:39.69M (Peak 39.69M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear door seam.001
+Fra:1 Mem:39.70M (Peak 39.70M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front door seam.001
+Fra:1 Mem:39.70M (Peak 39.70M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sill.001
+Fra:1 Mem:39.70M (Peak 39.70M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Glass surround
+Fra:1 Mem:39.74M (Peak 39.74M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hood crease
+Fra:1 Mem:39.74M (Peak 39.74M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Glass surround.001
+Fra:1 Mem:39.75M (Peak 39.75M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roof and cabin structure
+Fra:1 Mem:39.77M (Peak 39.77M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hood crease.001
+Fra:1 Mem:39.78M (Peak 39.78M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear side window
+Fra:1 Mem:39.78M (Peak 39.78M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front side window
+Fra:1 Mem:39.78M (Peak 39.78M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle
+Fra:1 Mem:39.80M (Peak 39.80M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle.001
+Fra:1 Mem:39.81M (Peak 39.81M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Painted door mirror
+Fra:1 Mem:39.83M (Peak 39.83M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mirror glass
+Fra:1 Mem:39.84M (Peak 39.84M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear side window.001
+Fra:1 Mem:39.84M (Peak 39.84M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front side window.001
+Fra:1 Mem:39.84M (Peak 39.84M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle.002
+Fra:1 Mem:39.86M (Peak 39.86M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle.003
+Fra:1 Mem:39.87M (Peak 39.87M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Painted door mirror.001
+Fra:1 Mem:39.89M (Peak 39.89M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mirror glass.001
+Fra:1 Mem:39.91M (Peak 39.91M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front windscreen
+Fra:1 Mem:39.91M (Peak 39.91M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear windscreen
+Fra:1 Mem:39.91M (Peak 39.91M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front intake
+Fra:1 Mem:39.92M (Peak 39.92M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane
+Fra:1 Mem:39.94M (Peak 39.94M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.001
+Fra:1 Mem:39.95M (Peak 39.95M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding
+Fra:1 Mem:40.05M (Peak 40.05M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.002
+Fra:1 Mem:40.09M (Peak 40.09M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.003
+Fra:1 Mem:40.11M (Peak 40.11M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.004
+Fra:1 Mem:40.12M (Peak 40.12M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.005
+Fra:1 Mem:40.15M (Peak 40.15M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.006
+Fra:1 Mem:40.17M (Peak 40.17M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front lip
+Fra:1 Mem:40.18M (Peak 40.18M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.001
+Fra:1 Mem:40.28M (Peak 40.28M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlight surround
+Fra:1 Mem:40.32M (Peak 40.32M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LED headlamp
+Fra:1 Mem:40.34M (Peak 40.34M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear lamp
+Fra:1 Mem:40.35M (Peak 40.35M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlight surround.001
+Fra:1 Mem:40.37M (Peak 40.37M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LED headlamp.001
+Fra:1 Mem:40.42M (Peak 40.42M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear lamp.001
+Fra:1 Mem:40.42M (Peak 40.42M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear diffuser
+Fra:1 Mem:40.44M (Peak 40.44M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire
+Fra:1 Mem:40.60M (Peak 40.60M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel
+Fra:1 Mem:40.64M (Peak 40.64M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.002
+Fra:1 Mem:40.80M (Peak 40.80M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor
+Fra:1 Mem:40.89M (Peak 40.89M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.003
+Fra:1 Mem:41.00M (Peak 41.00M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill
+Fra:1 Mem:41.04M (Peak 41.04M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.001
+Fra:1 Mem:41.07M (Peak 41.07M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.002
+Fra:1 Mem:41.09M (Peak 41.09M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.003
+Fra:1 Mem:41.11M (Peak 41.11M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.004
+Fra:1 Mem:41.14M (Peak 41.14M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.005
+Fra:1 Mem:41.17M (Peak 41.17M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.006
+Fra:1 Mem:41.19M (Peak 41.19M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.007
+Fra:1 Mem:41.24M (Peak 41.24M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.008
+Fra:1 Mem:41.26M (Peak 41.26M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.009
+Fra:1 Mem:41.29M (Peak 41.29M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.010
+Fra:1 Mem:41.32M (Peak 41.32M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.011
+Fra:1 Mem:41.34M (Peak 41.34M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.012
+Fra:1 Mem:41.37M (Peak 41.37M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.013
+Fra:1 Mem:41.39M (Peak 41.39M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.014
+Fra:1 Mem:41.40M (Peak 41.40M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.004
+Fra:1 Mem:41.51M (Peak 41.51M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.015
+Fra:1 Mem:41.57M (Peak 41.57M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.016
+Fra:1 Mem:41.59M (Peak 41.59M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.017
+Fra:1 Mem:41.64M (Peak 41.64M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.018
+Fra:1 Mem:41.64M (Peak 41.64M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.005
+Fra:1 Mem:41.75M (Peak 41.75M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.019
+Fra:1 Mem:41.81M (Peak 41.81M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.020
+Fra:1 Mem:41.83M (Peak 41.83M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.021
+Fra:1 Mem:41.88M (Peak 41.88M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.022
+Fra:1 Mem:41.90M (Peak 41.90M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.023
+Fra:1 Mem:41.93M (Peak 41.93M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.024
+Fra:1 Mem:41.95M (Peak 41.95M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.025
+Fra:1 Mem:41.98M (Peak 41.98M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.026
+Fra:1 Mem:42.01M (Peak 42.01M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.027
+Fra:1 Mem:42.03M (Peak 42.03M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.028
+Fra:1 Mem:42.06M (Peak 42.06M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.029
+Fra:1 Mem:42.08M (Peak 42.08M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.006
+Fra:1 Mem:42.18M (Peak 42.18M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.030
+Fra:1 Mem:42.23M (Peak 42.23M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.031
+Fra:1 Mem:42.26M (Peak 42.26M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper
+Fra:1 Mem:42.29M (Peak 42.29M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke
+Fra:1 Mem:42.31M (Peak 42.31M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.001
+Fra:1 Mem:42.32M (Peak 42.32M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.007
+Fra:1 Mem:42.34M (Peak 42.34M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.002
+Fra:1 Mem:42.43M (Peak 42.43M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.003
+Fra:1 Mem:42.47M (Peak 42.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.004
+Fra:1 Mem:42.49M (Peak 42.49M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.005
+Fra:1 Mem:42.50M (Peak 42.50M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.006
+Fra:1 Mem:42.52M (Peak 42.52M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.007
+Fra:1 Mem:42.57M (Peak 42.57M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.008
+Fra:1 Mem:42.57M (Peak 42.57M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.009
+Fra:1 Mem:42.58M (Peak 42.58M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre
+Fra:1 Mem:42.58M (Peak 42.58M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Studio shadow catcher
+Fra:1 Mem:42.63M (Peak 42.63M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.019
+Fra:1 Mem:42.66M (Peak 42.66M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.018
+Fra:1 Mem:42.68M (Peak 42.68M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.017
+Fra:1 Mem:42.71M (Peak 42.71M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.016
+Fra:1 Mem:42.71M (Peak 42.71M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug
+Fra:1 Mem:42.73M (Peak 42.73M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.015
+Fra:1 Mem:42.74M (Peak 42.74M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.001
+Fra:1 Mem:42.76M (Peak 42.76M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre.003
+Fra:1 Mem:42.79M (Peak 42.79M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.002
+Fra:1 Mem:42.84M (Peak 42.84M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.003
+Fra:1 Mem:42.85M (Peak 42.85M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.004
+Fra:1 Mem:42.88M (Peak 42.88M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.039
+Fra:1 Mem:42.88M (Peak 42.88M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire.001
+Fra:1 Mem:42.91M (Peak 42.91M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.038
+Fra:1 Mem:43.00M (Peak 43.00M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.037
+Fra:1 Mem:43.04M (Peak 43.04M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.036
+Fra:1 Mem:43.06M (Peak 43.06M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.035
+Fra:1 Mem:43.08M (Peak 43.08M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.034
+Fra:1 Mem:43.09M (Peak 43.09M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.033
+Fra:1 Mem:43.11M (Peak 43.11M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.032
+Fra:1 Mem:43.14M (Peak 43.14M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.031
+Fra:1 Mem:43.18M (Peak 43.18M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.030
+Fra:1 Mem:43.17M (Peak 43.18M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel.001
+Fra:1 Mem:43.19M (Peak 43.19M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper.003
+Fra:1 Mem:43.25M (Peak 43.25M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.127
+Fra:1 Mem:43.28M (Peak 43.28M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.126
+Fra:1 Mem:43.31M (Peak 43.31M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor.001
+Fra:1 Mem:43.31M (Peak 43.31M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.125
+Fra:1 Mem:43.40M (Peak 43.40M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.124
+Fra:1 Mem:43.42M (Peak 43.42M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.123
+Fra:1 Mem:43.46M (Peak 43.46M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.032
+Fra:1 Mem:43.48M (Peak 43.48M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.122
+Fra:1 Mem:43.51M (Peak 43.51M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.121
+Fra:1 Mem:43.53M (Peak 43.53M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.033
+Fra:1 Mem:43.55M (Peak 43.55M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.120
+Fra:1 Mem:43.58M (Peak 43.58M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.034
+Fra:1 Mem:43.59M (Peak 43.59M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.119
+Fra:1 Mem:43.63M (Peak 43.63M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.035
+Fra:1 Mem:43.63M (Peak 43.63M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.118
+Fra:1 Mem:43.67M (Peak 43.67M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.117
+Fra:1 Mem:43.68M (Peak 43.68M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.036
+Fra:1 Mem:43.72M (Peak 43.72M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.116
+Fra:1 Mem:43.74M (Peak 43.74M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.037
+Fra:1 Mem:43.76M (Peak 43.76M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.115
+Fra:1 Mem:43.79M (Peak 43.79M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.038
+Fra:1 Mem:43.79M (Peak 43.79M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.114
+Fra:1 Mem:43.84M (Peak 43.84M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.113
+Fra:1 Mem:43.86M (Peak 43.86M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.039
+Fra:1 Mem:43.89M (Peak 43.89M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.112
+Fra:1 Mem:43.90M (Peak 43.90M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.040
+Fra:1 Mem:43.93M (Peak 43.93M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.111
+Fra:1 Mem:43.96M (Peak 43.96M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.041
+Fra:1 Mem:43.98M (Peak 43.98M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.110
+Fra:1 Mem:44.00M (Peak 44.00M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.042
+Fra:1 Mem:44.02M (Peak 44.02M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.109
+Fra:1 Mem:44.06M (Peak 44.06M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.043
+Fra:1 Mem:44.06M (Peak 44.06M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.108
+Fra:1 Mem:44.10M (Peak 44.10M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.107
+Fra:1 Mem:44.10M (Peak 44.10M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.044
+Fra:1 Mem:44.15M (Peak 44.15M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.106
+Fra:1 Mem:44.17M (Peak 44.17M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.045
+Fra:1 Mem:44.19M (Peak 44.19M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.105
+Fra:1 Mem:44.22M (Peak 44.22M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.046
+Fra:1 Mem:44.22M (Peak 44.22M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.104
+Fra:1 Mem:44.27M (Peak 44.27M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.103
+Fra:1 Mem:44.29M (Peak 44.29M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.047
+Fra:1 Mem:44.31M (Peak 44.31M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.102
+Fra:1 Mem:44.34M (Peak 44.34M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.048
+Fra:1 Mem:44.36M (Peak 44.36M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.101
+Fra:1 Mem:44.39M (Peak 44.39M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.049
+Fra:1 Mem:44.40M (Peak 44.40M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.100
+Fra:1 Mem:44.43M (Peak 44.43M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.050
+Fra:1 Mem:44.45M (Peak 44.45M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.099
+Fra:1 Mem:44.49M (Peak 44.49M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.051
+Fra:1 Mem:44.51M (Peak 44.51M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.052
+Fra:1 Mem:44.53M (Peak 44.53M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.053
+Fra:1 Mem:44.56M (Peak 44.56M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.054
+Fra:1 Mem:44.58M (Peak 44.58M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.055
+Fra:1 Mem:44.60M (Peak 44.60M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.098
+Fra:1 Mem:44.63M (Peak 44.63M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.056
+Fra:1 Mem:44.63M (Peak 44.63M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.097
+Fra:1 Mem:44.68M (Peak 44.68M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.096
+Fra:1 Mem:44.69M (Peak 44.69M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.057
+Fra:1 Mem:44.72M (Peak 44.72M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor.003
+Fra:1 Mem:44.78M (Peak 44.78M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.058
+Fra:1 Mem:44.81M (Peak 44.81M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.059
+Fra:1 Mem:44.84M (Peak 44.84M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel.003
+Fra:1 Mem:44.90M (Peak 44.90M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.060
+Fra:1 Mem:44.94M (Peak 44.94M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.061
+Fra:1 Mem:44.97M (Peak 44.97M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire.003
+Fra:1 Mem:44.99M (Peak 44.99M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.062
+Fra:1 Mem:45.12M (Peak 45.12M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.063
+Fra:1 Mem:45.15M (Peak 45.15M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper.001
+Fra:1 Mem:45.16M (Peak 45.16M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.010
+Fra:1 Mem:45.19M (Peak 45.19M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.011
+Fra:1 Mem:45.22M (Peak 45.22M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.014
+Fra:1 Mem:45.22M (Peak 45.22M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.012
+Fra:1 Mem:45.24M (Peak 45.24M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.013
+Fra:1 Mem:45.25M (Peak 45.25M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.013
+Fra:1 Mem:45.27M (Peak 45.27M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.012
+Fra:1 Mem:45.28M (Peak 45.28M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.014
+Fra:1 Mem:45.30M (Peak 45.30M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.011
+Fra:1 Mem:45.31M (Peak 45.31M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.015
+Fra:1 Mem:45.33M (Peak 45.33M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.010
+Fra:1 Mem:45.34M (Peak 45.34M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.016
+Fra:1 Mem:45.35M (Peak 45.35M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre.002
+Fra:1 Mem:45.41M (Peak 45.41M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.017
+Fra:1 Mem:45.44M (Peak 45.44M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.018
+Fra:1 Mem:45.46M (Peak 45.46M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.019
+Fra:1 Mem:45.47M (Peak 45.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.029
+Fra:1 Mem:45.49M (Peak 45.49M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre.001
+Fra:1 Mem:45.52M (Peak 45.52M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.028
+Fra:1 Mem:45.56M (Peak 45.56M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.027
+Fra:1 Mem:45.59M (Peak 45.59M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.026
+Fra:1 Mem:45.60M (Peak 45.60M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.025
+Fra:1 Mem:45.62M (Peak 45.62M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.024
+Fra:1 Mem:45.64M (Peak 45.64M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.005
+Fra:1 Mem:45.65M (Peak 45.65M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.023
+Fra:1 Mem:45.67M (Peak 45.67M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.006
+Fra:1 Mem:45.67M (Peak 45.67M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.022
+Fra:1 Mem:45.70M (Peak 45.70M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.021
+Fra:1 Mem:45.70M (Peak 45.70M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.007
+Fra:1 Mem:45.72M (Peak 45.72M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.020
+Fra:1 Mem:45.74M (Peak 45.74M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.008
+Fra:1 Mem:45.75M (Peak 45.75M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper.002
+Fra:1 Mem:45.77M (Peak 45.77M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.009
+Fra:1 Mem:45.77M (Peak 45.77M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.095
+Fra:1 Mem:45.80M (Peak 45.80M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire.002
+Fra:1 Mem:45.83M (Peak 45.83M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.094
+Fra:1 Mem:45.93M (Peak 45.93M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.093
+Fra:1 Mem:45.98M (Peak 45.98M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.092
+Fra:1 Mem:46.01M (Peak 46.01M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.091
+Fra:1 Mem:46.03M (Peak 46.03M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.090
+Fra:1 Mem:46.07M (Peak 46.07M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.089
+Fra:1 Mem:46.12M (Peak 46.12M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.088
+Fra:1 Mem:46.12M (Peak 46.12M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel.002
+Fra:1 Mem:46.16M (Peak 46.16M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.087
+Fra:1 Mem:46.22M (Peak 46.22M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.086
+Fra:1 Mem:46.24M (Peak 46.24M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.085
+Fra:1 Mem:46.27M (Peak 46.27M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor.002
+Fra:1 Mem:46.30M (Peak 46.30M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.084
+Fra:1 Mem:46.36M (Peak 46.36M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.083
+Fra:1 Mem:46.39M (Peak 46.39M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.082
+Fra:1 Mem:46.42M (Peak 46.42M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.064
+Fra:1 Mem:46.42M (Peak 46.42M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.081
+Fra:1 Mem:46.47M (Peak 46.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.080
+Fra:1 Mem:46.49M (Peak 46.49M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.065
+Fra:1 Mem:46.51M (Peak 46.51M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.079
+Fra:1 Mem:46.54M (Peak 46.54M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.066
+Fra:1 Mem:46.56M (Peak 46.56M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.078
+Fra:1 Mem:46.59M (Peak 46.59M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.067
+Fra:1 Mem:46.60M (Peak 46.60M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.077
+Fra:1 Mem:46.64M (Peak 46.64M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.068
+Fra:1 Mem:46.64M (Peak 46.64M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.076
+Fra:1 Mem:46.68M (Peak 46.68M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.075
+Fra:1 Mem:46.70M (Peak 46.70M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.069
+Fra:1 Mem:46.73M (Peak 46.73M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.074
+Fra:1 Mem:46.75M (Peak 46.75M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.070
+Fra:1 Mem:46.77M (Peak 46.77M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.073
+Fra:1 Mem:46.80M (Peak 46.80M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.071
+Fra:1 Mem:46.82M (Peak 46.82M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.072
+Fra:1 Mem:46.85M (Peak 46.85M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.12 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.12 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.12 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.12 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.12 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.12 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:32.05M (Peak 46.85M) | Time:00:00.12 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:32.66M (Peak 46.85M) | Time:00:00.13 | Mem:0.08M, Peak:0.08M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:32.62M (Peak 46.85M) | Time:00:00.13 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.13 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.14 | Mem:3.57M, Peak:3.57M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.16 | Mem:6.77M, Peak:9.70M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.16 | Mem:6.77M, Peak:9.70M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.16 | Mem:6.77M, Peak:9.70M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.16 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.16 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.16 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.16 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.16 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.16 | Mem:10.17M, Peak:10.17M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.16 | Mem:10.17M, Peak:10.17M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.16 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.16 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.16 | Mem:10.15M, Peak:10.24M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.16 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.16 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:36.02M (Peak 46.85M) | Time:00:00.16 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Sample 0/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:00:02.26 | Remaining:02:12.32 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 1/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:00:34.10 | Remaining:01:33.83 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 17/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:01:05.65 | Remaining:01:01.51 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 33/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:01:37.82 | Remaining:00:29.89 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 49/64
+Fra:1 Mem:110.43M (Peak 138.78M) | Time:02:08.14 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 64/64
+Fra:1 Mem:110.43M (Peak 138.78M) | Time:02:08.14 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Finished
+Saved: '/workspace/outputs/p0-14-realistic/assets/car_hero.png'
+Time: 02:08.45 (Saving: 00:00.30)
+
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+SHOT_DONE hero
+Fra:1 Mem:39.81M (Peak 40.02M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sculpted automobile body
+Fra:1 Mem:39.86M (Peak 40.02M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear door seam
+Fra:1 Mem:39.98M (Peak 40.02M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front door seam
+Fra:1 Mem:39.99M (Peak 40.02M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sill
+Fra:1 Mem:39.99M (Peak 40.02M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear door seam.001
+Fra:1 Mem:39.99M (Peak 40.02M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front door seam.001
+Fra:1 Mem:40.02M (Peak 40.02M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sill.001
+Fra:1 Mem:40.03M (Peak 40.03M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Glass surround
+Fra:1 Mem:40.04M (Peak 40.04M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roof and cabin structure
+Fra:1 Mem:40.06M (Peak 40.06M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hood crease
+Fra:1 Mem:40.06M (Peak 40.06M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Glass surround.001
+Fra:1 Mem:40.07M (Peak 40.07M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear side window
+Fra:1 Mem:40.07M (Peak 40.07M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front side window
+Fra:1 Mem:40.07M (Peak 40.07M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hood crease.001
+Fra:1 Mem:40.07M (Peak 40.07M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle
+Fra:1 Mem:40.09M (Peak 40.09M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle.001
+Fra:1 Mem:40.10M (Peak 40.10M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Painted door mirror
+Fra:1 Mem:40.12M (Peak 40.12M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mirror glass
+Fra:1 Mem:40.13M (Peak 40.13M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear side window.001
+Fra:1 Mem:40.13M (Peak 40.13M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front side window.001
+Fra:1 Mem:40.14M (Peak 40.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle.002
+Fra:1 Mem:40.15M (Peak 40.15M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle.003
+Fra:1 Mem:40.17M (Peak 40.17M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Painted door mirror.001
+Fra:1 Mem:40.18M (Peak 40.18M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mirror glass.001
+Fra:1 Mem:40.20M (Peak 40.20M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front windscreen
+Fra:1 Mem:40.20M (Peak 40.20M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear windscreen
+Fra:1 Mem:40.20M (Peak 40.20M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front intake
+Fra:1 Mem:40.22M (Peak 40.22M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane
+Fra:1 Mem:40.23M (Peak 40.23M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.001
+Fra:1 Mem:40.25M (Peak 40.25M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.002
+Fra:1 Mem:40.26M (Peak 40.26M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.003
+Fra:1 Mem:40.28M (Peak 40.28M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.004
+Fra:1 Mem:40.30M (Peak 40.30M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.005
+Fra:1 Mem:40.31M (Peak 40.31M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding
+Fra:1 Mem:40.33M (Peak 40.33M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.006
+Fra:1 Mem:40.42M (Peak 40.42M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front lip
+Fra:1 Mem:40.46M (Peak 40.46M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlight surround
+Fra:1 Mem:40.48M (Peak 40.48M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LED headlamp
+Fra:1 Mem:40.49M (Peak 40.49M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear lamp
+Fra:1 Mem:40.52M (Peak 40.52M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlight surround.001
+Fra:1 Mem:40.54M (Peak 40.54M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LED headlamp.001
+Fra:1 Mem:40.54M (Peak 40.54M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.001
+Fra:1 Mem:40.63M (Peak 40.63M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear lamp.001
+Fra:1 Mem:40.67M (Peak 40.67M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear diffuser
+Fra:1 Mem:40.70M (Peak 40.70M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire
+Fra:1 Mem:40.79M (Peak 40.79M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel
+Fra:1 Mem:40.89M (Peak 40.89M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor
+Fra:1 Mem:40.97M (Peak 40.97M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill
+Fra:1 Mem:41.00M (Peak 41.00M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.001
+Fra:1 Mem:41.02M (Peak 41.02M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.002
+Fra:1 Mem:41.05M (Peak 41.05M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.003
+Fra:1 Mem:41.07M (Peak 41.07M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.004
+Fra:1 Mem:41.09M (Peak 41.09M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.002
+Fra:1 Mem:41.14M (Peak 41.14M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.005
+Fra:1 Mem:41.24M (Peak 41.24M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.006
+Fra:1 Mem:41.27M (Peak 41.27M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.007
+Fra:1 Mem:41.29M (Peak 41.29M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.008
+Fra:1 Mem:41.34M (Peak 41.34M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.009
+Fra:1 Mem:41.35M (Peak 41.35M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.003
+Fra:1 Mem:41.43M (Peak 41.43M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.010
+Fra:1 Mem:41.50M (Peak 41.50M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.011
+Fra:1 Mem:41.53M (Peak 41.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.012
+Fra:1 Mem:41.56M (Peak 41.56M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.013
+Fra:1 Mem:41.62M (Peak 41.62M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.014
+Fra:1 Mem:41.63M (Peak 41.63M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.015
+Fra:1 Mem:41.66M (Peak 41.66M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.016
+Fra:1 Mem:41.68M (Peak 41.68M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.017
+Fra:1 Mem:41.71M (Peak 41.71M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.018
+Fra:1 Mem:41.73M (Peak 41.73M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.019
+Fra:1 Mem:41.76M (Peak 41.76M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.020
+Fra:1 Mem:41.78M (Peak 41.78M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.004
+Fra:1 Mem:41.81M (Peak 41.81M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.021
+Fra:1 Mem:41.91M (Peak 41.91M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.022
+Fra:1 Mem:41.96M (Peak 41.96M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.023
+Fra:1 Mem:41.98M (Peak 41.98M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.024
+Fra:1 Mem:42.04M (Peak 42.04M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.025
+Fra:1 Mem:42.04M (Peak 42.04M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.005
+Fra:1 Mem:42.12M (Peak 42.12M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.026
+Fra:1 Mem:42.19M (Peak 42.19M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.027
+Fra:1 Mem:42.22M (Peak 42.22M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.028
+Fra:1 Mem:42.24M (Peak 42.24M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.029
+Fra:1 Mem:42.29M (Peak 42.29M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.030
+Fra:1 Mem:42.32M (Peak 42.32M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.031
+Fra:1 Mem:42.34M (Peak 42.34M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper
+Fra:1 Mem:42.36M (Peak 42.36M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke
+Fra:1 Mem:42.37M (Peak 42.37M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.001
+Fra:1 Mem:42.39M (Peak 42.39M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.002
+Fra:1 Mem:42.40M (Peak 42.40M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.003
+Fra:1 Mem:42.42M (Peak 42.42M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.004
+Fra:1 Mem:42.44M (Peak 42.44M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.005
+Fra:1 Mem:42.45M (Peak 42.45M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.006
+Fra:1 Mem:42.47M (Peak 42.47M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.006
+Fra:1 Mem:42.49M (Peak 42.49M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.007
+Fra:1 Mem:42.58M (Peak 42.58M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.008
+Fra:1 Mem:42.62M (Peak 42.62M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.009
+Fra:1 Mem:42.64M (Peak 42.64M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre
+Fra:1 Mem:42.74M (Peak 42.74M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.007
+Fra:1 Mem:42.76M (Peak 42.76M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug
+Fra:1 Mem:42.84M (Peak 42.84M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.001
+Fra:1 Mem:42.88M (Peak 42.88M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.002
+Fra:1 Mem:42.90M (Peak 42.90M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.003
+Fra:1 Mem:42.92M (Peak 42.92M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.004
+Fra:1 Mem:42.93M (Peak 42.93M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire.001
+Fra:1 Mem:43.03M (Peak 43.03M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel.001
+Fra:1 Mem:43.04M (Peak 43.04M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Studio shadow catcher
+Fra:1 Mem:43.09M (Peak 43.09M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.019
+Fra:1 Mem:43.11M (Peak 43.11M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.018
+Fra:1 Mem:43.13M (Peak 43.13M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.017
+Fra:1 Mem:43.15M (Peak 43.15M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor.001
+Fra:1 Mem:43.18M (Peak 43.18M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.016
+Fra:1 Mem:43.23M (Peak 43.23M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.015
+Fra:1 Mem:43.24M (Peak 43.24M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre.003
+Fra:1 Mem:43.32M (Peak 43.32M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.032
+Fra:1 Mem:43.35M (Peak 43.35M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.033
+Fra:1 Mem:43.37M (Peak 43.37M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.039
+Fra:1 Mem:43.39M (Peak 43.39M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.034
+Fra:1 Mem:43.39M (Peak 43.39M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.038
+Fra:1 Mem:43.43M (Peak 43.43M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.037
+Fra:1 Mem:43.44M (Peak 43.44M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.035
+Fra:1 Mem:43.46M (Peak 43.46M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.036
+Fra:1 Mem:43.48M (Peak 43.48M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.036
+Fra:1 Mem:43.48M (Peak 43.48M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.035
+Fra:1 Mem:43.52M (Peak 43.52M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.034
+Fra:1 Mem:43.53M (Peak 43.53M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.037
+Fra:1 Mem:43.55M (Peak 43.55M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.033
+Fra:1 Mem:43.57M (Peak 43.57M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.032
+Fra:1 Mem:43.58M (Peak 43.58M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.038
+Fra:1 Mem:43.61M (Peak 43.61M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.031
+Fra:1 Mem:43.63M (Peak 43.63M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.039
+Fra:1 Mem:43.64M (Peak 43.64M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.030
+Fra:1 Mem:43.67M (Peak 43.67M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper.003
+Fra:1 Mem:43.67M (Peak 43.67M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.040
+Fra:1 Mem:43.70M (Peak 43.70M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.127
+Fra:1 Mem:43.72M (Peak 43.72M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.041
+Fra:1 Mem:43.75M (Peak 43.75M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.126
+Fra:1 Mem:43.77M (Peak 43.77M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.042
+Fra:1 Mem:43.80M (Peak 43.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.125
+Fra:1 Mem:43.82M (Peak 43.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.043
+Fra:1 Mem:43.85M (Peak 43.85M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.044
+Fra:1 Mem:43.87M (Peak 43.87M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.045
+Fra:1 Mem:43.89M (Peak 43.89M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.124
+Fra:1 Mem:43.91M (Peak 43.91M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.046
+Fra:1 Mem:43.94M (Peak 43.94M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.123
+Fra:1 Mem:43.96M (Peak 43.96M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.047
+Fra:1 Mem:43.99M (Peak 43.99M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.122
+Fra:1 Mem:44.01M (Peak 44.01M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.048
+Fra:1 Mem:44.03M (Peak 44.03M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.121
+Fra:1 Mem:44.05M (Peak 44.05M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.049
+Fra:1 Mem:44.08M (Peak 44.08M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.120
+Fra:1 Mem:44.10M (Peak 44.10M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.050
+Fra:1 Mem:44.13M (Peak 44.13M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.119
+Fra:1 Mem:44.15M (Peak 44.15M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.051
+Fra:1 Mem:44.18M (Peak 44.18M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.118
+Fra:1 Mem:44.19M (Peak 44.19M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.052
+Fra:1 Mem:44.23M (Peak 44.23M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.053
+Fra:1 Mem:44.24M (Peak 44.24M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.117
+Fra:1 Mem:44.27M (Peak 44.27M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.054
+Fra:1 Mem:44.30M (Peak 44.30M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.116
+Fra:1 Mem:44.32M (Peak 44.32M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.055
+Fra:1 Mem:44.34M (Peak 44.34M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.115
+Fra:1 Mem:44.37M (Peak 44.37M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.056
+Fra:1 Mem:44.39M (Peak 44.39M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.114
+Fra:1 Mem:44.42M (Peak 44.42M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.057
+Fra:1 Mem:44.44M (Peak 44.44M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.113
+Fra:1 Mem:44.46M (Peak 44.46M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.058
+Fra:1 Mem:44.49M (Peak 44.49M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.112
+Fra:1 Mem:44.51M (Peak 44.51M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.059
+Fra:1 Mem:44.54M (Peak 44.54M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.111
+Fra:1 Mem:44.56M (Peak 44.56M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.060
+Fra:1 Mem:44.58M (Peak 44.58M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.110
+Fra:1 Mem:44.61M (Peak 44.61M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.061
+Fra:1 Mem:44.63M (Peak 44.63M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.109
+Fra:1 Mem:44.65M (Peak 44.65M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.062
+Fra:1 Mem:44.67M (Peak 44.67M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.108
+Fra:1 Mem:44.70M (Peak 44.70M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.063
+Fra:1 Mem:44.72M (Peak 44.72M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.107
+Fra:1 Mem:44.75M (Peak 44.75M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper.001
+Fra:1 Mem:44.77M (Peak 44.77M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.106
+Fra:1 Mem:44.79M (Peak 44.79M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.010
+Fra:1 Mem:44.81M (Peak 44.81M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.105
+Fra:1 Mem:44.83M (Peak 44.83M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.011
+Fra:1 Mem:44.84M (Peak 44.84M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.012
+Fra:1 Mem:44.85M (Peak 44.85M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.104
+Fra:1 Mem:44.88M (Peak 44.88M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.013
+Fra:1 Mem:44.89M (Peak 44.89M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.103
+Fra:1 Mem:44.90M (Peak 44.90M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.014
+Fra:1 Mem:44.94M (Peak 44.94M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.102
+Fra:1 Mem:44.95M (Peak 44.95M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.015
+Fra:1 Mem:44.97M (Peak 44.97M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.101
+Fra:1 Mem:44.98M (Peak 44.98M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.016
+Fra:1 Mem:45.01M (Peak 45.01M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.100
+Fra:1 Mem:45.03M (Peak 45.03M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.017
+Fra:1 Mem:45.05M (Peak 45.05M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.099
+Fra:1 Mem:45.07M (Peak 45.07M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.018
+Fra:1 Mem:45.09M (Peak 45.09M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.098
+Fra:1 Mem:45.09M (Peak 45.09M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.019
+Fra:1 Mem:45.13M (Peak 45.13M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre.001
+Fra:1 Mem:45.15M (Peak 45.15M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.097
+Fra:1 Mem:45.21M (Peak 45.21M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.096
+Fra:1 Mem:45.25M (Peak 45.25M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor.003
+Fra:1 Mem:45.30M (Peak 45.30M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.005
+Fra:1 Mem:45.33M (Peak 45.33M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.006
+Fra:1 Mem:45.35M (Peak 45.35M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel.003
+Fra:1 Mem:45.38M (Peak 45.38M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.007
+Fra:1 Mem:45.43M (Peak 45.43M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.008
+Fra:1 Mem:45.45M (Peak 45.45M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.009
+Fra:1 Mem:45.47M (Peak 45.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire.003
+Fra:1 Mem:45.54M (Peak 45.54M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire.002
+Fra:1 Mem:45.62M (Peak 45.62M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.014
+Fra:1 Mem:45.65M (Peak 45.65M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.013
+Fra:1 Mem:45.66M (Peak 45.66M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.012
+Fra:1 Mem:45.67M (Peak 45.67M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.011
+Fra:1 Mem:45.69M (Peak 45.69M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.010
+Fra:1 Mem:45.72M (Peak 45.72M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre.002
+Fra:1 Mem:45.75M (Peak 45.75M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel.002
+Fra:1 Mem:45.84M (Peak 45.84M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.029
+Fra:1 Mem:45.87M (Peak 45.87M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.028
+Fra:1 Mem:45.88M (Peak 45.88M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor.002
+Fra:1 Mem:45.91M (Peak 45.91M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.027
+Fra:1 Mem:45.96M (Peak 45.96M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.026
+Fra:1 Mem:45.98M (Peak 45.98M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.025
+Fra:1 Mem:45.99M (Peak 45.99M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.024
+Fra:1 Mem:46.01M (Peak 46.01M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.064
+Fra:1 Mem:46.04M (Peak 46.04M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.065
+Fra:1 Mem:46.06M (Peak 46.06M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.066
+Fra:1 Mem:46.08M (Peak 46.08M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.023
+Fra:1 Mem:46.09M (Peak 46.09M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.067
+Fra:1 Mem:46.12M (Peak 46.12M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.022
+Fra:1 Mem:46.14M (Peak 46.14M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.068
+Fra:1 Mem:46.14M (Peak 46.14M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.021
+Fra:1 Mem:46.18M (Peak 46.18M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.020
+Fra:1 Mem:46.19M (Peak 46.19M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.069
+Fra:1 Mem:46.21M (Peak 46.21M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper.002
+Fra:1 Mem:46.23M (Peak 46.23M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.070
+Fra:1 Mem:46.25M (Peak 46.25M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.095
+Fra:1 Mem:46.28M (Peak 46.28M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.071
+Fra:1 Mem:46.29M (Peak 46.29M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.094
+Fra:1 Mem:46.32M (Peak 46.32M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.072
+Fra:1 Mem:46.33M (Peak 46.33M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.093
+Fra:1 Mem:46.37M (Peak 46.37M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.073
+Fra:1 Mem:46.37M (Peak 46.37M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.092
+Fra:1 Mem:46.42M (Peak 46.42M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.074
+Fra:1 Mem:46.42M (Peak 46.42M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.091
+Fra:1 Mem:46.47M (Peak 46.47M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.075
+Fra:1 Mem:46.49M (Peak 46.49M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.090
+Fra:1 Mem:46.51M (Peak 46.51M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.076
+Fra:1 Mem:46.53M (Peak 46.53M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.089
+Fra:1 Mem:46.57M (Peak 46.57M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.077
+Fra:1 Mem:46.57M (Peak 46.57M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.088
+Fra:1 Mem:46.61M (Peak 46.61M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.078
+Fra:1 Mem:46.62M (Peak 46.62M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.087
+Fra:1 Mem:46.66M (Peak 46.66M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.079
+Fra:1 Mem:46.68M (Peak 46.68M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.086
+Fra:1 Mem:46.71M (Peak 46.71M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.080
+Fra:1 Mem:46.72M (Peak 46.72M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.085
+Fra:1 Mem:46.75M (Peak 46.75M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.081
+Fra:1 Mem:46.77M (Peak 46.77M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.084
+Fra:1 Mem:46.80M (Peak 46.80M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.082
+Fra:1 Mem:46.80M (Peak 46.80M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.083
+Fra:1 Mem:46.85M (Peak 46.85M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.11 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.11 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.11 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.11 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.11 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.11 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.11 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.11 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.11 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.11 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:32.05M (Peak 46.85M) | Time:00:00.12 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:32.66M (Peak 46.85M) | Time:00:00.12 | Mem:0.08M, Peak:0.08M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:32.62M (Peak 46.85M) | Time:00:00.12 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.12 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.12 | Mem:3.57M, Peak:3.57M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.13 | Mem:6.77M, Peak:9.70M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.13 | Mem:6.77M, Peak:9.70M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.13 | Mem:6.77M, Peak:9.70M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.13 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.13 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.13 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.13 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.13 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.13 | Mem:10.17M, Peak:10.17M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.13 | Mem:10.17M, Peak:10.17M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.13 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.13 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.13 | Mem:10.15M, Peak:10.24M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.13 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.13 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:36.02M (Peak 46.85M) | Time:00:00.13 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Sample 0/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:00:02.18 | Remaining:02:09.06 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 1/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:00:34.25 | Remaining:01:34.30 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 17/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:01:06.02 | Remaining:01:01.89 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 33/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:01:37.64 | Remaining:00:29.84 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 49/64
+Fra:1 Mem:110.43M (Peak 138.78M) | Time:02:07.39 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 64/64
+Fra:1 Mem:110.43M (Peak 138.78M) | Time:02:07.39 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Finished
+Saved: '/workspace/outputs/p0-14-realistic/assets/car_side.png'
+Time: 02:07.51 (Saving: 00:00.12)
+
+SHOT_DONE side
+Fra:1 Mem:39.81M (Peak 39.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sculpted automobile body
+Fra:1 Mem:39.86M (Peak 39.86M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear door seam
+Fra:1 Mem:39.94M (Peak 39.94M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front door seam
+Fra:1 Mem:39.98M (Peak 39.98M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sill
+Fra:1 Mem:39.99M (Peak 39.99M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear door seam.001
+Fra:1 Mem:39.99M (Peak 39.99M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front door seam.001
+Fra:1 Mem:40.00M (Peak 40.00M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower sill.001
+Fra:1 Mem:40.02M (Peak 40.02M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Glass surround
+Fra:1 Mem:40.06M (Peak 40.06M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hood crease
+Fra:1 Mem:40.04M (Peak 40.06M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roof and cabin structure
+Fra:1 Mem:40.04M (Peak 40.06M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Glass surround.001
+Fra:1 Mem:40.07M (Peak 40.07M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hood crease.001
+Fra:1 Mem:40.07M (Peak 40.07M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear side window
+Fra:1 Mem:40.07M (Peak 40.07M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front side window
+Fra:1 Mem:40.08M (Peak 40.08M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle
+Fra:1 Mem:40.09M (Peak 40.09M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle.001
+Fra:1 Mem:40.11M (Peak 40.11M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Painted door mirror
+Fra:1 Mem:40.12M (Peak 40.12M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mirror glass
+Fra:1 Mem:40.14M (Peak 40.14M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear side window.001
+Fra:1 Mem:40.14M (Peak 40.14M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front side window.001
+Fra:1 Mem:40.14M (Peak 40.14M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle.002
+Fra:1 Mem:40.15M (Peak 40.15M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flush handle.003
+Fra:1 Mem:40.17M (Peak 40.17M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Painted door mirror.001
+Fra:1 Mem:40.18M (Peak 40.18M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mirror glass.001
+Fra:1 Mem:40.20M (Peak 40.20M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front windscreen
+Fra:1 Mem:40.20M (Peak 40.20M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear windscreen
+Fra:1 Mem:40.21M (Peak 40.21M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front intake
+Fra:1 Mem:40.22M (Peak 40.22M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane
+Fra:1 Mem:40.24M (Peak 40.24M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding
+Fra:1 Mem:40.26M (Peak 40.26M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.001
+Fra:1 Mem:40.35M (Peak 40.35M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.002
+Fra:1 Mem:40.39M (Peak 40.39M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.003
+Fra:1 Mem:40.41M (Peak 40.41M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.004
+Fra:1 Mem:40.44M (Peak 40.44M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.005
+Fra:1 Mem:40.46M (Peak 40.46M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Intake vane.006
+Fra:1 Mem:40.47M (Peak 40.47M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.001
+Fra:1 Mem:40.49M (Peak 40.49M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front lip
+Fra:1 Mem:40.55M (Peak 40.55M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlight surround
+Fra:1 Mem:40.59M (Peak 40.59M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LED headlamp
+Fra:1 Mem:40.63M (Peak 40.63M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear lamp
+Fra:1 Mem:40.64M (Peak 40.64M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlight surround.001
+Fra:1 Mem:40.67M (Peak 40.67M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LED headlamp.001
+Fra:1 Mem:40.68M (Peak 40.68M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear lamp.001
+Fra:1 Mem:40.71M (Peak 40.71M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear diffuser
+Fra:1 Mem:40.75M (Peak 40.75M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire
+Fra:1 Mem:40.81M (Peak 40.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel
+Fra:1 Mem:40.89M (Peak 40.89M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor
+Fra:1 Mem:40.98M (Peak 40.98M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill
+Fra:1 Mem:40.98M (Peak 40.98M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.002
+Fra:1 Mem:41.07M (Peak 41.07M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.001
+Fra:1 Mem:41.15M (Peak 41.15M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.002
+Fra:1 Mem:41.17M (Peak 41.17M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.003
+Fra:1 Mem:41.23M (Peak 41.23M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.004
+Fra:1 Mem:41.24M (Peak 41.24M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.003
+Fra:1 Mem:41.27M (Peak 41.27M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.005
+Fra:1 Mem:41.38M (Peak 41.38M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.006
+Fra:1 Mem:41.41M (Peak 41.41M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.007
+Fra:1 Mem:41.44M (Peak 41.44M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.008
+Fra:1 Mem:41.50M (Peak 41.50M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.009
+Fra:1 Mem:41.51M (Peak 41.51M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.010
+Fra:1 Mem:41.54M (Peak 41.54M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.011
+Fra:1 Mem:41.56M (Peak 41.56M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.012
+Fra:1 Mem:41.59M (Peak 41.59M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.013
+Fra:1 Mem:41.62M (Peak 41.62M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.014
+Fra:1 Mem:41.64M (Peak 41.64M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.004
+Fra:1 Mem:41.66M (Peak 41.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.015
+Fra:1 Mem:41.78M (Peak 41.78M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.016
+Fra:1 Mem:41.81M (Peak 41.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.017
+Fra:1 Mem:41.84M (Peak 41.84M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.018
+Fra:1 Mem:41.88M (Peak 41.88M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.019
+Fra:1 Mem:41.90M (Peak 41.90M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.005
+Fra:1 Mem:41.93M (Peak 41.93M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.020
+Fra:1 Mem:42.05M (Peak 42.05M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.021
+Fra:1 Mem:42.08M (Peak 42.08M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.022
+Fra:1 Mem:42.10M (Peak 42.10M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.023
+Fra:1 Mem:42.15M (Peak 42.15M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.024
+Fra:1 Mem:42.17M (Peak 42.17M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.025
+Fra:1 Mem:42.20M (Peak 42.20M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.026
+Fra:1 Mem:42.23M (Peak 42.23M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.027
+Fra:1 Mem:42.25M (Peak 42.25M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.028
+Fra:1 Mem:42.28M (Peak 42.28M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.029
+Fra:1 Mem:42.30M (Peak 42.30M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.030
+Fra:1 Mem:42.32M (Peak 42.32M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.006
+Fra:1 Mem:42.40M (Peak 42.40M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.031
+Fra:1 Mem:42.47M (Peak 42.47M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper
+Fra:1 Mem:42.49M (Peak 42.49M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke
+Fra:1 Mem:42.51M (Peak 42.51M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.001
+Fra:1 Mem:42.54M (Peak 42.54M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.002
+Fra:1 Mem:42.57M (Peak 42.57M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.003
+Fra:1 Mem:42.57M (Peak 42.57M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tire moulding.007
+Fra:1 Mem:42.61M (Peak 42.61M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.004
+Fra:1 Mem:42.70M (Peak 42.70M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.005
+Fra:1 Mem:42.73M (Peak 42.73M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.006
+Fra:1 Mem:42.74M (Peak 42.74M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.007
+Fra:1 Mem:42.77M (Peak 42.77M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.008
+Fra:1 Mem:42.81M (Peak 42.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.009
+Fra:1 Mem:42.81M (Peak 42.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre
+Fra:1 Mem:42.81M (Peak 42.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Studio shadow catcher
+Fra:1 Mem:42.86M (Peak 42.86M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.019
+Fra:1 Mem:42.88M (Peak 42.88M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.018
+Fra:1 Mem:42.91M (Peak 42.91M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.017
+Fra:1 Mem:42.92M (Peak 42.92M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug
+Fra:1 Mem:42.94M (Peak 42.94M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.001
+Fra:1 Mem:42.96M (Peak 42.96M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.016
+Fra:1 Mem:42.97M (Peak 42.97M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.002
+Fra:1 Mem:42.98M (Peak 42.98M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.015
+Fra:1 Mem:43.00M (Peak 43.00M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.003
+Fra:1 Mem:43.00M (Peak 43.00M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre.003
+Fra:1 Mem:43.05M (Peak 43.05M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.004
+Fra:1 Mem:43.09M (Peak 43.09M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire.001
+Fra:1 Mem:43.19M (Peak 43.19M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.039
+Fra:1 Mem:43.19M (Peak 43.19M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel.001
+Fra:1 Mem:43.24M (Peak 43.24M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.038
+Fra:1 Mem:43.27M (Peak 43.27M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.037
+Fra:1 Mem:43.29M (Peak 43.29M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.036
+Fra:1 Mem:43.31M (Peak 43.31M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor.001
+Fra:1 Mem:43.34M (Peak 43.34M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.035
+Fra:1 Mem:43.39M (Peak 43.39M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.034
+Fra:1 Mem:43.41M (Peak 43.41M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.033
+Fra:1 Mem:43.43M (Peak 43.43M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.032
+Fra:1 Mem:43.44M (Peak 43.44M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.032
+Fra:1 Mem:43.46M (Peak 43.46M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.031
+Fra:1 Mem:43.48M (Peak 43.48M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.030
+Fra:1 Mem:43.49M (Peak 43.49M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.033
+Fra:1 Mem:43.52M (Peak 43.52M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper.003
+Fra:1 Mem:43.54M (Peak 43.54M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.034
+Fra:1 Mem:43.54M (Peak 43.54M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.127
+Fra:1 Mem:43.58M (Peak 43.58M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.035
+Fra:1 Mem:43.60M (Peak 43.60M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.126
+Fra:1 Mem:43.63M (Peak 43.63M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.036
+Fra:1 Mem:43.65M (Peak 43.65M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.125
+Fra:1 Mem:43.68M (Peak 43.68M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.037
+Fra:1 Mem:43.70M (Peak 43.70M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.124
+Fra:1 Mem:43.72M (Peak 43.72M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.038
+Fra:1 Mem:43.75M (Peak 43.75M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.123
+Fra:1 Mem:43.77M (Peak 43.77M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.039
+Fra:1 Mem:43.79M (Peak 43.79M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.122
+Fra:1 Mem:43.82M (Peak 43.82M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.040
+Fra:1 Mem:43.84M (Peak 43.84M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.121
+Fra:1 Mem:43.87M (Peak 43.87M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.041
+Fra:1 Mem:43.88M (Peak 43.88M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.120
+Fra:1 Mem:43.92M (Peak 43.92M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.042
+Fra:1 Mem:43.92M (Peak 43.92M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.119
+Fra:1 Mem:43.97M (Peak 43.97M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.043
+Fra:1 Mem:43.97M (Peak 43.97M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.118
+Fra:1 Mem:44.02M (Peak 44.02M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.044
+Fra:1 Mem:44.03M (Peak 44.03M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.117
+Fra:1 Mem:44.06M (Peak 44.06M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.045
+Fra:1 Mem:44.06M (Peak 44.06M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.116
+Fra:1 Mem:44.11M (Peak 44.11M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.115
+Fra:1 Mem:44.13M (Peak 44.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.046
+Fra:1 Mem:44.15M (Peak 44.15M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.114
+Fra:1 Mem:44.18M (Peak 44.18M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.047
+Fra:1 Mem:44.20M (Peak 44.20M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.113
+Fra:1 Mem:44.22M (Peak 44.22M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.048
+Fra:1 Mem:44.24M (Peak 44.24M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.112
+Fra:1 Mem:44.27M (Peak 44.27M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.049
+Fra:1 Mem:44.28M (Peak 44.28M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.111
+Fra:1 Mem:44.33M (Peak 44.33M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.110
+Fra:1 Mem:44.32M (Peak 44.33M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.050
+Fra:1 Mem:44.37M (Peak 44.37M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.109
+Fra:1 Mem:44.39M (Peak 44.39M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.051
+Fra:1 Mem:44.42M (Peak 44.42M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.108
+Fra:1 Mem:44.44M (Peak 44.44M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.052
+Fra:1 Mem:44.46M (Peak 44.46M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.107
+Fra:1 Mem:44.49M (Peak 44.49M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.053
+Fra:1 Mem:44.51M (Peak 44.51M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.106
+Fra:1 Mem:44.54M (Peak 44.54M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.054
+Fra:1 Mem:44.55M (Peak 44.55M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.105
+Fra:1 Mem:44.59M (Peak 44.59M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.055
+Fra:1 Mem:44.59M (Peak 44.59M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.104
+Fra:1 Mem:44.64M (Peak 44.64M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.056
+Fra:1 Mem:44.63M (Peak 44.64M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.103
+Fra:1 Mem:44.68M (Peak 44.68M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.057
+Fra:1 Mem:44.69M (Peak 44.69M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.102
+Fra:1 Mem:44.73M (Peak 44.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.058
+Fra:1 Mem:44.74M (Peak 44.74M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.101
+Fra:1 Mem:44.78M (Peak 44.78M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.059
+Fra:1 Mem:44.78M (Peak 44.78M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.100
+Fra:1 Mem:44.82M (Peak 44.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.060
+Fra:1 Mem:44.83M (Peak 44.83M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.099
+Fra:1 Mem:44.87M (Peak 44.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.061
+Fra:1 Mem:44.87M (Peak 44.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.098
+Fra:1 Mem:44.92M (Peak 44.92M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.062
+Fra:1 Mem:44.92M (Peak 44.92M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.097
+Fra:1 Mem:44.96M (Peak 44.96M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.063
+Fra:1 Mem:44.98M (Peak 44.98M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.096
+Fra:1 Mem:45.01M (Peak 45.01M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper.001
+Fra:1 Mem:45.03M (Peak 45.03M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor.003
+Fra:1 Mem:45.07M (Peak 45.07M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.010
+Fra:1 Mem:45.11M (Peak 45.11M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.011
+Fra:1 Mem:45.12M (Peak 45.12M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.012
+Fra:1 Mem:45.16M (Peak 45.16M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.013
+Fra:1 Mem:45.15M (Peak 45.16M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel.003
+Fra:1 Mem:45.18M (Peak 45.18M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.014
+Fra:1 Mem:45.24M (Peak 45.24M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.015
+Fra:1 Mem:45.26M (Peak 45.26M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.016
+Fra:1 Mem:45.28M (Peak 45.28M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire.003
+Fra:1 Mem:45.33M (Peak 45.33M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.017
+Fra:1 Mem:45.38M (Peak 45.38M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.018
+Fra:1 Mem:45.39M (Peak 45.39M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.014
+Fra:1 Mem:45.40M (Peak 45.40M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.019
+Fra:1 Mem:45.42M (Peak 45.42M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.013
+Fra:1 Mem:45.43M (Peak 45.43M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre.001
+Fra:1 Mem:45.48M (Peak 45.48M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.012
+Fra:1 Mem:45.51M (Peak 45.51M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.011
+Fra:1 Mem:45.53M (Peak 45.53M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.010
+Fra:1 Mem:45.55M (Peak 45.55M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Wheel centre.002
+Fra:1 Mem:45.56M (Peak 45.56M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.005
+Fra:1 Mem:45.63M (Peak 45.63M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.006
+Fra:1 Mem:45.64M (Peak 45.64M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.007
+Fra:1 Mem:45.68M (Peak 45.68M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.008
+Fra:1 Mem:45.67M (Peak 45.68M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.029
+Fra:1 Mem:45.70M (Peak 45.70M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.028
+Fra:1 Mem:45.71M (Peak 45.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lug.009
+Fra:1 Mem:45.73M (Peak 45.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.027
+Fra:1 Mem:45.74M (Peak 45.74M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rounded radial tire.002
+Fra:1 Mem:45.78M (Peak 45.78M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.026
+Fra:1 Mem:45.84M (Peak 45.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.025
+Fra:1 Mem:45.87M (Peak 45.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.024
+Fra:1 Mem:45.86M (Peak 45.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Alloy barrel.002
+Fra:1 Mem:45.89M (Peak 45.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.023
+Fra:1 Mem:45.94M (Peak 45.94M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.022
+Fra:1 Mem:45.96M (Peak 45.96M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.021
+Fra:1 Mem:45.98M (Peak 45.98M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Forged spoke.020
+Fra:1 Mem:45.99M (Peak 45.99M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Brake rotor.002
+Fra:1 Mem:46.02M (Peak 46.02M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Caliper.002
+Fra:1 Mem:46.07M (Peak 46.07M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.095
+Fra:1 Mem:46.11M (Peak 46.11M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.094
+Fra:1 Mem:46.13M (Peak 46.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.064
+Fra:1 Mem:46.14M (Peak 46.14M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.093
+Fra:1 Mem:46.18M (Peak 46.18M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.092
+Fra:1 Mem:46.20M (Peak 46.20M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.065
+Fra:1 Mem:46.23M (Peak 46.23M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.091
+Fra:1 Mem:46.25M (Peak 46.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.066
+Fra:1 Mem:46.27M (Peak 46.27M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.090
+Fra:1 Mem:46.30M (Peak 46.30M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.067
+Fra:1 Mem:46.32M (Peak 46.32M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.089
+Fra:1 Mem:46.35M (Peak 46.35M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.068
+Fra:1 Mem:46.36M (Peak 46.36M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.088
+Fra:1 Mem:46.40M (Peak 46.40M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.087
+Fra:1 Mem:46.41M (Peak 46.41M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.069
+Fra:1 Mem:46.44M (Peak 46.44M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.086
+Fra:1 Mem:46.46M (Peak 46.46M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.070
+Fra:1 Mem:46.49M (Peak 46.49M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.085
+Fra:1 Mem:46.51M (Peak 46.51M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.071
+Fra:1 Mem:46.54M (Peak 46.54M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.084
+Fra:1 Mem:46.56M (Peak 46.56M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.072
+Fra:1 Mem:46.57M (Peak 46.57M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.083
+Fra:1 Mem:46.61M (Peak 46.61M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.073
+Fra:1 Mem:46.62M (Peak 46.62M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.082
+Fra:1 Mem:46.66M (Peak 46.66M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.074
+Fra:1 Mem:46.67M (Peak 46.67M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.081
+Fra:1 Mem:46.71M (Peak 46.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.075
+Fra:1 Mem:46.72M (Peak 46.72M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.080
+Fra:1 Mem:46.75M (Peak 46.75M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.076
+Fra:1 Mem:46.77M (Peak 46.77M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.079
+Fra:1 Mem:46.80M (Peak 46.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.077
+Fra:1 Mem:46.82M (Peak 46.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rotor drill.078
+Fra:1 Mem:46.85M (Peak 46.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:30.43M (Peak 46.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.09 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.09 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.09 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.09 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.09 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:30.52M (Peak 46.85M) | Time:00:00.09 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.09 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.09 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.09 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:30.58M (Peak 46.85M) | Time:00:00.09 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:32.05M (Peak 46.85M) | Time:00:00.10 | Mem:0.07M, Peak:0.07M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:32.66M (Peak 46.85M) | Time:00:00.10 | Mem:0.08M, Peak:0.08M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:32.62M (Peak 46.85M) | Time:00:00.10 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.10 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.10 | Mem:3.57M, Peak:3.57M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.11 | Mem:6.77M, Peak:9.70M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:32.63M (Peak 46.85M) | Time:00:00.11 | Mem:6.77M, Peak:9.70M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.12 | Mem:6.77M, Peak:9.70M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.12 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.12 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.12 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.12 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.12 | Mem:10.09M, Peak:10.09M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.12 | Mem:10.17M, Peak:10.17M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:35.95M (Peak 46.85M) | Time:00:00.12 | Mem:10.17M, Peak:10.17M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.12 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.12 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.12 | Mem:10.15M, Peak:10.24M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.12 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:36.01M (Peak 46.85M) | Time:00:00.12 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:36.02M (Peak 46.85M) | Time:00:00.12 | Mem:10.24M, Peak:10.24M | Scene, ViewLayer | Sample 0/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:00:02.18 | Remaining:02:09.86 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 1/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:00:33.54 | Remaining:01:32.39 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 17/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:01:05.10 | Remaining:01:01.04 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 33/64
+Fra:1 Mem:96.26M (Peak 96.26M) | Time:01:36.51 | Remaining:00:29.50 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 49/64
+Fra:1 Mem:110.43M (Peak 138.78M) | Time:02:06.56 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Sample 64/64
+Fra:1 Mem:110.43M (Peak 138.78M) | Time:02:06.56 | Mem:70.47M, Peak:70.47M | Scene, ViewLayer | Finished
+Saved: '/workspace/outputs/p0-14-realistic/assets/car_front.png'
+Time: 02:06.70 (Saving: 00:00.12)
+
+SHOT_DONE front
+Info: Saved "original_car.blend"
+
+Blender quit

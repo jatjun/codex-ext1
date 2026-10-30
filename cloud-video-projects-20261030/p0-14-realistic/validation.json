@@ -1,0 +1,23 @@
+{
+  "probe_pass": true,
+  "full_decode_exit": 0,
+  "decoded_frames": 450,
+  "black_events": [],
+  "min_frame_mean_luma": 219.41006944444445,
+  "min_adjacent_frame_mean_abs_diff": 0.0020138889085501432,
+  "max_adjacent_frame_mean_abs_diff": 1.1929166316986084,
+  "identical_adjacent_thumbnail_pairs": 0,
+  "sampled_times": [
+    0.5,
+    2.5,
+    4.9,
+    5.1,
+    7.5,
+    9.9,
+    10.1,
+    12.5,
+    14.5
+  ],
+  "size_bytes": 2066999,
+  "sha256": "6a6e800f251eca57fe18afd95e1a4b2b863d5c4b18819e2de189d2d617e92289"
+}

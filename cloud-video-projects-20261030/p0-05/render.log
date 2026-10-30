@@ -1,0 +1,28 @@
+Input #0, lavfi, from 'testsrc2=size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (wrapped_avframe (native) -> h264 (libx264))
+[libx264 @ 0x5649bcc1e040] using SAR=1/1
+[libx264 @ 0x5649bcc1e040] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x5649bcc1e040] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x5649bcc1e040] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=2 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to '/tmp/p0-05-video-_5zxu1o3/test_video.mp4':
+  Metadata:
+    encoder         : Lavf61.7.103
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=  102 fps=0.0 q=20.0 size=    5888KiB time=00:00:03.40 bitrate=14186.7kbits/s speed= 6.8x    frame=  214 fps=214 q=20.0 size=   12800KiB time=00:00:07.13 bitrate=14699.7kbits/s speed=7.13x    frame=  326 fps=217 q=20.0 size=   19456KiB time=00:00:10.90 bitrate=14622.4kbits/s speed=7.26x    frame=  447 fps=223 q=20.0 size=   26624KiB time=00:00:14.90 bitrate=14637.9kbits/s speed=7.44x    [mp4 @ 0x5649bcc20c00] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x5649bcc20b00] video:27008KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.010388%
+frame=  450 fps=222 q=-1.0 Lsize=   27011KiB time=00:00:15.00 bitrate=14751.4kbits/s speed=7.41x    
+[libx264 @ 0x5649bcc1e040] frame I:2     Avg QP:19.00  size:111186
+[libx264 @ 0x5649bcc1e040] frame P:448   Avg QP:20.64  size: 61234
+[libx264 @ 0x5649bcc1e040] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 0x5649bcc1e040] mb P  I16..4:  2.4%  0.0%  0.0%  P16..4:  8.4%  0.0%  0.0%  0.0%  0.0%    skip:89.2%
+[libx264 @ 0x5649bcc1e040] coded y,uvDC,uvAC intra: 9.0% 12.4% 10.8% inter: 5.3% 7.8% 7.2%
+[libx264 @ 0x5649bcc1e040] i16 v,h,dc,p: 91%  6%  2%  1%
+[libx264 @ 0x5649bcc1e040] i8c dc,h,v,p: 70%  7% 23%  0%
+[libx264 @ 0x5649bcc1e040] kb/s:14749.56

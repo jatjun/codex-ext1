@@ -1,0 +1,12 @@
+{
+  "source_exists": true,
+  "source_size": 27658891,
+  "destination": "/workspace/outputs/p0-06/test_video.mp4",
+  "destination_size": 27658891,
+  "sha256": "d45ad445c19c938adfa0f1e2594b3a854afab3c2c0c9cce44878294ed2b754bc",
+  "matches_p0_05": true,
+  "client_visible": "not_observed",
+  "client_downloadable": "not_verified",
+  "user_downloaded_and_played": "not_verified",
+  "status": "DELIVERY_PENDING_USER_CHECK"
+}
