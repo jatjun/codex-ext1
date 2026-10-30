@@ -4,7 +4,7 @@
 - MATH_PASS：16条数学视频原答案复算；单位点计数检查通过。语文5条、英语9条完成本例词义/搭配/顺序复核，不将语言内容标记为数学试题。
 - RENDER_PASS：30个真实MP4，逐片格式/时长/帧数检查、完整解码、黑屏检测与主体变化检查通过。详见validation.json和逐片日志。
 - TEACHING_REVIEW_PENDING：孩子能否理解与独立迁移、全部视频人工完整观看、iPhone Safari实机及无旁白需求仍待确认。
-- DELIVERY：等待远端回读核验，见remote-delivery.json和最终回复。
+- DELIVERY_PASS：30个远端视频的文件大小与Git blob SHA均与本地一致，见remote-delivery.json。
 
 每片64秒，共32分钟。已查看150张成片关键帧的四张联系表，并修正单位点粘连、重复价差示意、货物到站数字时序及排序词卡遮挡；修正后仅重渲染、验证受影响视频。没有用技术PASS替代儿童教学效果验证。
 
