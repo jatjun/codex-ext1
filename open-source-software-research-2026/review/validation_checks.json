@@ -1,0 +1,32 @@
+{
+  "statistics": {
+    "candidates": 92,
+    "metadata_verified": 92,
+    "deep_profiles": 30,
+    "deep_fully_verified": 0,
+    "high_stars_10000": 82,
+    "high_stars_100000": 12,
+    "license_files_verified": 29,
+    "issue_sample_projects": 29,
+    "community_complaints_verified_projects": 12,
+    "unresolved_identity": [
+      "LibreChat",
+      "ente"
+    ],
+    "research_date": "2026-10-31"
+  },
+  "checks": {
+    "row_count": true,
+    "unique_urls": true,
+    "all_nine_categories": true,
+    "exact_stars_forks": true,
+    "score_sum_and_no_full_dimensions": true,
+    "html_no_external_dependencies": true,
+    "html_all_20_reports": true,
+    "pdf_exists": false,
+    "chart_star_values": true,
+    "chart_scores": true,
+    "complaint_detail_unique_projects": true,
+    "complaint_details_have_dates": true
+  }
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "category": "A",
+    "repo": "NousResearch/hermes-agent"
+  },
+  {
+    "category": "A",
+    "repo": "OpenHands/OpenHands"
+  },
+  {
+    "category": "A",
+    "repo": "anomalyco/opencode"
+  },
+  {
+    "category": "A",
+    "repo": "n8n-io/n8n"
+  },
+  {
+    "category": "A",
+    "repo": "langgenius/dify"
+  },
+  {
+    "category": "A",
+    "repo": "langflow-ai/langflow"
+  },
+  {
+    "category": "A",
+    "repo": "browser-use/browser-use"
+  },
+  {
+    "category": "A",
+    "repo": "microsoft/autogen"
+  },
+  {
+    "category": "A",
+    "repo": "crewAIInc/crewAI"
+  },
+  {
+    "category": "A",
+    "repo": "openai/codex"
+  },
+  {
+    "category": "B",
+    "repo": "ollama/ollama"
+  },
+  {
+    "category": "B",
+    "repo": "ggml-org/llama.cpp"
+  },
+  {
+    "category": "B",
+    "repo": "open-webui/open-webui"
+  },
+  {
+    "category": "B",
+    "repo": "Mintplex-Labs/anything-llm"
+  },
+  {
+    "category": "B",
+    "repo": "danny-avila/LibreChat"
+  },
+  {
+    "category": "B",
+    "repo": "infiniflow/ragflow"
+  },
+  {
+    "category": "B",
+    "repo": "JanDeDobbeleer/oh-my-posh"
+  },
+  {
+    "category": "B",
+    "repo": "qdrant/qdrant"
+  },
+  {
+    "category": "B",
+    "repo": "chroma-core/chroma"
+  },
+  {
+    "category": "B",
+    "repo": "mudler/LocalAI"
+  },
+  {
+    "category": "C",
+    "repo": "learningequality/kolibri"
+  },
+  {
+    "category": "C",
+    "repo": "learningequality/kolibri-studio"
+  },
+  {
+    "category": "C",
+    "repo": "scratchfoundation/scratch-gui"
+  },
+  {
+    "category": "C",
+    "repo": "scratchfoundation/scratch-vm"
+  },
+  {
+    "category": "C",
+    "repo": "manimCommunity/manim"
+  },
+  {
+    "category": "C",
+    "repo": "mathjax/MathJax"
+  },
+  {
+    "category": "C",
+    "repo": "jupyterlite/jupyterlite"
+  },
+  {
+    "category": "C",
+    "repo": "Anki/Anki"
+  },
+  {
+    "category": "C",
+    "repo": "ggml-org/whisper.cpp"
+  },
+  {
+    "category": "C",
+    "repo": "k2-fsa/sherpa-onnx"
+  },
+  {
+    "category": "D",
+    "repo": "go-vikunja/vikunja"
+  },
+  {
+    "category": "D",
+    "repo": "laurent22/joplin"
+  },
+  {
+    "category": "D",
+    "repo": "logseq/logseq"
+  },
+  {
+    "category": "D",
+    "repo": "AppFlowy-IO/AppFlowy"
+  },
+  {
+    "category": "D",
+    "repo": "makeplane/plane"
+  },
+  {
+    "category": "D",
+    "repo": "super-productivity/super-productivity"
+  },
+  {
+    "category": "D",
+    "repo": "actualbudget/actual"
+  },
+  {
+    "category": "D",
+    "repo": "serverless-dns/serverless-dns"
+  },
+  {
+    "category": "D",
+    "repo": "thunderbird/thunderbird-web-client"
+  },
+  {
+    "category": "D",
+    "repo": "usememos/memos"
+  },
+  {
+    "category": "E",
+    "repo": "FFmpeg/FFmpeg"
+  },
+  {
+    "category": "E",
+    "repo": "mltframework/shotcut"
+  },
+  {
+    "category": "E",
+    "repo": "Kdenlive/kdenlive"
+  },
+  {
+    "category": "E",
+    "repo": "OpenShot/openshot-qt"
+  },
+  {
+    "category": "E",
+    "repo": "remotion-dev/remotion"
+  },
+  {
+    "category": "E",
+    "repo": "jianchang512/pyVideoTrans"
+  },
+  {
+    "category": "E",
+    "repo": "m-bain/whisperX"
+  },
+  {
+    "category": "E",
+    "repo": "SubtitleEdit/subtitleedit"
+  },
+  {
+    "category": "E",
+    "repo": "FujiwaraChoki/MoneyPrinterTurbo"
+  },
+  {
+    "category": "E",
+    "repo": "OpenTalker/SadTalker"
+  },
+  {
+    "category": "F",
+    "repo": "pandas-dev/pandas"
+  },
+  {
+    "category": "F",
+    "repo": "polarsource/polars"
+  },
+  {
+    "category": "F",
+    "repo": "openrefine/openrefine"
+  },
+  {
+    "category": "F",
+    "repo": "SheetJS/sheetjs"
+  },
+  {
+    "category": "F",
+    "repo": "exceljs/exceljs"
+  },
+  {
+    "category": "F",
+    "repo": "nocodb/nocodb"
+  },
+  {
+    "category": "F",
+    "repo": "gristlabs/grist-core"
+  },
+  {
+    "category": "F",
+    "repo": "Stirling-Tools/Stirling-PDF"
+  },
+  {
+    "category": "F",
+    "repo": "paperless-ngx/paperless-ngx"
+  },
+  {
+    "category": "F",
+    "repo": "PaddlePaddle/PaddleOCR"
+  },
+  {
+    "category": "G",
+    "repo": "AppsmithOrg/appsmith"
+  },
+  {
+    "category": "G",
+    "repo": "ToolJet/ToolJet"
+  },
+  {
+    "category": "G",
+    "repo": "Budibase/budibase"
+  },
+  {
+    "category": "G",
+    "repo": "microsoft/playwright"
+  },
+  {
+    "category": "G",
+    "repo": "cypress-io/cypress"
+  },
+  {
+    "category": "G",
+    "repo": "continuedev/continue"
+  },
+  {
+    "category": "G",
+    "repo": "Aider-AI/aider"
+  },
+  {
+    "category": "G",
+    "repo": "coollabsio/coolify"
+  },
+  {
+    "category": "G",
+    "repo": "louislam/uptime-kuma"
+  },
+  {
+    "category": "G",
+    "repo": "strapi/strapi"
+  },
+  {
+    "category": "H",
+    "repo": "nextcloud/server"
+  },
+  {
+    "category": "H",
+    "repo": "immich-app/immich"
+  },
+  {
+    "category": "H",
+    "repo": "syncthing/syncthing"
+  },
+  {
+    "category": "H",
+    "repo": "home-assistant/core"
+  },
+  {
+    "category": "H",
+    "repo": "filebrowser/filebrowser"
+  },
+  {
+    "category": "H",
+    "repo": "gethomepage/homepage"
+  },
+  {
+    "category": "H",
+    "repo": "tailscale/tailscale"
+  },
+  {
+    "category": "H",
+    "repo": "lissy93/dashy"
+  },
+  {
+    "category": "H",
+    "repo": "photoprism/photoprism"
+  },
+  {
+    "category": "H",
+    "repo": "pi-hole/pi-hole"
+  },
+  {
+    "category": "I",
+    "repo": "keepassxreboot/keepassxc"
+  },
+  {
+    "category": "I",
+    "repo": "bitwarden/clients"
+  },
+  {
+    "category": "I",
+    "repo": "dani-garcia/vaultwarden"
+  },
+  {
+    "category": "I",
+    "repo": "restic/restic"
+  },
+  {
+    "category": "I",
+    "repo": "kopia/kopia"
+  },
+  {
+    "category": "I",
+    "repo": "rclone/rclone"
+  },
+  {
+    "category": "I",
+    "repo": "cryptomator/cryptomator"
+  },
+  {
+    "category": "I",
+    "repo": "FiloSottile/age"
+  },
+  {
+    "category": "I",
+    "repo": "duplicati/duplicati"
+  },
+  {
+    "category": "I",
+    "repo": "ente-io/ente"
+  }
+]

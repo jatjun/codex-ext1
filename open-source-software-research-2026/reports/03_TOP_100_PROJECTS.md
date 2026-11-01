@@ -1,0 +1,102 @@
+# 候选清单（实际92项，文件名沿用目标结构）
+
+不是全球Top 100；仅为本轮相关候选按精确Star排列。低Star教育组件因需求匹配纳入。
+
+| 项目 | 类别 | Star | Fork | 归档 | 许可证元数据 |
+|---|---|---|---|---|---|
+| [hermes-agent](https://github.com/NousResearch/hermes-agent) | A | 259007 | 56939 | False | MIT |
+| [opencode](https://github.com/anomalyco/opencode) | A | 223429 | 30000 | False | MIT |
+| [n8n](https://github.com/n8n-io/n8n) | A | 209181 | 61335 | False | NOASSERTION |
+| [ollama](https://github.com/ollama/ollama) | B | 185426 | 18788 | False | MIT |
+| [dify](https://github.com/langgenius/dify) | A | 160065 | 25293 | False | NOASSERTION |
+| [open-webui](https://github.com/open-webui/open-webui) | B | 157341 | 22885 | False | NOASSERTION |
+| [langflow](https://github.com/langflow-ai/langflow) | A | 156184 | 10287 | False | MIT |
+| [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | E | 136721 | 21779 | False | MIT |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | B | 132934 | 24994 | False | MIT |
+| [codex](https://github.com/openai/codex) | A | 132327 | 20903 | False | Apache-2.0 |
+| [browser-use](https://github.com/browser-use/browser-use) | A | 119625 | 13317 | False | MIT |
+| [immich](https://github.com/immich-app/immich) | H | 117778 | 7424 | False | AGPL-3.0 |
+| [playwright](https://github.com/microsoft/playwright) | G | 98927 | 6751 | False | Apache-2.0 |
+| [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | F | 95442 | 10623 | False | NOASSERTION |
+| [ragflow](https://github.com/infiniflow/ragflow) | B | 93243 | 11187 | False | Apache-2.0 |
+| [uptime-kuma](https://github.com/louislam/uptime-kuma) | G | 93119 | 8639 | False | MIT |
+| [OpenHands](https://github.com/OpenHands/OpenHands) | A | 92321 | 12290 | False | MIT |
+| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | F | 92020 | 11594 | False | Apache-2.0 |
+| [core](https://github.com/home-assistant/core) | H | 91868 | 39151 | False | Apache-2.0 |
+| [syncthing](https://github.com/syncthing/syncthing) | H | 89925 | 5566 | False | MPL-2.0 |
+| [obs-studio](https://github.com/obsproject/obs-studio) | E | 78673 | 10984 | False | GPL-2.0 |
+| [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | D | 78023 | 6135 | False | AGPL-3.0 |
+| [strapi](https://github.com/strapi/strapi) | G | 73415 | 10008 | False | NOASSERTION |
+| [vaultwarden](https://github.com/dani-garcia/vaultwarden) | I | 69975 | 3386 | False | AGPL-3.0 |
+| [remotion](https://github.com/remotion-dev/remotion) | E | 69249 | 5675 | False | NOASSERTION |
+| [anything-llm](https://github.com/Mintplex-Labs/anything-llm) | B | 67783 | 7629 | False | MIT |
+| [FFmpeg](https://github.com/FFmpeg/FFmpeg) | E | 66117 | 14477 | False | NOASSERTION |
+| [nocodb](https://github.com/nocodb/nocodb) | F | 65397 | 5121 | False | NOASSERTION |
+| [coolify](https://github.com/coollabsio/coolify) | G | 65341 | 5885 | False | Apache-2.0 |
+| [memos](https://github.com/usememos/memos) | D | 64195 | 4923 | False | MIT |
+| [plane](https://github.com/makeplane/plane) | D | 61761 | 6247 | False | AGPL-3.0 |
+| [autogen](https://github.com/microsoft/autogen) | A | 61644 | 9338 | False | CC-BY-4.0 |
+| [pi-hole](https://github.com/pi-hole/pi-hole) | H | 61586 | 3356 | False | NOASSERTION |
+| [rclone](https://github.com/rclone/rclone) | I | 60662 | 5623 | False | MIT |
+| [crewAI](https://github.com/crewAIInc/crewAI) | A | 60331 | 8984 | False | MIT |
+| [joplin](https://github.com/laurent22/joplin) | D | 56954 | 6379 | False | NOASSERTION |
+| [whisper.cpp](https://github.com/ggml-org/whisper.cpp) | C | 54814 | 6261 | False | MIT |
+| [cypress](https://github.com/cypress-io/cypress) | G | 51019 | 3592 | False | MIT |
+| [pandas](https://github.com/pandas-dev/pandas) | F | 50269 | 20696 | False | BSD-3-Clause |
+| [LocalAI](https://github.com/mudler/LocalAI) | B | 50085 | 4560 | False | MIT |
+| [aider](https://github.com/Aider-AI/aider) | G | 49842 | 5110 | False | Apache-2.0 |
+| [paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | F | 47425 | 3311 | False | GPL-3.0 |
+| [logseq](https://github.com/logseq/logseq) | D | 45435 | 2863 | False | AGPL-3.0 |
+| [manim](https://github.com/ManimCommunity/manim) | C | 42045 | 3255 | False | MIT |
+| [ToolJet](https://github.com/ToolJet/ToolJet) | G | 41150 | 5506 | False | AGPL-3.0 |
+| [appsmith](https://github.com/appsmithorg/appsmith) | G | 41145 | 4826 | False | Apache-2.0 |
+| [photoprism](https://github.com/photoprism/photoprism) | H | 40378 | 2336 | False | NOASSERTION |
+| [polars](https://github.com/pola-rs/polars) | F | 40237 | 3210 | False | MIT |
+| [tailscale](https://github.com/tailscale/tailscale) | H | 38402 | 3398 | False | BSD-3-Clause |
+| [server](https://github.com/nextcloud/server) | H | 37367 | 5332 | False | AGPL-3.0 |
+| [restic](https://github.com/restic/restic) | I | 36898 | 1949 | False | BSD-2-Clause |
+| [continue](https://github.com/continuedev/continue) | G | 36381 | 5535 | False | Apache-2.0 |
+| [sheetjs](https://github.com/SheetJS/sheetjs) | F | 36348 | 7898 | False | Apache-2.0 |
+| [filebrowser](https://github.com/filebrowser/filebrowser) | H | 35881 | 4175 | True | Apache-2.0 |
+| [qdrant](https://github.com/qdrant/qdrant) | B | 35345 | 2787 | False | Apache-2.0 |
+| [FreeCAD](https://github.com/FreeCAD/FreeCAD) | F | 34980 | 6316 | False | LGPL-2.1 |
+| [homepage](https://github.com/gethomepage/homepage) | H | 33461 | 2155 | False | GPL-3.0 |
+| [anki](https://github.com/ankitects/anki) | C | 32424 | 3387 | False | NOASSERTION |
+| [actual](https://github.com/actualbudget/actual) | D | 29879 | 3224 | False | MIT |
+| [keepassxc](https://github.com/keepassxreboot/keepassxc) | I | 29634 | 2001 | False | NOASSERTION |
+| [chroma](https://github.com/chroma-core/chroma) | B | 29615 | 2603 | False | Apache-2.0 |
+| [budibase](https://github.com/Budibase/budibase) | G | 28373 | 2240 | False | NOASSERTION |
+| [dashy](https://github.com/lissy93/dashy) | H | 26879 | 1964 | False | MIT |
+| [calibre](https://github.com/kovidgoyal/calibre) | H | 26295 | 2737 | False | GPL-3.0 |
+| [whisperX](https://github.com/m-bain/whisperX) | E | 24968 | 2512 | False | BSD-2-Clause |
+| [age](https://github.com/FiloSottile/age) | I | 24138 | 683 | False | BSD-3-Clause |
+| [super-productivity](https://github.com/super-productivity/super-productivity) | D | 23295 | 2230 | False | MIT |
+| [blender](https://github.com/blender/blender) | E | 21456 | 3476 | False | NOASSERTION |
+| [pyvideotrans](https://github.com/jianchang512/pyvideotrans) | E | 19600 | 2426 | False | GPL-3.0 |
+| [audacity](https://github.com/audacity/audacity) | E | 18890 | 2710 | False | NOASSERTION |
+| [cryptomator](https://github.com/cryptomator/cryptomator) | I | 16390 | 1496 | False | GPL-3.0 |
+| [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | C | 15644 | 1834 | False | Apache-2.0 |
+| [shotcut](https://github.com/mltframework/shotcut) | E | 15545 | 1556 | False | GPL-3.0 |
+| [exceljs](https://github.com/exceljs/exceljs) | F | 15506 | 2071 | False | MIT |
+| [duplicati](https://github.com/duplicati/duplicati) | I | 15175 | 1088 | False | NOASSERTION |
+| [subtitleedit](https://github.com/SubtitleEdit/subtitleedit) | E | 14793 | 1352 | False | MIT |
+| [kopia](https://github.com/kopia/kopia) | I | 14540 | 782 | False | Apache-2.0 |
+| [SadTalker](https://github.com/OpenTalker/SadTalker) | E | 14172 | 2701 | False | NOASSERTION |
+| [clients](https://github.com/bitwarden/clients) | I | 14115 | 2164 | False | NOASSERTION |
+| [OpenRefine](https://github.com/OpenRefine/OpenRefine) | F | 12085 | 2196 | False | BSD-3-Clause |
+| [grist-core](https://github.com/gristlabs/grist-core) | F | 12029 | 677 | False | Apache-2.0 |
+| [MathJax](https://github.com/mathjax/MathJax) | C | 10944 | 1189 | False | Apache-2.0 |
+| [openshot-qt](https://github.com/OpenShot/openshot-qt) | E | 6709 | 830 | False | NOASSERTION |
+| [vikunja](https://github.com/go-vikunja/vikunja) | D | 5918 | 791 | False | AGPL-3.0 |
+| [jupyterlite](https://github.com/jupyterlite/jupyterlite) | C | 4916 | 453 | False | BSD-3-Clause |
+| [scratch-gui](https://github.com/scratchfoundation/scratch-gui) | C | 4808 | 4361 | True | AGPL-3.0 |
+| [core](https://github.com/LibreOffice/core) | F | 4585 | 995 | False | GPL-3.0 |
+| [scratch-vm](https://github.com/scratchfoundation/scratch-vm) | C | 1306 | 1806 | True | AGPL-3.0 |
+| [kolibri](https://github.com/learningequality/kolibri) | C | 1163 | 1015 | False | MIT |
+| [scratch-editor](https://github.com/scratchfoundation/scratch-editor) | C | 307 | 299 | False | AGPL-3.0 |
+| [studio](https://github.com/learningequality/studio) | C | 211 | 316 | False | MIT |
+| [KdenLive](https://github.com/KdenLive/KdenLive) | E | 1 | 1 | False | UNKNOWN |
+
+## ≥100,000 Star
+
+hermes-agent, opencode, n8n, ollama, dify, open-webui, langflow, MoneyPrinterTurbo, llama.cpp, codex, browser-use, immich

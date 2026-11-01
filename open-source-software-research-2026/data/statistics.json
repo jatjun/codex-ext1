@@ -1,0 +1,16 @@
+{
+  "candidates": 92,
+  "metadata_verified": 92,
+  "deep_profiles": 30,
+  "deep_fully_verified": 0,
+  "high_stars_10000": 82,
+  "high_stars_100000": 12,
+  "license_files_verified": 29,
+  "issue_sample_projects": 29,
+  "community_complaints_verified_projects": 12,
+  "unresolved_identity": [
+    "LibreChat",
+    "ente"
+  ],
+  "research_date": "2026-10-31"
+}
