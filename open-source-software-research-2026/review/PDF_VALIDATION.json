@@ -1,0 +1,23 @@
+{
+  "pages": 105,
+  "bytes": 679821,
+  "sha256": "d9c5331e8a9320cfa8195d0b47de8fc5e2aaa0988ae06cd3159dee6078102101",
+  "bookmarks": 132,
+  "links": 819,
+  "keyword_checks": {
+    "AnythingLLM": true,
+    "OpenRefine": true,
+    "REWORK": true,
+    "Duolingo": true,
+    "2026-10-31": true,
+    "Messner": true,
+    "目录": true,
+    "付费": true
+  },
+  "blank_pages": [],
+  "out_of_page_text_pages": [],
+  "null_glyphs_in_text": 0,
+  "embedded_font": true,
+  "research_verdict": "REWORK remains unchanged",
+  "compiled_at": "2026-11-01"
+}

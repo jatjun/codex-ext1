@@ -1,5 +1,11 @@
 # 2026开源软件研究
 
+## 详细图文PDF（2026-11-01新增）
+
+[打开105页详细PDF](visual/OPEN_SOURCE_VISUAL_REPORT.pdf) · [PDF生成检查](review/PDF_VALIDATION.md)
+
+PDF整合21份报告、付费需求补充、原创图表、目录书签和来源附录，已嵌入中文字体。点击PDF文件页即可预览或下载；早期PDF缺失说明是历史状态，研究REWORK结论不变。
+
 ## 直接查看图文摘要
 
 ![研究总览](visual/CHAT_REPORT_01.png)

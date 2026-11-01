@@ -7,9 +7,9 @@
   },
   {
     "path": "README.md",
-    "bytes": 3632,
-    "git_sha": "1bf5b4f84f7bdfb25c7bed671f8c162c243756a7",
-    "sha256": "1c1ac597d6ac0978be2b38be28adf18455935eaca46b9d340531f757366e25bb"
+    "bytes": 4007,
+    "git_sha": "e51662631f38182cd3f516c3159fbe4ced3d2d1d",
+    "sha256": "9f691dbed4752d320063ee7e9d2e93ed5173fa2922dea490b0b615db8c0be27e"
   },
   {
     "path": "RESEARCH_METHOD.md",
@@ -310,5 +310,47 @@
     "bytes": 1933,
     "git_sha": "1b5e646570554c44e1944c260f235305af4dfbbd",
     "sha256": "73fc34899d1d567dc0d9987164c87e51d367c4614613e55d3bd55f4884655d46"
+  },
+  {
+    "path": "visual/OPEN_SOURCE_VISUAL_REPORT.pdf",
+    "bytes": 679821,
+    "git_sha": "44cc62f36398533355011b936a64fe5593c2931c",
+    "sha256": "d9c5331e8a9320cfa8195d0b47de8fc5e2aaa0988ae06cd3159dee6078102101"
+  },
+  {
+    "path": "scripts/build_pdf.py",
+    "bytes": 16463,
+    "git_sha": "9aecd4e79c57ac09a2300d3bad489e4b5302f391",
+    "sha256": "1c73f86ece7cebb52a00186c0cf22b4de2c33d97cb6da36be938f4173ae130bc"
+  },
+  {
+    "path": "scripts/validate_pdf.py",
+    "bytes": 2910,
+    "git_sha": "86d476ff8cb1186fb5af662db9dfe85e970229df",
+    "sha256": "5aefd375ae161f34d568b5b153dee73bafdf1b407eed0da248e5b7524ea62e92"
+  },
+  {
+    "path": "review/PDF_VALIDATION.json",
+    "bytes": 542,
+    "git_sha": "02bc5099d5132b5e9cb1cd856d2571dd477493d4",
+    "sha256": "a48e322c1c874832f6100e9f490818a02dfc392d2d8fc2cc69fea0eb003c4a58"
+  },
+  {
+    "path": "review/PDF_VALIDATION.md",
+    "bytes": 1067,
+    "git_sha": "90bc4f0a2aa4387045dd8d53273d555a3331ff68",
+    "sha256": "10a3ae1bff07312156318229cc9c3e8ecc91e223ccc00358e60b34a28d8de5f7"
+  },
+  {
+    "path": "visual/assets/NOTO_FONT_LICENSE.txt",
+    "bytes": 14712,
+    "git_sha": "420b42087079f0595edc4809d382e67dc2b31d38",
+    "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+  },
+  {
+    "path": "visual/assets/PDF_CONTACT_SHEET.jpg",
+    "bytes": 420292,
+    "git_sha": "e705ce17525d02a609e34fc657d9d36707425855",
+    "sha256": "4c2a1ef4b75910e73055ca0b92f9173b0c56fb92797afc6b2d57b4d5e81befd5"
   }
 ]
